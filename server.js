@@ -1925,156 +1925,156 @@ app.post("/api/filing/create", async (req, res) => {
 
 
 
-// app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (req, res) => {
-//   try {
-//     const { prefix, date, month, year, number, numb } = req.params;
-//     const { receivedDate, receivedWeight, grindingLoss, scrapReceivedWeight, dustReceivedWeight, ornamentWeight, pouches } = req.body;
-//     const filingNumber = `${prefix}/${date}/${month}/${year}/${number}/${numb}`;
-//     const formattedDate = new Date(receivedDate).toISOString();
+app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (req, res) => {
+  try {
+    const { prefix, date, month, year, number, numb } = req.params;
+    const { receivedDate, receivedWeight, grindingLoss, scrapReceivedWeight, dustReceivedWeight, ornamentWeight, pouches } = req.body;
+    const filingNumber = `${prefix}/${date}/${month}/${year}/${number}/${numb}`;
+    const formattedDate = new Date(receivedDate).toISOString();
 
-//     const pool = await poolPromise;
+    const pool = await poolPromise;
 
-//     // Check if filing record exists
-//     const filingQuery = await pool.request()
-//       .input("filingNumber", sql.VarChar, filingNumber)
-//       .query("SELECT TOP 1 * FROM Filing__c WHERE Name = @filingNumber");
+    // Check if filing record exists
+    const filingQuery = await pool.request()
+      .input("filingNumber", sql.VarChar, filingNumber)
+      .query("SELECT TOP 1 * FROM Filing__c WHERE Name = @filingNumber");
 
-//     if (filingQuery.recordset.length === 0) {
-//       return res.status(404).json({
-//         success: false,
-//         message: "Filing record not found"
-//       });
-//     }
+    if (filingQuery.recordset.length === 0) {
+      return res.status(404).json({
+        success: false,
+        message: "Filing record not found"
+      });
+    }
 
-//     const filing = filingQuery.recordset[0];
+    const filing = filingQuery.recordset[0];
 
-//     // Update the filing record
-//     await pool.request()
-//       .input("receivedDate", sql.DateTime, formattedDate)
-//       .input("receivedWeight", sql.Decimal(18, 2), receivedWeight)
-//       .input("grindingLoss", sql.Decimal(18, 2), grindingLoss)
-//       .input("scrapWeight", sql.Decimal(18, 2), scrapReceivedWeight)
-//       .input("dustWeight", sql.Decimal(18, 2), dustReceivedWeight)
-//       .input("ornamentWeight", sql.Decimal(18, 2), ornamentWeight)
-//       .input("status", sql.VarChar, "Finished")
-//       .input("filingId", sql.Int, filing.Id)
-//       .query(`
-//         UPDATE Filing__c SET 
-//           Received_Date_c = @receivedDate,
-//           Receievd_weight_c = @receivedWeight,
-//           Filing_loss_c = @grindingLoss,
-//           Filing_Scrap_Weight_c = @scrapWeight,
-//           Filing_Dust_Weight_c = @dustWeight,
-//           Filing_Ornament_Weight_c = @ornamentWeight,
-//           Status_c = @status
-//         WHERE Id = @filingId
-//       `);
+    // Update the filing record
+    await pool.request()
+      .input("receivedDate", sql.DateTime, formattedDate)
+      .input("receivedWeight", sql.Decimal(18, 2), receivedWeight)
+      .input("grindingLoss", sql.Decimal(18, 2), grindingLoss)
+      .input("scrapWeight", sql.Decimal(18, 2), scrapReceivedWeight)
+      .input("dustWeight", sql.Decimal(18, 2), dustReceivedWeight)
+      .input("ornamentWeight", sql.Decimal(18, 2), ornamentWeight)
+      .input("status", sql.VarChar, "Finished")
+      .input("filingId", sql.Int, filing.Id)
+      .query(`
+        UPDATE Filing__c SET 
+          Received_Date_c = @receivedDate,
+          Receievd_weight_c = @receivedWeight,
+          Filing_loss_c = @grindingLoss,
+          Filing_Scrap_Weight_c = @scrapWeight,
+          Filing_Dust_Weight_c = @dustWeight,
+          Filing_Ornament_Weight_c = @ornamentWeight,
+          Status_c = @status
+        WHERE Id = @filingId
+      `);
 
-//     // Update each pouch weight
-//     if (Array.isArray(pouches) && pouches.length > 0) {
-//       for (const pouch of pouches) {
-//         await pool.request()
-//           .input("pouchId", sql.Int, pouch.pouchId)
-//           .input("receivedWeight", sql.Decimal(18, 2), pouch.receivedWeight)
-//           .input("grindingLoss", sql.Decimal(18, 2), grindingLoss)
-//           .query(`
-//             UPDATE Pouch__c SET 
-//               Received_Pouch_weight_c = @receivedWeight,
-//               Filing_loss_Pouch_c = @grindingLoss
-//             WHERE Id = @pouchId
-//           `);
-//       }
-//     }
+    // Update each pouch weight
+    if (Array.isArray(pouches) && pouches.length > 0) {
+      for (const pouch of pouches) {
+        await pool.request()
+          .input("pouchId", sql.Int, pouch.pouchId)
+          .input("receivedWeight", sql.Decimal(18, 2), pouch.receivedWeight)
+          .input("grindingLoss", sql.Decimal(18, 2), grindingLoss)
+          .query(`
+            UPDATE Pouch__c SET 
+              Received_Pouch_weight_c = @receivedWeight,
+              Filing_loss_Pouch_c = @grindingLoss
+            WHERE Id = @pouchId
+          `);
+      }
+    }
 
-//     // 🧾 Scrap Inventory Handling
-//     if (scrapReceivedWeight > 0) {
-//       const scrapQuery = await pool.request()
-//         .query(`SELECT TOP 1 * FROM Inventory_Ledger__c WHERE Item_Name_c = 'Scrap' AND Purity = '91.7%'`);
+    // 🧾 Scrap Inventory Handling
+    if (scrapReceivedWeight > 0) {
+      const scrapQuery = await pool.request()
+        .query(`SELECT TOP 1 * FROM Inventory_Ledger__c WHERE Item_Name_c = 'Scrap' AND Purity = '91.7%'`);
 
-//       if (scrapQuery.recordset.length > 0) {
-//         const currentWeight = scrapQuery.recordset[0].Available_weight || 0;
-//         await pool.request()
-//           .input("newWeight", sql.Decimal(18, 2), currentWeight + scrapReceivedWeight)
-//           .input("lastUpdated", sql.DateTime, formattedDate)
-//           .input("id", sql.Int, scrapQuery.recordset[0].Id)
-//           .query(`
-//             UPDATE Inventory_Ledger__c SET 
-//               Available_weight_c = @newWeight,
-//               Last_Updated_c = @lastUpdated 
-//             WHERE Id = @id
-//           `);
-//       } else {
-//         await pool.request()
-//           .input("name", sql.VarChar, "Scrap")
-//           .input("item", sql.VarChar, "Scrap")
-//           .input("purity", sql.VarChar, filing.Required_Purity)
-//           .input("weight", sql.Decimal(18, 2), scrapReceivedWeight)
-//           .input("unit", sql.VarChar, "Grams")
-//           .input("lastUpdated", sql.DateTime, formattedDate)
-//           .query(`
-//             INSERT INTO Inventory_Ledger__c 
-//             (Name, Item_Name_c, Purity_c, Available_weight_c, Unit_of_Measure_c, Last_Updated_c)
-//             VALUES (@name, @item, @purity, @weight, @unit, @lastUpdated)
-//           `);
-//       }
-//     }
+      if (scrapQuery.recordset.length > 0) {
+        const currentWeight = scrapQuery.recordset[0].Available_weight || 0;
+        await pool.request()
+          .input("newWeight", sql.Decimal(18, 2), currentWeight + scrapReceivedWeight)
+          .input("lastUpdated", sql.DateTime, formattedDate)
+          .input("id", sql.Int, scrapQuery.recordset[0].Id)
+          .query(`
+            UPDATE Inventory_Ledger__c SET 
+              Available_weight_c = @newWeight,
+              Last_Updated_c = @lastUpdated 
+            WHERE Id = @id
+          `);
+      } else {
+        await pool.request()
+          .input("name", sql.VarChar, "Scrap")
+          .input("item", sql.VarChar, "Scrap")
+          .input("purity", sql.VarChar, filing.Required_Purity)
+          .input("weight", sql.Decimal(18, 2), scrapReceivedWeight)
+          .input("unit", sql.VarChar, "Grams")
+          .input("lastUpdated", sql.DateTime, formattedDate)
+          .query(`
+            INSERT INTO Inventory_Ledger__c 
+            (Name, Item_Name_c, Purity_c, Available_weight_c, Unit_of_Measure_c, Last_Updated_c)
+            VALUES (@name, @item, @purity, @weight, @unit, @lastUpdated)
+          `);
+      }
+    }
 
-//     // 🧾 Dust Inventory Handling
-//     if (dustReceivedWeight > 0) {
-//       const dustQuery = await pool.request()
-//         .query(`SELECT TOP 1 * FROM Inventory_Ledger__c WHERE Item_Name_c = 'Dust' AND Purity = '91.7%'`);
+    // 🧾 Dust Inventory Handling
+    if (dustReceivedWeight > 0) {
+      const dustQuery = await pool.request()
+        .query(`SELECT TOP 1 * FROM Inventory_Ledger__c WHERE Item_Name_c = 'Dust' AND Purity = '91.7%'`);
 
-//       if (dustQuery.recordset.length > 0) {
-//         const currentWeight = dustQuery.recordset[0].Available_weight || 0;
-//         await pool.request()
-//           .input("newWeight", sql.Decimal(18, 2), currentWeight + dustReceivedWeight)
-//           .input("lastUpdated", sql.DateTime, formattedDate)
-//           .input("id", sql.Int, dustQuery.recordset[0].Id)
-//           .query(`
-//             UPDATE Inventory_Ledger__c SET 
-//               Available_weight_c = @newWeight,
-//               Last_Updated_c = @lastUpdated 
-//             WHERE Id = @id
-//           `);
-//       } else {
-//         await pool.request()
-//           .input("name", sql.VarChar, "Dust")
-//           .input("item", sql.VarChar, "Dust")
-//           .input("purity", sql.VarChar, filing.Required_Purity)
-//           .input("weight", sql.Decimal(18, 2), dustReceivedWeight)
-//           .input("unit", sql.VarChar, "Grams")
-//           .input("lastUpdated", sql.DateTime, formattedDate)
-//           .query(`
-//             INSERT INTO Inventory_Ledger__c 
-//             (Name, Item_Name_c, Purity_c, Available_weight_c, Unit_of_Measure_c, Last_Updated_c)
-//             VALUES (@name, @item, @purity, @weight, @unit, @lastUpdated)
-//           `);
-//       }
-//     }
+      if (dustQuery.recordset.length > 0) {
+        const currentWeight = dustQuery.recordset[0].Available_weight || 0;
+        await pool.request()
+          .input("newWeight", sql.Decimal(18, 2), currentWeight + dustReceivedWeight)
+          .input("lastUpdated", sql.DateTime, formattedDate)
+          .input("id", sql.Int, dustQuery.recordset[0].Id)
+          .query(`
+            UPDATE Inventory_Ledger__c SET 
+              Available_weight_c = @newWeight,
+              Last_Updated_c = @lastUpdated 
+            WHERE Id = @id
+          `);
+      } else {
+        await pool.request()
+          .input("name", sql.VarChar, "Dust")
+          .input("item", sql.VarChar, "Dust")
+          .input("purity", sql.VarChar, filing.Required_Purity)
+          .input("weight", sql.Decimal(18, 2), dustReceivedWeight)
+          .input("unit", sql.VarChar, "Grams")
+          .input("lastUpdated", sql.DateTime, formattedDate)
+          .query(`
+            INSERT INTO Inventory_Ledger__c 
+            (Name, Item_Name_c, Purity_c, Available_weight_c, Unit_of_Measure_c, Last_Updated_c)
+            VALUES (@name, @item, @purity, @weight, @unit, @lastUpdated)
+          `);
+      }
+    }
 
-//     res.json({
-//       success: true,
-//       message: "Filing and inventory updated successfully",
-//       data: {
-//         filingNumber,
-//         receivedDate: formattedDate,
-//         receivedWeight,
-//         grindingLoss,
-//         scrapReceivedWeight,
-//         dustReceivedWeight,
-//         ornamentWeight,
-//         status: 'Finished'
-//       }
-//     });
+    res.json({
+      success: true,
+      message: "Filing and inventory updated successfully",
+      data: {
+        filingNumber,
+        receivedDate: formattedDate,
+        receivedWeight,
+        grindingLoss,
+        scrapReceivedWeight,
+        dustReceivedWeight,
+        ornamentWeight,
+        status: 'Finished'
+      }
+    });
 
-//   } catch (error) {
-//     console.error("Error updating filing:", error);
-//     res.status(500).json({
-//       success: false,
-//       message: error.message || "Failed to update filing"
-//     });
-//   }
-// });
+  } catch (error) {
+    console.error("Error updating filing:", error);
+    res.status(500).json({
+      success: false,
+      message: error.message || "Failed to update filing"
+    });
+  }
+});
 
  
 app.post("/api/polishing/create", async (req, res) => {
@@ -3328,13 +3328,13 @@ app.get("/api/orders/:orderId/:orderNumber/categories", async (req, res) => {
     }
 
     const orderSfId = orderResult.recordset[0].Id;
-    console.log("✅ Got orderSfId:", orderSfId);
+    console.log("✅ Got orderSfId:", orderIdentifier);
 
     // 2. Fetch categories using string interpolation
     const categoryResult = await pool.request().query(`
       SELECT DISTINCT Category_c 
       FROM Order_Models__c 
-      WHERE Order_c = '${orderSfId}'
+      WHERE Order_c = '${orderIdentifier}'
     `);
 
     // 3. Get all models
@@ -3351,7 +3351,7 @@ app.get("/api/orders/:orderId/:orderNumber/categories", async (req, res) => {
         Stone_Weight_c,
         Net_Weight_c
       FROM Order_Models__c
-      WHERE Order_c = '${orderSfId}'
+      WHERE Order_c = '${orderIdentifier}'
     `);
 
     // 4. Group by category
