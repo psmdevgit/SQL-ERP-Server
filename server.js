@@ -9625,18 +9625,35 @@ app.get("/api/correction/:prefix/:date/:month/:year/:number/:subnumber/pouches",
 //   }
 // });
 
-app.get("/api/stones", async (req, res) => {
+app.get("/api/stones", checkMssqlConnection, async (req, res) => {
   try {
-    const result = await conn.sobject("Stone_Master__c")
-      .find({}, "Id, Name, Type__c, Colour__c, Shape__c, Size__c, Pieces__c, Weight__c")
-      .execute();
+    // 1️⃣ Get SQL connection
+    const pool = req.mssql;
 
-    res.json({ success: true, data: result });
+    // 2️⃣ Fetch all stones
+    const result = await pool
+      .request()
+      .query(`
+        SELECT 
+          Id,
+          Name,
+          Type_c,
+          Colour_c,
+          Shape_c,
+          Size_c,
+          Pieces_c,
+          Weight_c
+        FROM Stone_Master__c
+      `);
+
+    // 3️⃣ Send the data to frontend
+    res.json({ success: true, data: result.recordset });
   } catch (error) {
-    console.error("Error fetching stones:", error);
+    console.error("❌ Error fetching stones:", error);
     res.json({ success: false, message: "Failed to fetch stones" });
   }
 });
+
 
 // routes/treeCasting.js
 // app.post("/tree-casting", async (req, res) => {
