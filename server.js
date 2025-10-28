@@ -5922,199 +5922,199 @@ app.get("/api/partyledger/:partyCode",checkMssqlConnection, async (req, res) => 
   }
 });
 /**----------------- Submit Billing ----------------- */
-app.post("/api/billing/submit", upload.fields([
-  { name: 'taxInvoicePdf', maxCount: 1 },
-  { name: 'deliveryChallanPdf', maxCount: 1 }
-]), async (req, res) => {
-  try {
-    console.log('\n=== SUBMIT BILLING REQUEST STARTED ===');
+// app.post("/api/billing/submit", upload.fields([
+//   { name: 'taxInvoicePdf', maxCount: 1 },
+//   { name: 'deliveryChallanPdf', maxCount: 1 }
+// ]), async (req, res) => {
+//   try {
+//     console.log('\n=== SUBMIT BILLING REQUEST STARTED ===');
     
-    // 1. Extract data from request
-    const { 
-      billingId, 
-      taggingId, 
-      partyName, 
-      goldRate,
-      invoiceNumber,
-      invoiceDate,
-      totalFineWeight
-    } = req.body;
+//     // 1. Extract data from request
+//     const { 
+//       billingId, 
+//       taggingId, 
+//       partyName, 
+//       goldRate,
+//       invoiceNumber,
+//       invoiceDate,
+//       totalFineWeight
+//     } = req.body;
 
-    console.log('Request Data:', { 
-      billingId, 
-      taggingId, 
-      partyName, 
-      goldRate,
-      invoiceNumber,
-      invoiceDate 
-    });
+//     console.log('Request Data:', { 
+//       billingId, 
+//       taggingId, 
+//       partyName, 
+//       goldRate,
+//       invoiceNumber,
+//       invoiceDate 
+//     });
 
-    // 2. Initialize URLs
-    let taxInvoiceUrl = null;
-    let deliveryChallanUrl = null;
+//     // 2. Initialize URLs
+//     let taxInvoiceUrl = null;
+//     let deliveryChallanUrl = null;
 
-    // 3. Process Tax Invoice PDF
-    if (req.files && req.files.taxInvoicePdf) {
-      const pdfFile = req.files.taxInvoicePdf[0];
+//     // 3. Process Tax Invoice PDF
+//     if (req.files && req.files.taxInvoicePdf) {
+//       const pdfFile = req.files.taxInvoicePdf[0];
       
-      const contentVersion = await conn.sobject('ContentVersion').create({
-        Title: `${billingId}_TaxInvoice`,
-        PathOnClient: pdfFile.originalname,
-        VersionData: pdfFile.buffer.toString('base64'),
-        IsMajorVersion: true
-      });
+//       const contentVersion = await conn.sobject('ContentVersion').create({
+//         Title: `${billingId}_TaxInvoice`,
+//         PathOnClient: pdfFile.originalname,
+//         VersionData: pdfFile.buffer.toString('base64'),
+//         IsMajorVersion: true
+//       });
 
-      const distribution = await conn.sobject('ContentDistribution').create({
-        Name: `${billingId}_TaxInvoice`,
-        ContentVersionId: contentVersion.id,
-        PreferencesAllowViewInBrowser: true,
-        PreferencesLinkLatestVersion: true,
-        PreferencesNotifyOnVisit: false,
-        PreferencesPasswordRequired: false,
-        PreferencesExpires: false
-      });
+//       const distribution = await conn.sobject('ContentDistribution').create({
+//         Name: `${billingId}_TaxInvoice`,
+//         ContentVersionId: contentVersion.id,
+//         PreferencesAllowViewInBrowser: true,
+//         PreferencesLinkLatestVersion: true,
+//         PreferencesNotifyOnVisit: false,
+//         PreferencesPasswordRequired: false,
+//         PreferencesExpires: false
+//       });
 
-      const [distributionDetails] = await conn.sobject('ContentDistribution')
-        .select('ContentDownloadUrl')
-        .where({ Id: distribution.id })
-        .execute();
+//       const [distributionDetails] = await conn.sobject('ContentDistribution')
+//         .select('ContentDownloadUrl')
+//         .where({ Id: distribution.id })
+//         .execute();
       
-      taxInvoiceUrl = distributionDetails.ContentDownloadUrl;
-    }
+//       taxInvoiceUrl = distributionDetails.ContentDownloadUrl;
+//     }
 
-    // 4. Process Delivery Challan PDF
-    if (req.files && req.files.deliveryChallanPdf) {
-      const pdfFile = req.files.deliveryChallanPdf[0];
+//     // 4. Process Delivery Challan PDF
+//     if (req.files && req.files.deliveryChallanPdf) {
+//       const pdfFile = req.files.deliveryChallanPdf[0];
       
-      const contentVersion = await conn.sobject('ContentVersion').create({
-        Title: `${billingId}_DeliveryChallan`,
-        PathOnClient: pdfFile.originalname,
-        VersionData: pdfFile.buffer.toString('base64'),
-        IsMajorVersion: true
-      });
+//       const contentVersion = await conn.sobject('ContentVersion').create({
+//         Title: `${billingId}_DeliveryChallan`,
+//         PathOnClient: pdfFile.originalname,
+//         VersionData: pdfFile.buffer.toString('base64'),
+//         IsMajorVersion: true
+//       });
 
-      const distribution = await conn.sobject('ContentDistribution').create({
-        Name: `${billingId}_DeliveryChallan`,
-        ContentVersionId: contentVersion.id,
-        PreferencesAllowViewInBrowser: true,
-        PreferencesLinkLatestVersion: true,
-        PreferencesNotifyOnVisit: false,
-        PreferencesPasswordRequired: false,
-        PreferencesExpires: false
-      });
+//       const distribution = await conn.sobject('ContentDistribution').create({
+//         Name: `${billingId}_DeliveryChallan`,
+//         ContentVersionId: contentVersion.id,
+//         PreferencesAllowViewInBrowser: true,
+//         PreferencesLinkLatestVersion: true,
+//         PreferencesNotifyOnVisit: false,
+//         PreferencesPasswordRequired: false,
+//         PreferencesExpires: false
+//       });
 
-      const [distributionDetails] = await conn.sobject('ContentDistribution')
-        .select('ContentDownloadUrl')
-        .where({ Id: distribution.id })
-        .execute();
+//       const [distributionDetails] = await conn.sobject('ContentDistribution')
+//         .select('ContentDownloadUrl')
+//         .where({ Id: distribution.id })
+//         .execute();
       
-      deliveryChallanUrl = distributionDetails.ContentDownloadUrl;
-    }
+//       deliveryChallanUrl = distributionDetails.ContentDownloadUrl;
+//     }
 
-    // 5. Create Billing record
-    const billingRecord = await conn.sobject('Billing__c').create({
-      Name: billingId,
-      Tagging_id__c: taggingId,
-      Party_Name__c: partyName,
-      Gold_Rate__c: Number(goldRate),
-      Invoice_Number__c: invoiceNumber,
-      Invoice_Date__c: invoiceDate,
-      Tax_Invoice_URL__c: taxInvoiceUrl,
-      Total_Net_Weight__c : Number(totalFineWeight),
-      Delivery_Challan_URL__c: deliveryChallanUrl,
-      Created_Date__c: new Date().toISOString()
-    });
+//     // 5. Create Billing record
+//     const billingRecord = await conn.sobject('Billing__c').create({
+//       Name: billingId,
+//       Tagging_id__c: taggingId,
+//       Party_Name__c: partyName,
+//       Gold_Rate__c: Number(goldRate),
+//       Invoice_Number__c: invoiceNumber,
+//       Invoice_Date__c: invoiceDate,
+//       Tax_Invoice_URL__c: taxInvoiceUrl,
+//       Total_Net_Weight__c : Number(totalFineWeight),
+//       Delivery_Challan_URL__c: deliveryChallanUrl,
+//       Created_Date__c: new Date().toISOString()
+//     });
 
-    console.log('Billing record created:', billingRecord);
+//     console.log('Billing record created:', billingRecord);
 
-    // 6. Send Response
-    res.json({
-      success: true,
-      data: {
-        id: billingRecord.id,
-        billingId: billingId,
-        taggingId: taggingId,
-        partyName: partyName,
-        goldRate: goldRate,
-        totalFineWeight: totalFineWeight,
-        invoiceNumber: invoiceNumber,
-        invoiceDate: invoiceDate,
-        taxInvoiceUrl: taxInvoiceUrl,
-        deliveryChallanUrl: deliveryChallanUrl
-      }
-    });
+//     // 6. Send Response
+//     res.json({
+//       success: true,
+//       data: {
+//         id: billingRecord.id,
+//         billingId: billingId,
+//         taggingId: taggingId,
+//         partyName: partyName,
+//         goldRate: goldRate,
+//         totalFineWeight: totalFineWeight,
+//         invoiceNumber: invoiceNumber,
+//         invoiceDate: invoiceDate,
+//         taxInvoiceUrl: taxInvoiceUrl,
+//         deliveryChallanUrl: deliveryChallanUrl
+//       }
+//     });
 
-  } catch (error) {
-    console.error('\n=== ERROR DETAILS ===');
-    console.error('Error:', error);
-    console.error('Stack:', error.stack);
-    res.status(500).json({
-      success: false,
-      message: "Failed to submit billing",
-      error: error.message,
-      details: {
-        files: req.files ? Object.keys(req.files) : [],
-        body: req.body
-      }
-    });
-  }
-});
+//   } catch (error) {
+//     console.error('\n=== ERROR DETAILS ===');
+//     console.error('Error:', error);
+//     console.error('Stack:', error.stack);
+//     res.status(500).json({
+//       success: false,
+//       message: "Failed to submit billing",
+//       error: error.message,
+//       details: {
+//         files: req.files ? Object.keys(req.files) : [],
+//         body: req.body
+//       }
+//     });
+//   }
+// });
 
 /**----------------- Get All Billing Details -----------------    connection chnaged  /    table created */
-app.get("/api/billing",checkMssqlConnection, async (req, res) => {
-  try {
-    console.log('\n=== FETCHING ALL BILLING DETAILS ===');
+// app.get("/api/billing",checkMssqlConnection, async (req, res) => {
+//   try {
+//     console.log('\n=== FETCHING ALL BILLING DETAILS ===');
 
-    const pool = req.mssql;
-    // Query Billing__c records
-    const billingQuery = await pool.request().query(
-      `SELECT 
-        Id,
-        Name,
-        Party_Name_c,
-        Created_Date_c,
-        Total_Net_Weight_c,
-        Delivery_Challan_URL_c,
-        Tax_Invoice_URL_c
-       FROM Billing__c
-       ORDER BY Created_Date_c DESC`
-    );
+//     const pool = req.mssql;
+//     // Query Billing__c records
+//     const billingQuery = await pool.request().query(
+//       `SELECT 
+//         Id,
+//         Name,
+//         Party_Name_c,
+//         Created_Date_c,
+//         Total_Net_Weight_c,
+//         Delivery_Challan_URL_c,
+//         Tax_Invoice_URL_c
+//        FROM Billing__c
+//        ORDER BY Created_Date_c DESC`
+//     );
 
-    if (!billingQuery.recordset || billingQuery.recordset.length === 0) {
-      return res.json({
-        success: true,
-        data: []
-      });
-    }
+//     if (!billingQuery.recordset || billingQuery.recordset.length === 0) {
+//       return res.json({
+//         success: true,
+//         data: []
+//       });
+//     }
 
-    // Map the records to the desired format
-    const billings = billingQuery.recordset.map(record => ({
-      id: record.Name,
-      PartyName: record.Party_Name__c || '',
-      createdDate: record.Created_Date__c || '',
-      totalFineWeight: record.Total_Net_Weight__c || 0,
-      DeliveryChallanUrl: record.Delivery_Challan_URL__c || '',
-      TaxInvoiceUrl: record.Tax_Invoice_URL__c || ''
-    }));
+//     // Map the records to the desired format
+//     const billings = billingQuery.recordset.map(record => ({
+//       id: record.Name,
+//       PartyName: record.Party_Name__c || '',
+//       createdDate: record.Created_Date__c || '',
+//       totalFineWeight: record.Total_Net_Weight__c || 0,
+//       DeliveryChallanUrl: record.Delivery_Challan_URL__c || '',
+//       TaxInvoiceUrl: record.Tax_Invoice_URL__c || ''
+//     }));
 
-    console.log(`Found ${billings.length} billing records`);
+//     console.log(`Found ${billings.length} billing records`);
 
-    res.json({
-      success: true,
-      data: billings
-    });
+//     res.json({
+//       success: true,
+//       data: billings
+//     });
 
-  } catch (error) {
-    console.error('\n=== ERROR DETAILS ===');
-    console.error('Error:', error);
-    console.error('Stack:', error.stack);
-    res.status(500).json({
-      success: false,
-      message: "Failed to fetch billing details",
-      error: error.message
-    });
-  }
-});
+//   } catch (error) {
+//     console.error('\n=== ERROR DETAILS ===');
+//     console.error('Error:', error);
+//     console.error('Stack:', error.stack);
+//     res.status(500).json({
+//       success: false,
+//       message: "Failed to fetch billing details",
+//       error: error.message
+//     });
+//   }
+// });
 
 
 
@@ -10254,18 +10254,18 @@ app.get('/stonesummary', checkSalesforceConnection, async (req, res) => {
 });
 
 
-app.get("/api/stones", async (req, res) => {
-  try {
-    const result = await conn.sobject("Stone_Master__c")
-      .find({}, "Id, Name, Type__c, Colour__c, Shape__c, Size__c, Pieces__c, Weight__c")
-      .execute();
+// app.get("/api/stones", async (req, res) => {
+//   try {
+//     const result = await conn.sobject("Stone_Master__c")
+//       .find({}, "Id, Name, Type__c, Colour__c, Shape__c, Size__c, Pieces__c, Weight__c")
+//       .execute();
 
-    res.json({ success: true, data: result });
-  } catch (error) {
-    console.error("Error fetching stones:", error);
-    res.json({ success: false, message: "Failed to fetch stones" });
-  }
-});
+//     res.json({ success: true, data: result });
+//   } catch (error) {
+//     console.error("Error fetching stones:", error);
+//     res.json({ success: false, message: "Failed to fetch stones" });
+//   }
+// });
 
 //#endregion ========================================================================================
 
@@ -10429,6 +10429,64 @@ app.get("/get-inventory", checkMssqlConnection ,async (req, res) => {
   }
 });
 
+app.get("/get-inventoryupdate", checkMssqlConnection ,async (req, res) => {
+  try {
+    const pool = req.mssql;
+   
+    const { partyLedger } = req.query; // ✅ Get from query params
+
+      if (!partyLedger) {
+      return res.status(400).json({
+        success: false,
+        message: "Missing required parameter: partyLedger"
+      });
+    }
+
+    console.log(partyLedger);
+
+     // ✅ Use parameterized query to prevent SQL injection
+    const query = `
+      SELECT 
+        Name,
+        Item_Name_c,
+        Available_weight_c,
+        Purity_c
+      FROM Inventory_ledger__c  
+      WHERE PartyLedger_c = ${partyLedger.trim()}
+      ORDER BY Name ASC
+    `;
+
+    const result = await pool.request().query(query);
+
+
+   if (!result.recordset || result.recordset.length === 0) {
+      return res.status(404).json({
+        success: false,
+        message: "No inventory items found for this Party Ledger"
+      });
+    }
+
+    // Format the response data
+    const inventoryItems = result.recordset.map(item => ({
+      name: item.Item_Name_c,
+      availableWeight: item.Available_weight_c,
+      purity: item.Purity_c
+    }));
+
+    res.status(200).json({
+      success: true,
+      message: "Inventory items fetched successfully",
+      data: inventoryItems
+    });
+
+  } catch (error) {
+    console.error("Error fetching inventory:", error);
+    res.status(500).json({
+      success: false,
+      message: error.message || "Failed to fetch inventory items"
+    });
+  }
+});
 
 // app.get("/get-inventory", checkMssqlConnection ,async (req, res) => {
 //   try {
@@ -11843,7 +11901,7 @@ const relativeImagesPath = path.join(
 
 //#endregion      ============================================================
 
-//#region   =========   Tagging   ============================================
+//#region   =========   Tagging & Billing   ============================================
 
 /* ----------------- Get All Tagging Details -----------------  */
 app.get("/api/tagging",checkMssqlConnection, async (req, res) => {
@@ -12021,7 +12079,6 @@ app.get("/api/model-image",checkMssqlConnection, async (req, res) => {
     });
   }
 });
-
 
 /**----------------- Create Tagged Item ----------------- */
 
@@ -12465,6 +12522,7 @@ app.get("/api/tagging-details/:taggingId",checkMssqlConnection, async (req, res)
         taggedItems: taggedItemsQuery.recordset.map(item => ({
           id: item.Id,
           name: item.Name,
+          model: item.model_details_c,
           modelUniqueNumber: item.Model_Unique_Number_c,
           grossWeight: item.Gross_Weight_c,
           netWeight: item.Net_Weight_c,
@@ -12503,6 +12561,448 @@ app.get("/api/tagging-details/:taggingId",checkMssqlConnection, async (req, res)
     res.status(500).json({
       success: false,
       message: "Failed to fetch tagging details",
+      error: error.message
+    });
+  }
+});
+
+
+//============================      Billing       =========================================================
+
+// app.post("/api/billing/submit",checkMssqlConnection ,upload.fields([
+//   { name: 'taxInvoicePdf', maxCount: 1 },
+//   { name: 'deliveryChallanPdf', maxCount: 1 }
+// ]), async (req, res) => {
+
+
+  
+//   try {
+
+
+//      // 1️⃣ Define base upload directory
+//     const baseUploadDir = path.join(process.cwd(), "Upload", "billing");
+//     if (!fs.existsSync(baseUploadDir)) fs.mkdirSync(baseUploadDir, { recursive: true });
+
+//     // 2️⃣ Configure Multer storage (inside API)
+//     const storage = multer.diskStorage({
+//       destination: (req, file, cb) => cb(null, baseUploadDir),
+//       filename: (req, file, cb) => {
+//         const uniqueName = `${Date.now()}-${file.originalname}`;
+//         cb(null, uniqueName);
+//       },
+//     });
+
+//     const upload = multer({ storage, limits: { fileSize: 1024 * 1024 * 1024 ,  fieldSize: 50 * 1024 * 1024      } }).single("pdfFile");
+
+//     // 3️⃣ Handle Multer upload manually
+//     upload(req, res, async (err) => {
+//       if (err) {
+//         console.error("❌ Multer upload error:", err);
+//         return res.status(500).json({ success: false, message: "File upload failed" });
+//       }
+
+
+//     const pool = req.mssql;
+//     console.log('\n=== SUBMIT BILLING REQUEST STARTED ===');
+    
+//     // 1. Extract data from request
+//     const { 
+//       billingId, 
+//       taggingId, 
+//       partyName, 
+//       goldRate,
+//       invoiceNumber,
+//       invoiceDate,
+//       totalFineWeight
+//     } = req.body;
+
+//     console.log('Request Data:', { 
+//       billingId, 
+//       taggingId, 
+//       partyName, 
+//       goldRate,
+//       invoiceNumber,
+//       invoiceDate 
+//     });
+
+//     // 2. Initialize URLs
+//     let taxInvoiceUrl = null;
+//     let deliveryChallanUrl = null;
+
+//         const BillingDir = path.join(baseUploadDir, billingId);
+//         if (!fs.existsSync(BillingDir)) fs.mkdirSync(BillingDir, { recursive: true });
+
+//         console.log("✅ Received PDFs:", {
+//           hasFile: !!file,
+//           taxInvoicePdf: taxInvoicePdf?.length,
+//           deliveryChallanPdf: deliveryChallanPdf?.length,
+//           BillingDir,
+//         });
+
+//     // 3. Process Tax Invoice PDF
+//     if (req.files && req.files.taxInvoicePdf) {
+//       const pdfFile = req.files.taxInvoicePdf[0];
+
+//         const i = `${billingId}_TaxInvoice`;  
+    
+
+//         // 5️⃣ Define output paths (all inside order folder)
+//         const taxInvoicePdfPath = path.join(BillingDir, `${billingId}_TaxInvoice.pdf`);
+//             // 6️⃣ Save base64 PDFs
+//         if (taxInvoicePdf) fs.writeFileSync(taxInvoicePdfPath, Buffer.from(taxInvoicePdf, "base64"));
+
+//         // If user uploaded a file (from Multer), move it into the order folder
+//          if (file && fs.existsSync(file.path)) {
+//           fs.renameSync(file.path, taxInvoicePdf);
+//           console.log("📄 Moved uploaded PDF to:", taxInvoicePdf);
+//         } else {
+//           console.warn("⚠️ No uploaded PDF found to move");
+//         }
+
+//         // 7️⃣ Create URLs for DB (for serving from server/public path)
+//         taxInvoiceUrl = `/Upload/billing/${billingId}/${billingId}_TaxInvoice.pdf`;
+ 
+//     }
+
+//     // // 4. Process Delivery Challan PDF
+//     // if (req.files && req.files.deliveryChallanPdf) {
+//     //   const pdfFile = req.files.deliveryChallanPdf[0];
+      
+//     //   const contentVersion = await conn.sobject('ContentVersion').create({
+//     //     Title: `${billingId}_DeliveryChallan`,
+//     //     PathOnClient: pdfFile.originalname,
+//     //     VersionData: pdfFile.buffer.toString('base64'),
+//     //     IsMajorVersion: true
+//     //   });
+
+//     //   const distribution = await conn.sobject('ContentDistribution').create({
+//     //     Name: `${billingId}_DeliveryChallan`,
+//     //     ContentVersionId: contentVersion.id,
+//     //     PreferencesAllowViewInBrowser: true,
+//     //     PreferencesLinkLatestVersion: true,
+//     //     PreferencesNotifyOnVisit: false,
+//     //     PreferencesPasswordRequired: false,
+//     //     PreferencesExpires: false
+//     //   });
+
+//     //   const [distributionDetails] = await conn.sobject('ContentDistribution')
+//     //     .select('ContentDownloadUrl')
+//     //     .where({ Id: distribution.id })
+//     //     .execute();
+      
+//     //   deliveryChallanUrl = distributionDetails.ContentDownloadUrl;
+//     // }
+
+
+//     // 3️⃣ Insert into SQL Server
+//       const request = pool.request()
+//         .input('Name', billingId)
+//         .input('Tagging_id_c', taggingId)
+//         .input('Party_Name_c', partyName)
+//         .input('Gold_Rate_c', goldRate)
+//         .input('Invoice_Number_c', invoiceNumber)
+//         .input('Invoice_Date_c', invoiceDate)
+//         .input('Tax_Invoice_URL_c', taxInvoiceUrl)
+//         .input('Total_Net_Weight_c', totalFineWeight)
+//         .input('Delivery_CHallan_URL_c', deliveryChallanUrl);
+
+//       const insertQuery = `
+//         INSERT INTO Billing__c (
+//           Name,
+//           Tagging_id_c,
+//           Party_Name_c,
+//           Gold_Rate_c,
+//           Invoice_Number_c,
+//           Invoice_Date_c,
+//           Tax_Invoice_URL_c,
+//           Total_Net_Weight_c,
+//           Delivery_CHallan_URL_c,
+//           Created_Date_c
+//         )
+//         OUTPUT INSERTED.Name
+//         VALUES (
+//           @Name,
+//           @Tagging_id_c,
+//           @Party_Name_c,
+//           @Gold_Rate_c,
+//           @Invoice_Number_c,
+//           @Invoice_Date_c,
+//           @Tax_Invoice_URL_c,
+//           @Total_Net_Weight_c,
+//           @Delivery_CHallan_URL_c,
+//           GETDATE()
+//         );
+//       `;
+
+//       const result = await request.query(insertQuery);
+//       const newId = result.recordset?.[0]?.Name || null;
+
+//       console.log('✅ Billing record created successfully:', newId);
+
+//       // 4️⃣ Send response
+//       res.json({
+//         success: true,
+//         message: "Billing submitted successfully",
+//         data: {
+//           id: newId,
+//           billingId,
+//           taggingId,
+//           partyName,
+//           goldRate,
+//           invoiceNumber,
+//           invoiceDate,
+//           totalFineWeight,
+//           taxInvoiceUrl,
+//           deliveryChallanUrl
+//         }
+//       });
+
+//   } catch (error) {
+//     console.error('\n=== ERROR DETAILS ===');
+//     console.error('Error:', error);
+//     console.error('Stack:', error.stack);
+//     res.status(500).json({
+//       success: false,
+//       message: "Failed to submit billing",
+//       error: error.message,
+//       details: {
+//         files: req.files ? Object.keys(req.files) : [],
+//         body: req.body
+//       }
+//     });
+//   }
+// });
+
+app.post("/api/billing/submit",
+  checkMssqlConnection,
+  async (req, res) => {
+    try {
+      console.log("\n=== SUBMIT BILLING REQUEST STARTED ===");
+
+      // 1️⃣ Define base upload directory
+      const baseUploadDir = path.join(process.cwd(), "Upload", "billing");
+      if (!fs.existsSync(baseUploadDir))
+        fs.mkdirSync(baseUploadDir, { recursive: true });
+
+      // 2️⃣ Configure Multer storage
+      const storage = multer.diskStorage({
+        destination: (req, file, cb) => {
+          const billingId = req.body.billingId || "temp";
+          const billingDir = path.join(baseUploadDir, billingId);
+          if (!fs.existsSync(billingDir))
+            fs.mkdirSync(billingDir, { recursive: true });
+          cb(null, billingDir);
+        },
+        filename: (req, file, cb) => {
+          const suffix =
+            file.fieldname === "taxInvoicePdf"
+              ? "TaxInvoice"
+              : "DeliveryChallan";
+          const filename = `${Date.now()}-${suffix}.pdf`;
+          cb(null, filename);
+        },
+      });
+
+      // 3️⃣ Create upload middleware
+      const upload = multer({
+        storage,
+        limits: {
+          fileSize: 1024 * 1024 * 100, // 100 MB max per file
+        },
+      }).fields([
+        { name: "taxInvoicePdf", maxCount: 1 },
+        { name: "deliveryChallanPdf", maxCount: 1 },
+      ]);
+
+      // 4️⃣ Handle upload
+      upload(req, res, async (err) => {
+        if (err) {
+          console.error("❌ Multer upload error:", err);
+          return res.status(500).json({
+            success: false,
+            message: "File upload failed",
+            error: err.message,
+          });
+        }
+
+        try {
+          const pool = req.mssql;
+
+          const {
+            billingId,
+            taggingId,
+            partyName,
+            goldRate,
+            invoiceNumber,
+            invoiceDate,
+            totalFineWeight,
+          } = req.body;
+
+          console.log("📦 Request Data:", {
+            billingId,
+            taggingId,
+            partyName,
+            goldRate,
+            invoiceNumber,
+            invoiceDate,
+          });
+
+          // 5️⃣ Get uploaded files
+          const taxFile =
+            req.files?.taxInvoicePdf?.[0]?.filename || null;
+          const challanFile =
+            req.files?.deliveryChallanPdf?.[0]?.filename || null;
+
+          const taxInvoiceUrl = taxFile
+            ? `/Upload/billing/${billingId}/${taxFile}`
+            : null;
+
+          const deliveryChallanUrl = challanFile
+            ? `/Upload/billing/${billingId}/${challanFile}`
+            : null;
+
+          console.log("✅ Saved files:", {
+            taxInvoiceUrl,
+            deliveryChallanUrl,
+          });
+
+          // 6️⃣ Insert record into SQL Server
+          const request = pool
+            .request()
+            .input("Name", billingId)
+            .input("Tagging_id_c", taggingId)
+            .input("Party_Name_c", partyName)
+            .input("Gold_Rate_c", goldRate)
+            .input("Invoice_Number_c", invoiceNumber)
+            .input("Invoice_Date_c", invoiceDate)
+            .input("Tax_Invoice_URL_c", taxInvoiceUrl)
+            .input("Total_Net_Weight_c", totalFineWeight)
+            .input("Delivery_CHallan_URL_c", deliveryChallanUrl);
+
+          const insertQuery = `
+            INSERT INTO Billing__c (
+              Name,
+              Tagging_id_c,
+              Party_Name_c,
+              Gold_Rate_c,
+              Invoice_Number_c,
+              Invoice_Date_c,
+              Tax_Invoice_URL_c,
+              Total_Net_Weight_c,
+              Delivery_CHallan_URL_c,
+              Created_Date_c
+            )
+            OUTPUT INSERTED.Name
+            VALUES (
+              @Name,
+              @Tagging_id_c,
+              @Party_Name_c,
+              @Gold_Rate_c,
+              @Invoice_Number_c,
+              @Invoice_Date_c,
+              @Tax_Invoice_URL_c,
+              @Total_Net_Weight_c,
+              @Delivery_CHallan_URL_c,
+              GETDATE()
+            );
+          `;
+
+          const result = await request.query(insertQuery);
+          const newId = result.recordset?.[0]?.Name || billingId;
+
+          console.log("✅ Billing record created successfully:", newId);
+
+          // 7️⃣ Send success response
+          res.json({
+            success: true,
+            message: "Billing submitted successfully",
+            data: {
+              id: newId,
+              billingId,
+              taggingId,
+              partyName,
+              goldRate,
+              invoiceNumber,
+              invoiceDate,
+              totalFineWeight,
+              taxInvoiceUrl,
+              deliveryChallanUrl,
+            },
+          });
+        } catch (error) {
+          console.error("❌ Database insert error:", error);
+          res.status(500).json({
+            success: false,
+            message: "Failed to save billing data",
+            error: error.message,
+          });
+        }
+      });
+    } catch (outerError) {
+      console.error("❌ Billing Submit Handler Error:", outerError);
+      res.status(500).json({
+        success: false,
+        message: "Server error in billing submit",
+        error: outerError.message,
+      });
+    }
+  }
+);
+
+app.get("/api/billing",checkMssqlConnection, async (req, res) => {
+  try {
+    console.log('\n=== FETCHING ALL BILLING DETAILS ===');
+
+    const pool = req.mssql;
+    // Query Billing__c records
+    const billingQuery = await pool.request().query(
+      `SELECT 
+        Id,
+        Name,
+        Party_Name_c,
+        Created_Date_c,
+        Total_Net_Weight_c,
+        Delivery_Challan_URL_c,
+        Tax_Invoice_URL_c,
+        Tagging_id_c,
+        Gold_Rate_c,
+        Invoice_Number_c,
+        INvoice_Date_c
+       FROM Billing__c
+       ORDER BY Created_Date_c DESC`
+    );
+
+    if (!billingQuery.recordset || billingQuery.recordset.length === 0) {
+      return res.json({
+        success: true,
+        data: []
+      });
+    }
+
+    // Map the records to the desired format
+    const billings = billingQuery.recordset.map(record => ({
+      id: record.Name,
+      PartyName: record.Party_Name_c || '',
+      createdDate: record.Created_Date_c || '',
+      totalFineWeight: record.Total_Net_Weight_c || 0,
+      DeliveryChallanUrl: record.Delivery_Challan_URL_c || '',
+      TaxInvoiceUrl: record.Tax_Invoice_URL_c || ''
+    }));
+
+    console.log(`Found ${billings.length} billing records`);
+
+    res.json({
+      success: true,
+      data: billings
+    });
+
+  } catch (error) {
+    console.error('\n=== ERROR DETAILS ===');
+    console.error('Error:', error);
+    console.error('Stack:', error.stack);
+    res.status(500).json({
+      success: false,
+      message: "Failed to fetch billing details",
       error: error.message
     });
   }

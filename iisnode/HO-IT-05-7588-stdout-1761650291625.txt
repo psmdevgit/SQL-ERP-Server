@@ -1,0 +1,9 @@
+Server running at http://localhost:\\.\pipe\4ed3f0f1-bcb6-4afe-a9bd-ff61b2502b2e
+✅ Connected to MSSQL
+Connected to MSSQL
+
+=== FETCHING ALL BILLING DETAILS ===
+Found 1 billing records
+
+=== FETCHING ALL BILLING DETAILS ===
+Found 1 billing records
