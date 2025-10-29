@@ -10398,7 +10398,8 @@ app.get("/get-inventory", checkMssqlConnection ,async (req, res) => {
         Name,
         Item_Name_c,
         Available_weight_c,
-        Purity_c
+        Purity_c,
+        partyledger_c
       FROM Inventory_ledger__c
       ORDER BY Name ASC
     `;
@@ -10416,7 +10417,8 @@ app.get("/get-inventory", checkMssqlConnection ,async (req, res) => {
     const inventoryItems = result.recordset.map(item => ({
       name: item.Item_Name_c,
       availableWeight: item.Available_weight_c,
-      purity: item.Purity_c
+      purity: item.Purity_c,
+      partycode: item.partyledger_c?.trim()
     }));
 
     res.status(200).json({
@@ -10684,7 +10686,8 @@ app.get("/get-inventory-transactions", checkMssqlConnection, async (req, res) =>
         Pure_Metal_weight_c,
         Alloy_Weight_c,
         CreatedDate,
-        CreatedBy_Name
+        CreatedBy_Name,
+        order_no
       FROM Issued_inventory__c
       ORDER BY CreatedDate ASC
     `);
@@ -10705,7 +10708,8 @@ app.get("/get-inventory-transactions", checkMssqlConnection, async (req, res) =>
       pureMetalWeight: item.Pure_Metal_weight_c,
       alloyWeight: item.Alloy_Weight_c,
       createdDate: item.CreatedDate,
-      createdByName: item.CreatedBy?.Name || null
+      createdByName: item.CreatedBy?.Name || null,
+      orderno: item.order_no
     }));
 
     res.status(200).json({
