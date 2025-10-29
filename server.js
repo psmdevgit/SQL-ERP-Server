@@ -1825,7 +1825,6 @@ if (scrapReceivedWeight > 0) {
 //   }
 // });
 
-
 app.post("/api/filing/create", async (req, res) => {
   try {
     const {
@@ -1846,7 +1845,7 @@ app.post("/api/filing/create", async (req, res) => {
 
     const pool = await poolPromise;
 
-    // 1. Insert Filing record
+    // 1️⃣ Insert Filing record
     const filingInsertResult = await pool.request()
       .input("Name", sql.VarChar, filingId)
       .input("IssuedWeight", sql.Float, issuedWeight)
@@ -1856,41 +1855,45 @@ app.post("/api/filing/create", async (req, res) => {
       .input("Quantity", sql.Int, quantity)
       .input("Status", sql.VarChar, "In progress")
       .query(`
-        INSERT INTO Filing__c (Name, Issued_Weight_c, Issued_Date_c, Order_Id_c, Product_c, Quantity_c, Status_c)
+        INSERT INTO Filing__c (
+          Name, Issued_Weight_c, Issued_Date_c,
+          Order_Id_c, Product_c, Quantity_c, Status_c
+        )
         OUTPUT INSERTED.Id
         VALUES (@Name, @IssuedWeight, @IssuedDate, @OrderId, @Product, @Quantity, @Status)
       `);
 
-   
-    const NexfilingId = filingInsertResult.recordset[0].Name;
-  filingInsertResult.push({ filingRecordId: filingId });
-    console.log("Filing Insert Result:Filing_C", NexfilingId);
-    // 2. Insert Pouches
+    // Get the new Filing record Id (primary key)
+    const filingRecordId = filingInsertResult.recordset[0].Id;
+
+    console.log("✅ Filing Inserted with ID:", filingRecordId);
+
+    // 2️⃣ Insert Pouches
     const pouchResults = [];
 
     for (const pouch of pouches) {
+      const pouchInsert = await pool.request()
+        .input("Name", sql.VarChar, pouch.pouchId)
+        .input("FilingId", sql.Int, filingRecordId)
+        .input("OrderId", sql.VarChar, pouch.orderId)
+        .input("Weight", sql.Float, pouch.weight)
+        .input("Product", sql.VarChar, pouch.name)
+        .input("Quantity", sql.Int, pouch.quantity)
+        .query(`
+          INSERT INTO Pouch__c (
+          Name, Filing__c, Order_Id__c,
+            Issued_Pouch_weight__c, Product__c, Quantity__c
+          )
+          OUTPUT INSERTED.Id
+          VALUES (@Name, @FilingId, @OrderId, @Weight, @Product, @Quantity)
+        `);
 
-     const pouchInsert = await pool.request()
-  .input("Name", sql.VarChar, pouch.pouchId)
-  .input("FilingId", sql.Int, filingRecordId)
-  .input("OrderId", sql.VarChar, pouch.orderId)
-  .input("Weight", sql.Float, pouch.weight)
-  .input("Product", sql.VarChar, pouch.name)
-  .input("Quantity", sql.Int, pouch.quantity)
-  .query(`
-    INSERT INTO Pouch__c (
-      Name, Filing_c, Order_Id_c,
-      Issued_Pouch_weight_c, Product_c, Quantity_c
-    )
-    OUTPUT INSERTED.Id
-    VALUES (@Name, @FilingId, @OrderId, @Weight, @Product, @Quantity)
-  `);
-
-        console.log("Pouch Insert Result: Filing_C", filingRecordId);
       const pouchId = pouchInsert.recordset[0].Id;
       pouchResults.push({ pouchRecordId: pouchId });
 
-      // 3. Insert Pouch Items for each pouch
+      console.log("✅ Pouch inserted with ID:", pouchId);
+
+      // 3️⃣ Insert Pouch Items for each pouch
       if (Array.isArray(pouch.categories) && pouch.categories.length > 0) {
         for (const category of pouch.categories) {
           await pool.request()
@@ -1899,31 +1902,34 @@ app.post("/api/filing/create", async (req, res) => {
             .input("Category", sql.VarChar, category.category)
             .input("Quantity", sql.Int, category.quantity)
             .query(`
-              INSERT INTO Pouch_Items__c (Name, WIPPouch__c, Category__c, Quantity__c)
+              INSERT INTO Pouch_Items__c (
+                Name, WIPPouch__c, Category__c, Quantity__c
+              )
               VALUES (@Name, @PouchId, @Category, @Quantity)
             `);
         }
       }
     }
 
+    // ✅ Final Response
     res.json({
       success: true,
       message: "Filing record and related pouches/items created successfully",
       data: {
         filingId,
         filingRecordId,
-        pouches: pouchResults
-      }
+        pouches: pouchResults,
+      },
     });
+
   } catch (error) {
-    console.error("Error creating filing record:", error);
+    console.error("❌ Error creating filing record:", error);
     res.status(500).json({
       success: false,
-      message: error.message || "Failed to create filing record"
+      message: error.message || "Failed to create filing record",
     });
   }
 });
-
 
 
 app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (req, res) => {
