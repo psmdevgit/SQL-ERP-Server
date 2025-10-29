@@ -1855,20 +1855,18 @@ app.post("/api/filing/create", async (req, res) => {
       .input("Quantity", sql.Int, quantity)
       .input("Status", sql.VarChar, "In progress")
       .query(`
-        INSERT INTO Filing__c (
-          Name, Issued_Weight_c, Issued_Date_c,
-          Order_Id_c, Product_c, Quantity_c, Status_c
-        )
+        INSERT INTO Filing__c 
+        (Name, Issued_Weight_c, Issued_Date_c, Order_Id_c, Product_c, Quantity_c, Status_c)
         OUTPUT INSERTED.Id
         VALUES (@Name, @IssuedWeight, @IssuedDate, @OrderId, @Product, @Quantity, @Status)
       `);
 
-    // Get the new Filing record Id (primary key)
+    // ✅ Get inserted Filing record ID
     const filingRecordId = filingInsertResult.recordset[0].Id;
 
-    console.log("✅ Filing Inserted with ID:", filingRecordId);
+    console.log("✅ Filing Inserted Successfully - ID:", filingRecordId);
 
-    // 2️⃣ Insert Pouches
+    // 2️⃣ Insert Pouches related to this filing
     const pouchResults = [];
 
     for (const pouch of pouches) {
@@ -1881,8 +1879,7 @@ app.post("/api/filing/create", async (req, res) => {
         .input("Quantity", sql.Int, pouch.quantity)
         .query(`
           INSERT INTO Pouch__c (
-          Name, Filing__c, Order_Id__c,
-            Issued_Pouch_weight__c, Product__c, Quantity__c
+            Name, Filing__c, Order_Id__c, Issued_Pouch_weight__c, Product__c, Quantity__c
           )
           OUTPUT INSERTED.Id
           VALUES (@Name, @FilingId, @OrderId, @Weight, @Product, @Quantity)
@@ -1891,7 +1888,7 @@ app.post("/api/filing/create", async (req, res) => {
       const pouchId = pouchInsert.recordset[0].Id;
       pouchResults.push({ pouchRecordId: pouchId });
 
-      console.log("✅ Pouch inserted with ID:", pouchId);
+      console.log("📦 Pouch Inserted - ID:", pouchId);
 
       // 3️⃣ Insert Pouch Items for each pouch
       if (Array.isArray(pouch.categories) && pouch.categories.length > 0) {
@@ -1902,16 +1899,14 @@ app.post("/api/filing/create", async (req, res) => {
             .input("Category", sql.VarChar, category.category)
             .input("Quantity", sql.Int, category.quantity)
             .query(`
-              INSERT INTO Pouch_Items__c (
-                Name, WIPPouch__c, Category__c, Quantity__c
-              )
+              INSERT INTO Pouch_Items__c (Name, WIPPouch__c, Category__c, Quantity__c)
               VALUES (@Name, @PouchId, @Category, @Quantity)
             `);
         }
       }
     }
 
-    // ✅ Final Response
+    // ✅ Respond to client
     res.json({
       success: true,
       message: "Filing record and related pouches/items created successfully",
@@ -1930,6 +1925,7 @@ app.post("/api/filing/create", async (req, res) => {
     });
   }
 });
+
 
 
 app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (req, res) => {
