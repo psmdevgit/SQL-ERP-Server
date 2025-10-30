@@ -890,7 +890,7 @@ app.post("/api/grinding/create",checkSalesforceConnection, async (req, res) => {
   try {
     const pool = req.mssql; // ✅ ensure mssql is available
 
-    const {
+    const {pouchid,
       grindingId,
       issuedDate,
       pouches,
@@ -952,6 +952,14 @@ console.log("Pouch Update Result:", result);
       };
 
     }));
+
+      if(pouchid){
+      console.log("Updating casting moved status for castingId:", pouchid);
+await pool.request()
+  .input("pouchId", sql.NVarChar, pouchid)
+  .query(`UPDATE Filing__c SET movedStatus = '1' WHERE name = @pouchId`);
+    }
+
 
     res.json({
       success: true,
@@ -1840,8 +1848,12 @@ if (scrapReceivedWeight > 0) {
 // });
 
 app.post("/api/filing/create", async (req, res) => {
+
+  console.log("Received pouch creation request:", req.body);
+
   try {
     const {
+      castingId,
       filingId,
       issuedWeight,
       issuedDate,
@@ -1870,9 +1882,9 @@ app.post("/api/filing/create", async (req, res) => {
       .input("Status", sql.VarChar, "In progress")
       .query(`
         INSERT INTO Filing__c 
-        (Name, Issued_Weight_c, Issued_Date_c, Order_Id_c, Product_c, Quantity_c, Status_c)
+        (Name, Issued_Weight_c, Issued_Date_c, Order_Id_c, Product_c, Quantity_c, Status_c, createddate)
         OUTPUT INSERTED.Id
-        VALUES (@Name, @IssuedWeight, @IssuedDate, @OrderId, @Product, @Quantity, @Status)
+        VALUES (@Name, @IssuedWeight, @IssuedDate, @OrderId, @Product, @Quantity, @Status, getdate())
       `);
 
     // ✅ Get inserted Filing record ID
@@ -1882,6 +1894,8 @@ app.post("/api/filing/create", async (req, res) => {
 
     // 2️⃣ Insert Pouches related to this filing
     const pouchResults = [];
+
+    console.log("Inserting pouches:", pouches);
 
     for (const pouch of pouches) {
       const pouchInsert = await pool.request()
@@ -1893,10 +1907,10 @@ app.post("/api/filing/create", async (req, res) => {
         .input("Quantity", sql.Int, pouch.quantity)
         .query(`
           INSERT INTO Pouch__c (
-            Name, Filing__c, Order_Id__c, Issued_Pouch_weight__c, Product__c, Quantity__c
+            Name, Filing__c, Order_Id__c, Issued_Pouch_weight__c, Product__c, Quantity__c, createddate
           )
           OUTPUT INSERTED.Id
-          VALUES (@Name, @FilingId, @OrderId, @Weight, @Product, @Quantity)
+          VALUES (@Name, @FilingId, @OrderId, @Weight, @Product, @Quantity, getdate())
         `);
 
       const pouchId = pouchInsert.recordset[0].Id;
@@ -1913,11 +1927,18 @@ app.post("/api/filing/create", async (req, res) => {
             .input("Category", sql.VarChar, category.category)
             .input("Quantity", sql.Int, category.quantity)
             .query(`
-              INSERT INTO Pouch_Items__c (Name, WIPPouch__c, Category__c, Quantity__c)
-              VALUES (@Name, @PouchId, @Category, @Quantity)
+              INSERT INTO Pouch_Items__c (Name, WIPPouch__c, Category__c, Quantity__c, createddate)
+              VALUES (@Name, @PouchId, @Category, @Quantity, getdate())
             `);
         }
       }
+    }
+
+    if(castingId){
+      console.log("Updating casting moved status for castingId:", castingId);
+await pool.request()
+  .input("castingId", sql.NVarChar, castingId)
+  .query(`UPDATE casting_dept__c SET movedStatus = '1' WHERE name = @castingId`);
     }
 
     // ✅ Respond to client
@@ -1949,6 +1970,9 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
     const filingNumber = `${prefix}/${date}/${month}/${year}/${number}/${numb}`;
     const formattedDate = new Date(receivedDate).toISOString();
 
+    console.log('Looking for filing number:', filingNumber);
+    console.log('Update data:', req.body);
+
     const pool = await poolPromise;
 
     // Check if filing record exists
@@ -1964,6 +1988,7 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
     }
 
     const filing = filingQuery.recordset[0];
+    console.log("Filing record found:", filing.Id);
 
     // Update the filing record
     await pool.request()
@@ -2009,6 +2034,8 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
         .query(`SELECT TOP 1 * FROM Inventory_Ledger__c WHERE Item_Name_c = 'Scrap' AND Purity_c = '91.7%'`);
 
       if (scrapQuery.recordset.length > 0) {
+
+        console.log("scrap update start pouch creation");
         const currentWeight = scrapQuery.recordset[0].Available_weight || 0;
         await pool.request()
           .input("newWeight", sql.Decimal(18, 2), currentWeight + scrapReceivedWeight)
@@ -2021,6 +2048,9 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
             WHERE Id = @id
           `);
       } else {
+        
+        console.log("scrap insert start pouch creation");
+
         await pool.request()
           .input("name", sql.VarChar, "Scrap")
           .input("item", sql.VarChar, "Scrap")
@@ -2042,6 +2072,10 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
         .query(`SELECT TOP 1 * FROM Inventory_Ledger__c WHERE Item_Name_c = 'Dust' AND Purity_c = '91.7%'`);
 
       if (dustQuery.recordset.length > 0) {
+
+        
+        console.log("dust update start pouch creation", dustQuery.recordset[0].Id);
+        
         const currentWeight = dustQuery.recordset[0].Available_weight || 0;
         await pool.request()
           .input("newWeight", sql.Decimal(18, 2), currentWeight + dustReceivedWeight)
@@ -2054,6 +2088,8 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
             WHERE Id = @id
           `);
       } else {
+        
+        console.log("scrap insert start pouch creation");
         await pool.request()
           .input("name", sql.VarChar, "Dust")
           .input("item", sql.VarChar, "Dust")
@@ -2063,8 +2099,8 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
           .input("lastUpdated", sql.DateTime, formattedDate)
           .query(`
             INSERT INTO Inventory_Ledger__c 
-            (Name, Item_Name_c, Purity_c, Available_weight_c, Unit_of_Measure_c, Last_Updated_c)
-            VALUES (@name, @item, @purity, @weight, @unit, @lastUpdated)
+            (Name, Item_Name_c, Purity_c, Available_weight_c, Unit_of_Measure_c, Last_Updated_c, createddate)
+            VALUES (@name, @item, @purity, @weight, @unit, @lastUpdated, getdate())
           `);
       }
     }
@@ -2098,6 +2134,7 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
 app.post("/api/polishing/create", async (req, res) => {
   try {
     const {
+      settingId,
       polishingId,
       issuedDate,
       pouches,
@@ -2109,6 +2146,7 @@ app.post("/api/polishing/create", async (req, res) => {
     } = req.body;
 
     console.log('[Polishing Create] Received data:', {
+      settingId,
       polishingId,
       issuedDate,
       pouchCount: pouches.length,
@@ -2167,6 +2205,13 @@ app.post("/api/polishing/create", async (req, res) => {
         pouchId: pouch.pouchId,
         updated: true
       });
+    }
+
+         if(settingId){
+      console.log("Updating setting moved status for castingId:", settingId);
+await pool.request()
+  .input("settingId", sql.NVarChar, settingId)
+  .query(`UPDATE setting__C SET movedStatus = '1' WHERE name = @settingId`);
     }
 
     res.json({
@@ -5034,6 +5079,7 @@ app.post("/api/dull/create", checkMssqlConnection, async (req, res) => {
   try {
     const pool = req.mssql;
     const {
+      polishingId,
       dullId,
       issuedDate,
       pouches,
@@ -5045,6 +5091,7 @@ app.post("/api/dull/create", checkMssqlConnection, async (req, res) => {
     } = req.body;
 
     console.log('[Dull Create] Received data:', { 
+      polishingId,
       dullId,
       issuedDate,
       pouchCount: pouches.length,
@@ -5098,6 +5145,13 @@ app.post("/api/dull/create", checkMssqlConnection, async (req, res) => {
       pouchResults.push({ pouchId: pouch.pouchId, success: true });
     }
 
+         if(polishingId){
+      console.log("Updating setting moved status for castingId:", polishingId);
+await pool.request()
+  .input("polishingId", sql.NVarChar, polishingId)
+  .query(`UPDATE Polishing__c SET movedStatus = '1' WHERE name = @polishingId`);
+    }
+
     // 3️⃣ Send response
     res.json({
       success: true,
@@ -5136,7 +5190,7 @@ const pool = req.mssql;
         Product__c,
         Quantity__c,
         Dull_loss__c,
-        CreatedDate
+        CreatedDate,movedstatus
        FROM Dull__c
        ORDER BY CreatedDate DESC`
     );
@@ -6897,9 +6951,9 @@ app.post("/api/polishing-record/create", async (req, res) => {
 app.post("/api/cutting/create", checkMssqlConnection, async (req, res) => {
   try {
     const pool = req.mssql;
-    const { cuttingId, issuedDate, pouches, totalWeight, status, product, quantity, orderId } = req.body;
+    const { platingId,cuttingId, issuedDate, pouches, totalWeight, status, product, quantity, orderId } = req.body;
 
-    console.log('[Cutting Create] Received data:', { cuttingId, issuedDate, pouchCount: pouches.length, totalWeight, status });
+    console.log('[Cutting Create] Received data:', { platingId,cuttingId, issuedDate, pouchCount: pouches.length, totalWeight, status });
 
     // 1️⃣ Insert Cutting record
     const insertCutting = await pool.request()
@@ -6942,6 +6996,13 @@ app.post("/api/cutting/create", checkMssqlConnection, async (req, res) => {
       }
     }
 
+        if(platingId){
+      console.log("Updating cutting moved status for castingId:", platingId);
+await pool.request()
+  .input("platingId", sql.NVarChar, platingId)
+  .query(`UPDATE Plating__c SET movedStatus = '1' WHERE name = @platingId`);
+    }
+    
     res.json({
       success: true,
       message: "Cutting record created successfully",
@@ -8604,14 +8665,16 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
     const {
       receivedDate,
       receivedWeight = 0,
-      grindingLoss = 0,
+      // grindingLoss = 0,
       findingReceived = 0,
-      scrapReceivedWeight = 0,
-      dustReceivedWeight = 0,
+      // scrapReceivedWeight = 0,
+      // dustReceivedWeight = 0,
       ornamentWeight = 0,
       pouches = []
     } = req.body;
 
+    console.log('Update Correction :', req.body);
+    let {dustWeight, grindingLoss, scrapWeight } = req.body
     const correctionNumber = `${prefix}/${date}/${month}/${year}/${number}/${subnumber}`;
 
     console.log('[Correction Update] Received data:', {
@@ -8619,8 +8682,8 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
       receivedDate,
       receivedWeight,
       grindingLoss,
-      scrapReceivedWeight,
-      dustReceivedWeight,
+      scrapWeight,
+      dustWeight,
       ornamentWeight,
       findingReceived,
       pouches
@@ -8643,8 +8706,8 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
       .input('ReceivedDate', receivedDate)
       .input('ReceivedWeight', receivedWeight)
       .input('GrindingLoss', grindingLoss)
-      .input('ScrapWeight', scrapReceivedWeight)
-      .input('DustWeight', dustReceivedWeight)
+      .input('scrapWeight', scrapWeight)
+      .input('dustWeight', dustWeight)
       .input('OrnamentWeight', ornamentWeight)
       .input('FindingWeight', findingReceived)
       .query(`
@@ -8653,8 +8716,8 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
           Received_Date__c = @ReceivedDate,
           Received_Weight__c = @ReceivedWeight,
           Grinding_loss__c = @GrindingLoss,
-          Grinding_Scrap_Weight__c = @ScrapWeight,
-          Grinding_Dust_Weight__c = @DustWeight,
+          Grinding_Scrap_Weight__c = @scrapWeight,
+          Grinding_Dust_Weight__c = @dustWeight,
           Grinding_Ornament_Weight__c = @OrnamentWeight,
           Finding_Weight__c = @FindingWeight,
           Status__c = 'Finished'
@@ -8689,7 +8752,7 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
           .input('UpdatedDate', receivedDate)
           .query(`
             UPDATE Inventory_ledger__c
-            SET Available_weight_c = @Weight, Last_Updated__c = @UpdatedDate
+            SET Available_weight_c = @Weight, Last_Updated_c = @UpdatedDate
             WHERE Id = @Id
           `);
       } else {
@@ -8706,7 +8769,7 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
     }
 
     // 5️⃣ Scrap inventory
-    if (scrapReceivedWeight > 0) {
+    if (scrapWeight > 0) {
       const scrapQuery = await pool.request()
         .query(`SELECT Id, Available_weight_c FROM Inventory_ledger__c WHERE Item_Name_c = 'Scrap' AND Purity_c = '91.7%'`);
 
@@ -8714,7 +8777,7 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
         const currentWeight = scrapQuery.recordset[0].Available_weight__c || 0;
         await pool.request()
           .input('Id', scrapQuery.recordset[0].Id)
-          .input('Weight', currentWeight + scrapReceivedWeight)
+          .input('Weight', currentWeight + scrapWeight)
           .input('UpdatedDate', receivedDate)
           .query(`
             UPDATE Inventory_ledger__c
@@ -8725,7 +8788,7 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
         await pool.request()
           .input('ItemName', 'Scrap')
           .input('Purity', '91.7%')
-          .input('Weight', scrapReceivedWeight)
+          .input('Weight', scrapWeight)
           .input('UpdatedDate', receivedDate)
           .query(`
             INSERT INTO Inventory_ledger__c (Name, Item_Name_c, Purity_c, Available_weight_c, Unit_of_Measure_c, Last_Updated_c)
@@ -8735,7 +8798,7 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
     }
 
     // 6️⃣ Dust inventory
-    if (dustReceivedWeight > 0) {
+    if (dustWeight > 0) {
       const dustQuery = await pool.request()
         .query(`SELECT Id, Available_weight_c FROM Inventory_ledger__c WHERE Item_Name_c = 'Dust' AND Purity_c = '91.7%'`);
 
@@ -8743,21 +8806,21 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
         const currentWeight = dustQuery.recordset[0].Available_weight__c || 0;
         await pool.request()
           .input('Id', dustQuery.recordset[0].Id)
-          .input('Weight', currentWeight + dustReceivedWeight)
+          .input('Weight', currentWeight + dustWeight)
           .input('UpdatedDate', receivedDate)
           .query(`
             UPDATE Inventory_ledger__c
-            SET Available_weight_c = @Weight, Last_Updated__c = @UpdatedDate
+            SET Available_weight_c = @Weight, Last_Updated_c = @UpdatedDate
             WHERE Id = @Id
           `);
       } else {
         await pool.request()
           .input('ItemName', 'Dust')
           .input('Purity', '91.7%')
-          .input('Weight', dustReceivedWeight)
+          .input('Weight', dustWeight)
           .input('UpdatedDate', receivedDate)
           .query(`
-            INSERT INTO Inventory_ledger__c (Name, Item_Name__c, Purity__c, Available_weight_c, Unit_of_Measure__c, Last_Updated__c)
+            INSERT INTO Inventory_ledger__c (Name, Item_Name_c, Purity_c, Available_weight_c, Unit_of_Measure_c, Last_Updated_c)
             VALUES ('Dust', @ItemName, @Purity, @Weight, 'Grams', @UpdatedDate)
           `);
       }
@@ -8771,8 +8834,8 @@ app.post("/api/correction/update/:prefix/:date/:month/:year/:number/:subnumber",
         receivedDate,
         receivedWeight,
         grindingLoss,
-        scrapReceivedWeight,
-        dustReceivedWeight,
+        scrapWeight,
+        dustWeight,
         ornamentWeight,
         status: 'Finished'
       }
@@ -13236,13 +13299,15 @@ app.get("/api/casting", checkSalesforceConnection, async (req, res) => {
         Casting_Loss_c AS Casting_Loss,
         Casting_Scrap_Weight_c AS Scrap_Weight,
         Casting_Dust_Weight_c AS Dust_Weight,
-        Casting_Ornament_Weight_c AS Ornament_Weight
+        Casting_Ornament_Weight_c AS Ornament_Weight,
+        movedstatus
       FROM Casting_dept__c
     `;
 
     const result = await pool.request().query(query);
 
     res.json({ success: true, data: result.recordset });
+    console.log("✅ Fetched casting data from MSSQL, records count:", result.recordset);
 
   } catch (error) {
     console.error("❌ Error fetching casting data from MSSQL:", error);
@@ -13514,7 +13579,8 @@ app.get("/api/filing",checkSalesforceConnection, async (req, res) => {
         Status_c,
         Filing_loss_c,
         Filing_scrap_Weight_c,
-        Filing_Dust_Weight_c
+        Filing_Dust_Weight_c,
+        movedstatus
       FROM Filing__c
       ORDER BY Issued_Date_c DESC
     `;
@@ -13523,8 +13589,8 @@ app.get("/api/filing",checkSalesforceConnection, async (req, res) => {
 
     const result = await pool.request().query(query);
 
-    console.log('Raw SQL response:', JSON.stringify(result, null, 2));
-    console.log('Number of records found:', result.recordset?.length || 0);
+    // console.log('Raw SQL response:', JSON.stringify(result, null, 2));
+    // console.log('Number of records found:', result.recordset?.length || 0);
 
     const filingRecords = result.recordset.map(record => {
       return {
@@ -13539,18 +13605,19 @@ app.get("/api/filing",checkSalesforceConnection, async (req, res) => {
         Status: record.Status_c,
         Filing_Loss: record.Filing_loss_c,
         Filing_Scrap_Weight: record.Filing_scrap_Weight_c,
-        Filing_Dust_Weight: record.Filing_Dust_Weight_c
+        Filing_Dust_Weight: record.Filing_Dust_Weight_c,
+        movedstatus: record.movedstatus,
       };
     });
 
-    console.log('Formatted filing recordsets:', JSON.stringify(filingRecords, null, 2));
+    // console.log('Formatted filing recordsets:', JSON.stringify(filingRecords, null, 2));
 
     const response = {
       success: true,
       data: filingRecords
     };
 
-    console.log('Sending response to client:', JSON.stringify(response, null, 2));
+    // console.log('Sending response to client:', JSON.stringify(response, null, 2));
     res.json(response);
 
   } catch (error) {
@@ -13585,7 +13652,7 @@ app.get("/api/filing/:prefix/:date/:month/:year/:number/:numb", checkSalesforceC
           Status_c,
           Filing_loss_c
         FROM Filing__c
-        WHERE CAST(Name AS NVARCHAR(100)) = @filingId
+        WHERE Name = @filingId
       `);
 
     if (!filingQuery.recordset || filingQuery.recordset.length === 0) {
@@ -13598,7 +13665,8 @@ app.get("/api/filing/:prefix/:date/:month/:year/:number/:numb", checkSalesforceC
 
     // ✅ Extract Filing record and ID
     const filing = filingQuery.recordset[0];
-    const filingRecordId = filing.id  ;
+    console.log("Found Filing record:", filing);
+    const filingRecordId = filing.Id  ;
     console.log("Found Filing record with ID:", filingRecordId);
 
     // ✅ Query for related Pouches using the Filing Id
@@ -13855,7 +13923,7 @@ app.get("/api/grinding", checkSalesforceConnection, async(req, res) => {
   const pool = req.mssql;
   try {
     const grindingQuery = await pool.request().query(
-      `SELECT Id, Name, Issued_Date__c, Issued_Weight__c,Received_Date__c,Received_Weight__c,Status__c,Grinding_loss__c,Product__c,Quantity__c,Order_Id__c,Grinding_Scrap_Weight__C,Grinding_Dust_Weight__c FROM Grinding__c
+      `SELECT Id, Name, Issued_Date__c, Issued_Weight__c,Received_Date__c,Received_Weight__c,Status__c,Grinding_loss__c,Product__c,Quantity__c,Order_Id__c,Grinding_Scrap_Weight__C,Grinding_Dust_Weight__c,movedstatus FROM Grinding__c
        ORDER BY Issued_Date__c DESC`
     );
 
@@ -14081,25 +14149,30 @@ app.post("/api/grinding/update/:prefix/:date/:month/:year/:number/:subnumber", a
     const pool = await poolPromise;
     const { prefix, date, month, year, number, subnumber } = req.params;
 
+    console.log("[Grinding Update] Received params:", req.body);
+    // let { pouchid } = req.body;
+
     // Default missing numeric values to 0
     let {
       issuedWeight = 0,
       receivedDate,
       receivedWeight = 0,
-      grindingLoss = 0,
-      scrapReceivedWeight = 0,
+      // grindingLoss = 0,
+      // scrapReceivedWeight = 0,
       findingReceived = 0,
-      dustReceivedWeight = 0,
+      // dustReceivedWeight = 0,
       ornamentWeight = 0,
       pouches = []
     } = req.body;
+
+    let { grindingLoss , scrapWeight,dustWeight} = req.body;
 
     // Ensure numeric
     issuedWeight = Number(issuedWeight) || 0;
     receivedWeight = Number(receivedWeight) || 0;
     grindingLoss = Number(grindingLoss) || 0;
-    scrapReceivedWeight = Number(scrapReceivedWeight) || 0;
-    dustReceivedWeight = Number(dustReceivedWeight) || 0;
+    scrapWeight = Number(scrapWeight) || 0;
+    dustWeight = Number(dustWeight) || 0;
     findingReceived = Number(findingReceived) || 0;
     ornamentWeight = Number(ornamentWeight) || 0;
 
@@ -14111,8 +14184,8 @@ app.post("/api/grinding/update/:prefix/:date/:month/:year/:number/:subnumber", a
       issuedWeight,
       receivedWeight,
       grindingLoss,
-      scrapReceivedWeight,
-      dustReceivedWeight,
+      scrapWeight,
+      dustWeight,
       findingReceived,
       ornamentWeight
     });
@@ -14134,8 +14207,8 @@ app.post("/api/grinding/update/:prefix/:date/:month/:year/:number/:subnumber", a
       .input("receivedDate", sql.DateTime, receivedDate)
       .input("receivedWeight", sql.Decimal(18, 4), receivedWeight)
       .input("grindingLoss", sql.Decimal(18, 4), grindingLoss)
-      .input("scrapReceivedWeight", sql.Decimal(18, 4), scrapReceivedWeight)
-      .input("dustReceivedWeight", sql.Decimal(18, 4), dustReceivedWeight)
+      .input("scrapReceivedWeight", sql.Decimal(18, 4), scrapWeight)
+      .input("dustReceivedWeight", sql.Decimal(18, 4), dustWeight)
       .input("findingReceived", sql.Decimal(18, 4), findingReceived)
       .input("ornamentWeight", sql.Decimal(18, 4), ornamentWeight)
       .input("status", sql.NVarChar, "Finished")
@@ -14201,14 +14274,14 @@ app.post("/api/grinding/update/:prefix/:date/:month/:year/:number/:subnumber", a
     }
 
     /** ---- 5. Scrap Inventory Update ---- **/
-    if (scrapReceivedWeight > 0) {
+    if (scrapWeight > 0) {
       const scrapCheck = await pool.request()
-        .query(`SELECT TOP 1 Id FROM Inventory_Ledger__C WHERE Item_Name_C = 'Scrap' AND Purity = '91.7%'`);
+        .query(`SELECT TOP 1 Id FROM Inventory_Ledger__C WHERE Item_Name_C = 'Scrap' AND Purity_c = '91.7%'`);
       
       if (scrapCheck.recordset.length > 0) {
         await pool.request()
           .input("id", sql.Int, scrapCheck.recordset[0].Id)
-          .input("addWeight", sql.Decimal(18, 4), scrapReceivedWeight)
+          .input("addWeight", sql.Decimal(18, 4), scrapWeight)
           .input("receivedDate", sql.DateTime, receivedDate)
           .query(`
             UPDATE Inventory_Ledger__c 
@@ -14220,7 +14293,7 @@ app.post("/api/grinding/update/:prefix/:date/:month/:year/:number/:subnumber", a
         await pool.request()
           .input("itemName", sql.NVarChar, "Scrap")
           .input("purity", sql.NVarChar, grinding.Purity || "91.7%")
-          .input("availableWeight", sql.Decimal(18, 4), scrapReceivedWeight)
+          .input("availableWeight", sql.Decimal(18, 4), scrapWeight)
           .input("receivedDate", sql.DateTime, receivedDate)
           .query(`
             INSERT INTO Inventory_Ledger__c (Item_Name_c, Purity_c, Available_Weight_C, Unit_of_Measure_c, Last_Updated_C)
@@ -14230,14 +14303,14 @@ app.post("/api/grinding/update/:prefix/:date/:month/:year/:number/:subnumber", a
     }
 
     /** ---- 6. Dust Inventory Update ---- **/
-    if (dustReceivedWeight > 0) {
+    if (dustWeight > 0) {
       const dustCheck = await pool.request()
         .query(`SELECT TOP 1 Id FROM Inventory_Ledger__C WHERE Item_Name_c = 'G Machine Dust' AND Purity_C = '91.7%'`);
 
       if (dustCheck.recordset.length > 0) {
         await pool.request()
           .input("id", sql.Int, dustCheck.recordset[0].Id)
-          .input("addWeight", sql.Decimal(18, 4), dustReceivedWeight)
+          .input("addWeight", sql.Decimal(18, 4), dustWeight)
           .input("receivedDate", sql.DateTime, receivedDate)
           .query(`
             UPDATE Inventory_Ledger__C
@@ -14249,7 +14322,7 @@ app.post("/api/grinding/update/:prefix/:date/:month/:year/:number/:subnumber", a
         await pool.request()
           .input("itemName", sql.NVarChar, "G Machine Dust")
           .input("purity", sql.NVarChar, grinding.Purity || "91.7%")
-          .input("availableWeight", sql.Decimal(18, 4), dustReceivedWeight)
+          .input("availableWeight", sql.Decimal(18, 4), dustWeight)
           .input("receivedDate", sql.DateTime, receivedDate)
           .query(`
             INSERT INTO Inventory_Ledger__C (Item_Name_C, Purity_C, Available_Weight_C, Unit_of_Measure_C, Last_Updated_C)
@@ -14267,8 +14340,8 @@ app.post("/api/grinding/update/:prefix/:date/:month/:year/:number/:subnumber", a
         receivedDate,
         receivedWeight,
         grindingLoss,
-        scrapReceivedWeight,
-        dustReceivedWeight,
+        scrapWeight,
+        dustWeight,
         ornamentWeight,
         status: "Finished"
       }
@@ -14365,7 +14438,7 @@ app.get("/api/polishing",checkSalesforceConnection, async (req, res) => {
         Product__c,
         status__c,
         Polishing_loss__c,
-        CreatedDate,Polishing_Scrap_Weight__c,Polishing_Dust_Weight__c
+        CreatedDate,Polishing_Scrap_Weight__c,Polishing_Dust_Weight__c, movedstatus
        FROM Polishing__c
        ORDER BY CreatedDate DESC`
     );
@@ -14794,6 +14867,7 @@ app.post("/api/setting/create", checkMssqlConnection, async (req, res) => {
   try {
      const pool = req.mssql;
     const { 
+      correctId,
       settingId,
       issuedDate,
       pouches = [],
@@ -14805,6 +14879,7 @@ app.post("/api/setting/create", checkMssqlConnection, async (req, res) => {
     } = req.body;
 
     console.log('[Setting Create] Received data:', { 
+      correctId,
       settingId,
       issuedDate,
       pouchCount: pouches.length,
@@ -14856,6 +14931,13 @@ app.post("/api/setting/create", checkMssqlConnection, async (req, res) => {
             Quantity__c = @Quantity
           WHERE Id = @PouchId
         `);
+    }
+
+      if(correctId){
+      console.log("Updating setting moved status for castingId:", correctId);
+await pool.request()
+  .input("correctId", sql.NVarChar, correctId)
+  .query(`UPDATE Correction__C SET movedStatus = '1' WHERE name = @correctId`);
     }
 
     res.json({
@@ -15087,6 +15169,8 @@ app.post("/api/setting/update/:prefix/:date/:month/:year/:number/:subnumber",
         pouches,
       } = req.body;
 
+      console.log("Received request to update setting:", req.body)
+
       const settingNumber = `${prefix}/${date}/${month}/${year}/${number}/${subnumber}`;
 
       console.log("[Setting Update] Received data:", {
@@ -15290,7 +15374,7 @@ app.get("/api/setting",checkSalesforceConnection, async (req, res) => {
         Order_Id_c,
         Stone_Weight__c,
         Setting__c,
-        CreatedDate,Setting_Scrap_Weight__c,Setting_Dust_Weight__c
+        CreatedDate,Setting_Scrap_Weight__c,Setting_Dust_Weight__c, movedstatus
        FROM Setting__c
        ORDER BY CreatedDate DESC`
     );
@@ -15487,12 +15571,13 @@ const pool = req.mssql;
         Product__c,
         Quantity__c,
         Dull_loss__c,
-        CreatedDate
+        movedstatus,
+        CreatedDate,
        FROM Dull__c
        ORDER BY CreatedDate DESC`
     );
 
-    console.log('[Get Dull] Found dull records:', dullQuery.recordset.length);
+    console.log('[Get Dull] Found dull records:', dullQuery.recordset);
 
     res.json({
       success: true,
@@ -15826,6 +15911,7 @@ app.post("/api/correction/create", checkMssqlConnection, async (req, res) => {
    
 
     const { 
+      MediaId,
       correctionId,
       issuedDate,
       pouches = [],
@@ -15837,6 +15923,7 @@ app.post("/api/correction/create", checkMssqlConnection, async (req, res) => {
     } = req.body;
 
     console.log('[Correction Create SQL] Received data:', { 
+      MediaId,
       correctionId,
       issuedDate,
       pouchCount: pouches.length,
@@ -15893,6 +15980,14 @@ app.post("/api/correction/create", checkMssqlConnection, async (req, res) => {
       console.log(`[Correction Create SQL] Pouch updated: ${pouch.pouchId}`);
     }
 
+    if(MediaId){
+      console.log("Updating correction moved status for castingId:", MediaId);
+await pool.request()
+  .input("MediaId", sql.NVarChar, MediaId)
+  .query(`UPDATE Media__c SET movedStatus = '1' WHERE name = @MediaId`);
+    }
+
+
     res.json({
       success: true,
       message: "Correction record created successfully",
@@ -15931,7 +16026,8 @@ app.get("/api/correction", checkMssqlConnection, async (req, res) => {
         Quantity__c,
         Order_Id__c,
         Grinding_Scrap_Weight__c,
-        Grinding_Dust_Weight__c
+        Grinding_Dust_Weight__c,
+        movedstatus
       FROM Correction__c
       ORDER BY Issued_Date__c DESC
     `);
@@ -16032,6 +16128,7 @@ app.get("/api/correction/:prefix/:date/:month/:year/:number/:subnumber", checkMs
 app.post("/api/media/create",checkMssqlConnection, async (req, res) => {
   try {
     const {
+      pouchid,
       grindingId,
       issuedDate,
       pouches,
@@ -16043,6 +16140,7 @@ app.post("/api/media/create",checkMssqlConnection, async (req, res) => {
     } = req.body;
 
     console.log("[Media Create SQL] Received data:", {
+      pouchid,
       grindingId,
       issuedDate,
       pouchCount: pouches.length,
@@ -16106,6 +16204,14 @@ app.post("/api/media/create",checkMssqlConnection, async (req, res) => {
         `);
     }
 
+      if(pouchid){
+      console.log("Updating media moved status for castingId:", pouchid);
+await pool.request()
+  .input("pouchId", sql.NVarChar, pouchid)
+  .query(`UPDATE Grinding__c SET movedStatus = '1' WHERE name = @pouchId`);
+    }
+
+
     res.json({
       success: true,
       message: "Media record created successfully",
@@ -16144,7 +16250,8 @@ app.get("/api/media", checkMssqlConnection,async (req, res) => {
         Quantity__c,
         Order_Id__c,
         Grinding_Scrap_Weight__c,
-        Grinding_Dust_Weight__c
+        Grinding_Dust_Weight__c,
+        movedstatus
       FROM Media__c
       ORDER BY Issued_Date__c DESC
     `);
@@ -16376,6 +16483,8 @@ app.post("/api/media/update/:prefix/:date/:month/:year/:number/:subnumber", chec
       ornamentWeight = 0,
       pouches = []
     } = req.body;
+
+    console.log("Received request to update media:", req.body);
 
     let findingReceived = Number(req.body.findingReceived || 0);
     let scrapReceivedWeight = Number(req.body.scrapReceivedWeight || req.body.scrapWeight || 0);
@@ -16732,6 +16841,7 @@ app.post("/api/plating/create", checkMssqlConnection, async (req, res) => {
   try {
     const pool = req.mssql;
     const { 
+      dullId,
       platingId,  
       issuedDate,
       pouches,
@@ -16743,6 +16853,7 @@ app.post("/api/plating/create", checkMssqlConnection, async (req, res) => {
     } = req.body;
 
     console.log('[Plating Create] Received data:', {
+      dullId,
       platingId,
       issuedDate,
       totalWeight,
@@ -16791,6 +16902,13 @@ app.post("/api/plating/create", checkMssqlConnection, async (req, res) => {
       console.log(`[Plating Create] Updated pouch ${pouch.pouchId}`);
       return { pouchId: pouch.pouchId, platingWeight: pouch.platingWeight };
     }));
+
+        if(dullId){
+      console.log("Updating setting moved status for castingId:", dullId);
+await pool.request()
+  .input("dullId", sql.NVarChar, dullId)
+  .query(`UPDATE Dull__c SET movedStatus = '1' WHERE name = @dullId`);
+    }
 
     // 3️⃣ Return success
     res.json({
@@ -16999,7 +17117,7 @@ app.get("/api/plating",checkMssqlConnection, async (req, res) => {
         Order_Id__c,
         Quantity__c,
         Plating_loss__c,
-        CreatedDate,Plating_Scrap_Weight__c,Plating_Dust_Weight__c
+        CreatedDate,Plating_Scrap_Weight__c,Plating_Dust_Weight__c, movedstatus
        FROM Plating__c
        ORDER BY CreatedDate DESC`
     );
