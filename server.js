@@ -1400,11 +1400,11 @@ app.post("/add-jewelry-category",checkSalesforceConnection, async (req, res) => 
 
 // app.post("/api/casting/update/:date/:month/:year/:number", async (req, res) => {
 //   try {
-//     const { date, month, year, number } = req.params;
-//     const { receivedDate, receivedWeight, castingLoss, scrapReceivedWeight, dustReceivedWeight, ornamentWeight } = req.body;
-//     const castingNumber = `${date}/${month}/${year}/${number}`;
+//    const { date, month, year, number } = req.params;
+//    const { receivedDate, receivedWeight, castingLoss, scrapReceivedWeight, dustReceivedWeight, ornamentWeight } = req.body;
+//    const castingNumber = `${date}/${month}/${year}/${number}`;
 
-//     // Format the received date to S0alesforce format
+//    // Format the received date to Salesforce format
 //     const formattedDate = new Date(receivedDate).toISOString();
 
 //     console.log('Looking for casting number:', castingNumber);
@@ -1606,27 +1606,35 @@ app.post("/api/casting/update/:date/:month/:year/:number", async (req, res) => {
         WHERE Name = @CastingNumber
       `);
 
+      console.log("casting inserted success");
+
    // 3. Handle Scrap Inventory
 if (scrapReceivedWeight > 0) {
   const scrapResult = await pool.request()
     .input("Purity", sql.VarChar, purity)
     .query("SELECT TOP 1 * FROM Inventory_ledger__c WHERE Item_Name_c = 'Scrap' AND Purity_c = @Purity");
 
+    console.log("scarp",scrapResult.recordset);
+
   if (scrapResult.recordset.length > 0) {
     const scrapRecord = scrapResult.recordset[0];
     const scrapId = scrapRecord.Id;
     const currentWeight = scrapRecord.Available_Weight_c || 0;
+    
 
+      console.log("casting scarp update start");
     await pool.request() 
-      .input("Id", sql.VarChar, scrapId) // Use VarChar if Id is a string
+      .input("Id", sql.Int, scrapId) // Use VarChar if Id is a string
       .input("NewWeight", sql.Float, currentWeight + scrapReceivedWeight)
       .input("UpdatedDate", sql.DateTime, formattedDate)
       .query(`
         UPDATE Inventory_ledger__c
-        SET Available_Weight_c = @NewWeight, Last_Updated_c = @UpdatedDate
+        SET Available_Weight_c = @NewWeight, Last_Updated_c = getdate()
         WHERE Id = @Id
       `);
   } else {
+    
+      console.log("casting scarp insert start");
     await pool.request()
       .input("ItemName", sql.VarChar, 'Scrap')
       .input("Purity", sql.VarChar, purity)
@@ -1635,9 +1643,9 @@ if (scrapReceivedWeight > 0) {
       .input("UpdatedDate", sql.DateTime, formattedDate)
       .query(`
         INSERT INTO Inventory_ledger__c 
-          (Item_Name_c, Purity_c, Available_Weight_c, Unit_Of_Measure, Last_Updated_c)
+          (Item_Name_c, Purity_c, Available_Weight_c, Unit_of_Measure_c, Last_Updated_c, createddate)
         VALUES 
-          (@ItemName, @Purity, @AvailableWeight, @Unit, @UpdatedDate)
+          (@ItemName, @Purity, @AvailableWeight, @Unit, @UpdatedDate, GETDATE())
       `);
   }
 }
@@ -1649,6 +1657,9 @@ if (scrapReceivedWeight > 0) {
         .query("SELECT TOP 1 * FROM Inventory_ledger__c WHERE Item_Name_c = 'Dust' AND Purity_c = @Purity");
 
       if (dust.recordset.length > 0) {
+        
+      console.log("casting dust update start");
+
         const currentWeight = dust.recordset[0].AvailableWeight || 0;
         await pool.request()
           .input("Id", sql.Int, dust.recordset[0].Id)
@@ -1660,6 +1671,9 @@ if (scrapReceivedWeight > 0) {
             WHERE Id = @Id
           `);
       } else {
+        
+      console.log("casting dust insert start");
+
         await pool.request()
           .input("ItemName", sql.VarChar, 'Dust')
           .input("Purity", sql.VarChar, purity)
@@ -1667,8 +1681,8 @@ if (scrapReceivedWeight > 0) {
           .input("Unit", sql.VarChar, 'Grams')
           .input("UpdatedDate", sql.DateTime, formattedDate)
           .query(`
-            INSERT INTO Inventory_ledger__c (Item_Name_c, Purity_c, Available_Weight_c, Unit_Of_Measure, Last_Updated_c)
-            VALUES (@ItemName, @Purity, @AvailableWeight, @Unit, @UpdatedDate)
+            INSERT INTO Inventory_ledger__c (Item_Name_c, Purity_c, Available_Weight_c, Unit_of_Measure_c, Last_Updated_c, createddate)
+            VALUES (@ItemName, @Purity, @AvailableWeight, @Unit, @UpdatedDate, getdate())
           `);
       }
     }
@@ -2069,6 +2083,7 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
         status: 'Finished'
       }
     });
+
 
   } catch (error) {
     console.error("Error updating filing:", error);
@@ -13381,6 +13396,8 @@ app.get("/api/casting/all/:date/:month/:year/:number",checkSalesforceConnection,
       });
     }
 
+    console.log("Fetching casting details for ID:", castingId);
+
     const pool = req.mssql; // or use your existing pool
 
     // 1. Get Casting details
@@ -13414,14 +13431,13 @@ app.get("/api/casting/all/:date/:month/:year/:number",checkSalesforceConnection,
 
     // 2. Get Related Orders
     const ordersResult = await pool.request()
-      .input("castingId", sql.NVarChar, casting.Id)
+      .input("castingId", sql.NVarChar, casting.Name)
       .query(`
         SELECT 
           Id,
           Order_Id_c,
-          id_c,
           Casting_c
-        FROM Order__c 
+        FROM Order__c where Casting_c = @castingId
        
       `);
 
@@ -13429,7 +13445,7 @@ app.get("/api/casting/all/:date/:month/:year/:number",checkSalesforceConnection,
 
     // 3. Get Related Inventory Items
     const inventoryResult = await pool.request()
-      .input("castingId", sql.NVarChar, casting.Id)
+      .input("castingId", sql.NVarChar, casting.Name)
       .query(`
         SELECT 
           Name,
@@ -13582,7 +13598,7 @@ app.get("/api/filing/:prefix/:date/:month/:year/:number/:numb", checkSalesforceC
 
     // ✅ Extract Filing record and ID
     const filing = filingQuery.recordset[0];
-    const filingRecordId = filing.Id;
+    const filingRecordId = filing.id  ;
     console.log("Found Filing record with ID:", filingRecordId);
 
     // ✅ Query for related Pouches using the Filing Id
