@@ -887,6 +887,9 @@ app.post("/add-size-group", checkSalesforceConnection, async (req, res) => {
 
 
 app.post("/api/grinding/create",checkSalesforceConnection, async (req, res) => {
+
+
+    // if (select top 1 from grinding__c where name=pouchid)
   try {
     const pool = req.mssql; // ✅ ensure mssql is available
 
@@ -953,6 +956,7 @@ console.log("Pouch Update Result:", result);
 
     }));
 
+  
       if(pouchid){
       console.log("Updating casting moved status for castingId:", pouchid);
 await pool.request()
@@ -1620,7 +1624,7 @@ app.post("/api/casting/update/:date/:month/:year/:number", async (req, res) => {
 if (scrapReceivedWeight > 0) {
   const scrapResult = await pool.request()
     .input("Purity", sql.VarChar, purity)
-    .query("SELECT TOP 1 * FROM Inventory_ledger__c WHERE Item_Name_c = 'Scrap' AND Purity_c = @Purity");
+    .query("SELECT TOP 1 * FROM Inventory_ledger__c WHERE Item_Name_c = 'Casting Scrap' AND Purity_c = @Purity");
 
     console.log("scarp",scrapResult.recordset);
 
@@ -1644,7 +1648,7 @@ if (scrapReceivedWeight > 0) {
     
       console.log("casting scarp insert start");
     await pool.request()
-      .input("ItemName", sql.VarChar, 'Scrap')
+      .input("ItemName", sql.VarChar, 'Casting Scrap')
       .input("Purity", sql.VarChar, purity)
       .input("AvailableWeight", sql.Float, scrapReceivedWeight)
       .input("Unit", sql.VarChar, 'Grams')
@@ -1662,7 +1666,7 @@ if (scrapReceivedWeight > 0) {
     if (dustReceivedWeight > 0) {
       const dust = await pool.request()
         .input("Purity", sql.VarChar, purity)
-        .query("SELECT TOP 1 * FROM Inventory_ledger__c WHERE Item_Name_c = 'Dust' AND Purity_c = @Purity");
+        .query("SELECT TOP 1 * FROM Inventory_ledger__c WHERE Item_Name_c = ' Casting Dust' AND Purity_c = @Purity");
 
       if (dust.recordset.length > 0) {
         
@@ -1683,7 +1687,7 @@ if (scrapReceivedWeight > 0) {
       console.log("casting dust insert start");
 
         await pool.request()
-          .input("ItemName", sql.VarChar, 'Dust')
+          .input("ItemName", sql.VarChar, 'Casting Dust')
           .input("Purity", sql.VarChar, purity)
           .input("AvailableWeight", sql.Float, dustReceivedWeight)
           .input("Unit", sql.VarChar, 'Grams')
@@ -14670,7 +14674,7 @@ app.post("/api/polishing/update/:prefix/:date/:month/:year/:number/:subnumber",
           .query(`
             SELECT Id, Available_weight_c 
             FROM Inventory_ledger__c 
-            WHERE Item_Name_c = 'Dust' AND Purity_c = '91.7%'
+            WHERE Item_Name_c = 'P Machine Dust' AND Purity_c = '91.7%'
           `);
 
         if (dustInventory.recordset.length > 0) {
