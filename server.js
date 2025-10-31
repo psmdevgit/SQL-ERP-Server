@@ -1655,9 +1655,9 @@ if (scrapReceivedWeight > 0) {
       .input("UpdatedDate", sql.DateTime, formattedDate)
       .query(`
         INSERT INTO Inventory_ledger__c 
-          (Item_Name_c, Purity_c, Available_Weight_c, Unit_of_Measure_c, Last_Updated_c, createddate)
+          (Name,Item_Name_c, Purity_c, Available_Weight_c, Unit_of_Measure_c, Last_Updated_c, createddate)
         VALUES 
-          (@ItemName, @Purity, @AvailableWeight, @Unit, @UpdatedDate, GETDATE())
+          (@ItemName,@ItemName, @Purity, @AvailableWeight, @Unit, @UpdatedDate, GETDATE())
       `);
   }
 }
@@ -1693,8 +1693,8 @@ if (scrapReceivedWeight > 0) {
           .input("Unit", sql.VarChar, 'Grams')
           .input("UpdatedDate", sql.DateTime, formattedDate)
           .query(`
-            INSERT INTO Inventory_ledger__c (Item_Name_c, Purity_c, Available_Weight_c, Unit_of_Measure_c, Last_Updated_c, createddate)
-            VALUES (@ItemName, @Purity, @AvailableWeight, @Unit, @UpdatedDate, getdate())
+            INSERT INTO Inventory_ledger__c (Name,Item_Name_c, Purity_c, Available_Weight_c, Unit_of_Measure_c, Last_Updated_c, createddate)
+            VALUES (@ItemName, @ItemName,@Purity, @AvailableWeight, @Unit, @UpdatedDate, getdate())
           `);
       }
     }
