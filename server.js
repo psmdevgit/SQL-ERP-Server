@@ -1580,10 +1580,10 @@ app.post("/api/casting/update/:date/:month/:year/:number", async (req, res) => {
 
     const pool = await poolPromise;
 
-    // 1. Check if casting exists
+    // 1️⃣ Check if casting exists
     const castingResult = await pool.request()
       .input("CastingNumber", sql.VarChar, castingNumber)
-      .query("SELECT Id, Name, Required_Purity_c FROM Casting_dept__c WHERE Name= @CastingNumber");
+      .query("SELECT Id, Name, Required_Purity_c FROM Casting_dept__c WHERE Name = @CastingNumber");
 
     if (castingResult.recordset.length === 0) {
       return res.status(404).json({
@@ -1593,9 +1593,10 @@ app.post("/api/casting/update/:date/:month/:year/:number", async (req, res) => {
     }
 
     const casting = castingResult.recordset[0];
-    const purity = casting.RequiredPurity || "91.7%"; // fallback
+    const purity = casting.Required_Purity_c || "91.7%"; // ✅ fixed purity column
+    console.log("🎯 Updating Casting:", { castingNumber, purity });
 
-    // 2. Update casting
+    // 2️⃣ Update Casting record
     await pool.request()
       .input("CastingNumber", sql.VarChar, castingNumber)
       .input("ReceivedDate", sql.DateTime, formattedDate)
@@ -1613,92 +1614,98 @@ app.post("/api/casting/update/:date/:month/:year/:number", async (req, res) => {
           Casting_Loss_c = @CastingLoss,
           Casting_Scrap_Weight_c = @ScrapReceivedWeight,
           Casting_Dust_Weight_c = @DustReceivedWeight,
-          Casting_Ornament_Weight_c= @OrnamentWeight,
+          Casting_Ornament_Weight_c = @OrnamentWeight,
           status_c = @Status
         WHERE Name = @CastingNumber
       `);
 
-      console.log("casting inserted success");
+    console.log("✅ Casting updated successfully");
 
-   // 3. Handle Scrap Inventory
-if (scrapReceivedWeight > 0) {
-  const scrapResult = await pool.request()
-    .input("Purity", sql.VarChar, purity)
-    .query("SELECT TOP 1 * FROM Inventory_ledger__c WHERE Item_Name_c = 'Casting Scrap' AND Purity_c = @Purity");
+    // 3️⃣ Handle Scrap Inventory
+    if (scrapReceivedWeight > 0) {
+      console.log("🔍 Checking Scrap Inventory:", { purity, scrapReceivedWeight });
 
-    console.log("scarp",scrapResult.recordset);
-
-  if (scrapResult.recordset.length > 0) {
-    const scrapRecord = scrapResult.recordset[0];
-    const scrapId = scrapRecord.Id;
-    const currentWeight = scrapRecord.Available_Weight_c || 0;
-    
-
-      console.log("casting scarp update start");
-    await pool.request() 
-      .input("Id", sql.Int, scrapId) // Use VarChar if Id is a string
-      .input("NewWeight", sql.Float, currentWeight + scrapReceivedWeight)
-      .input("UpdatedDate", sql.DateTime, formattedDate)
-      .query(`
-        UPDATE Inventory_ledger__c
-        SET Available_Weight_c = @NewWeight, Last_Updated_c = getdate()
-        WHERE Id = @Id
-      `);
-  } else {
-    
-      console.log("casting scarp insert start");
-    await pool.request()
-      .input("ItemName", sql.VarChar, 'Casting Scrap')
-      .input("Purity", sql.VarChar, purity)
-      .input("AvailableWeight", sql.Float, scrapReceivedWeight)
-      .input("Unit", sql.VarChar, 'Grams')
-      .input("UpdatedDate", sql.DateTime, formattedDate)
-      .query(`
-        INSERT INTO Inventory_ledger__c 
-          (Name,Item_Name_c, Purity_c, Available_Weight_c, Unit_of_Measure_c, Last_Updated_c, createddate)
-        VALUES 
-          (@ItemName,@ItemName, @Purity, @AvailableWeight, @Unit, @UpdatedDate, GETDATE())
-      `);
-  }
-}
-
-    // 4. Handle Dust Inventory
-    if (dustReceivedWeight > 0) {
-      const dust = await pool.request()
+      const scrapResult = await pool.request()
         .input("Purity", sql.VarChar, purity)
-        .query("SELECT TOP 1 * FROM Inventory_ledger__c WHERE Item_Name_c = ' Casting Dust' AND Purity_c = @Purity");
+        .query(`
+          SELECT TOP 1 * 
+          FROM Inventory_ledger__c 
+          WHERE Item_Name_c = 'Casting Scrap' AND Purity_c = @Purity
+        `);
 
-      if (dust.recordset.length > 0) {
-        
-      console.log("casting dust update start");
+      if (scrapResult.recordset.length > 0) {
+        const scrapRecord = scrapResult.recordset[0];
+        const newWeight = (scrapRecord.Available_Weight_c || 0) + scrapReceivedWeight;
 
-        const currentWeight = dust.recordset[0].AvailableWeight || 0;
+        console.log("♻️ Updating Scrap Inventory:", { old: scrapRecord.Available_Weight_c, add: scrapReceivedWeight, new: newWeight });
+
         await pool.request()
-          .input("Id", sql.Int, dust.recordset[0].Id)
-          .input("NewWeight", sql.Float, currentWeight + dustReceivedWeight)
-          .input("UpdatedDate", sql.DateTime, formattedDate)
+          .input("Id", sql.Int, scrapRecord.Id)
+          .input("NewWeight", sql.Float, newWeight)
           .query(`
             UPDATE Inventory_ledger__c
-            SET Available_Weight_c = @NewWeight,Last_Updated_c = @UpdatedDate
+            SET Available_Weight_c = @NewWeight, Last_Updated_c = GETDATE()
             WHERE Id = @Id
           `);
       } else {
-        
-      console.log("casting dust insert start");
+        console.log("➕ Inserting new Scrap Inventory");
+        await pool.request()
+          .input("ItemName", sql.VarChar, 'Casting Scrap')
+          .input("Purity", sql.VarChar, purity)
+          .input("AvailableWeight", sql.Float, scrapReceivedWeight)
+          .input("Unit", sql.VarChar, 'Grams')
+          .query(`
+            INSERT INTO Inventory_ledger__c 
+              (Name, Item_Name_c, Purity_c, Available_Weight_c, Unit_of_Measure_c, Last_Updated_c, CreatedDate)
+            VALUES 
+              (@ItemName, @ItemName, @Purity, @AvailableWeight, @Unit, GETDATE(), GETDATE())
+          `);
+      }
+    }
 
+    // 4️⃣ Handle Dust Inventory
+    if (dustReceivedWeight > 0) {
+      console.log("🔍 Checking Dust Inventory:", { purity, dustReceivedWeight });
+
+      const dustResult = await pool.request()
+        .input("Purity", sql.VarChar, purity)
+        .query(`
+          SELECT TOP 1 * 
+          FROM Inventory_ledger__c 
+          WHERE Item_Name_c = 'Casting Dust' AND Purity_c = @Purity
+        `); // ✅ removed leading space
+
+      if (dustResult.recordset.length > 0) {
+        const dustRecord = dustResult.recordset[0];
+        const newWeight = (dustRecord.Available_Weight_c || 0) + dustReceivedWeight;
+
+        console.log("♻️ Updating Dust Inventory:", { old: dustRecord.Available_Weight_c, add: dustReceivedWeight, new: newWeight });
+
+        await pool.request()
+          .input("Id", sql.Int, dustRecord.Id)
+          .input("NewWeight", sql.Float, newWeight)
+          .query(`
+            UPDATE Inventory_ledger__c
+            SET Available_Weight_c = @NewWeight, Last_Updated_c = GETDATE()
+            WHERE Id = @Id
+          `);
+      } else {
+        console.log("➕ Inserting new Dust Inventory");
         await pool.request()
           .input("ItemName", sql.VarChar, 'Casting Dust')
           .input("Purity", sql.VarChar, purity)
           .input("AvailableWeight", sql.Float, dustReceivedWeight)
           .input("Unit", sql.VarChar, 'Grams')
-          .input("UpdatedDate", sql.DateTime, formattedDate)
           .query(`
-            INSERT INTO Inventory_ledger__c (Name,Item_Name_c, Purity_c, Available_Weight_c, Unit_of_Measure_c, Last_Updated_c, createddate)
-            VALUES (@ItemName, @ItemName,@Purity, @AvailableWeight, @Unit, @UpdatedDate, getdate())
+            INSERT INTO Inventory_ledger__c 
+              (Name, Item_Name_c, Purity_c, Available_Weight_c, Unit_of_Measure_c, Last_Updated_c, CreatedDate)
+            VALUES 
+              (@ItemName, @ItemName, @Purity, @AvailableWeight, @Unit, GETDATE(), GETDATE())
           `);
       }
     }
 
+    // 5️⃣ Return response
     res.json({
       success: true,
       message: "Casting and inventory updated successfully",
@@ -1714,15 +1721,19 @@ if (scrapReceivedWeight > 0) {
       }
     });
 
+    // 6️⃣ Optional: Show full inventory snapshot for debug
+    const allInventory = await pool.request()
+      .query("SELECT Item_Name_c, Purity_c, Available_Weight_c FROM Inventory_ledger__c WHERE Item_Name_c IN ('Casting Scrap', 'Casting Dust')");
+    console.log("📦 Current Inventory Snapshot:", allInventory.recordset);
+
   } catch (error) {
-    console.error("Error updating casting:", error);
+    console.error("❌ Error updating casting:", error);
     res.status(500).json({
       success: false,
       message: error.message || "Failed to update casting"
     });
   }
 });
-
 
 // app.post("/api/filing/create", async (req, res) => {
 //   try {
