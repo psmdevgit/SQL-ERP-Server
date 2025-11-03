@@ -1,0 +1,5900 @@
+PENDANT PLAIN(PDPL)
+[
+  {
+    Id: 3577,
+    Name: 'PDPL-1001',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3578,
+    Name: 'PDPL-1002',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3579,
+    Name: 'PDPL-1003',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3580,
+    Name: 'PDPL-1004',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3581,
+    Name: 'PDPL-1005',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3582,
+    Name: 'PDPL-1006',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3583,
+    Name: 'PDPL-1007',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3584,
+    Name: 'PDPL-1008',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3585,
+    Name: 'PDPL-1009',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3586,
+    Name: 'PDPL-1010',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3587,
+    Name: 'PDPL-1011',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3588,
+    Name: 'PDPL-1012',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3589,
+    Name: 'PDPL-1013',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3590,
+    Name: 'PDPL-1014',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3591,
+    Name: 'PDPL-1015',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3592,
+    Name: 'PDPL-1016',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3593,
+    Name: 'PDPL-1017',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3594,
+    Name: 'PDPL-1018',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3595,
+    Name: 'PDPL-1019',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3596,
+    Name: 'PDPL-1020',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3597,
+    Name: 'PDPL-1021',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3598,
+    Name: 'PDPL-1022',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3599,
+    Name: 'PDPL-1023',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3600,
+    Name: 'PDPL-1024',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3601,
+    Name: 'PDPL-1025',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3602,
+    Name: 'PDPL-1026',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3603,
+    Name: 'PDPL-1027',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3604,
+    Name: 'PDPL-1028',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3605,
+    Name: 'PDPL-1029',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3606,
+    Name: 'PDPL-1030',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3607,
+    Name: 'PDPL-1031',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3608,
+    Name: 'PDPL-1032',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3609,
+    Name: 'PDPL-1033',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3610,
+    Name: 'PDPL-1034',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3611,
+    Name: 'PDPL-1035',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3612,
+    Name: 'PDPL-1036',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3613,
+    Name: 'PDPL-1037',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3614,
+    Name: 'PDPL-1038',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3615,
+    Name: 'PDPL-1039',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3616,
+    Name: 'PDPL-1040',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3617,
+    Name: 'PDPL-1041',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3618,
+    Name: 'PDPL-1042',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3619,
+    Name: 'PDPL-1043',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3620,
+    Name: 'PDPL-1044',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3621,
+    Name: 'PDPL-1045',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3622,
+    Name: 'PDPL-1046',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3623,
+    Name: 'PDPL-1047',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3624,
+    Name: 'PDPL-1048',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3625,
+    Name: 'PDPL-1049',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3626,
+    Name: 'PDPL-1051',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3627,
+    Name: 'PDPL-1052',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3628,
+    Name: 'PDPL-1053',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3629,
+    Name: 'PDPL-1054',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3630,
+    Name: 'PDPL-1055',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3631,
+    Name: 'PDPL-1056',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3632,
+    Name: 'PDPL-1057',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3633,
+    Name: 'PDPL-1058',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3634,
+    Name: 'PDPL-1059',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3635,
+    Name: 'PDPL-1060',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3636,
+    Name: 'PDPL-1061',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3637,
+    Name: 'PDPL-1062',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3638,
+    Name: 'PDPL-1063',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3639,
+    Name: 'PDPL-1064',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  }
+]
+PENDANT PLAIN(PDPL)
+[
+  {
+    Id: 3577,
+    Name: 'PDPL-1001',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3578,
+    Name: 'PDPL-1002',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3579,
+    Name: 'PDPL-1003',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3580,
+    Name: 'PDPL-1004',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3581,
+    Name: 'PDPL-1005',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3582,
+    Name: 'PDPL-1006',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3583,
+    Name: 'PDPL-1007',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3584,
+    Name: 'PDPL-1008',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3585,
+    Name: 'PDPL-1009',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3586,
+    Name: 'PDPL-1010',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3587,
+    Name: 'PDPL-1011',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3588,
+    Name: 'PDPL-1012',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3589,
+    Name: 'PDPL-1013',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3590,
+    Name: 'PDPL-1014',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3591,
+    Name: 'PDPL-1015',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3592,
+    Name: 'PDPL-1016',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3593,
+    Name: 'PDPL-1017',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3594,
+    Name: 'PDPL-1018',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3595,
+    Name: 'PDPL-1019',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3596,
+    Name: 'PDPL-1020',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3597,
+    Name: 'PDPL-1021',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3598,
+    Name: 'PDPL-1022',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3599,
+    Name: 'PDPL-1023',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3600,
+    Name: 'PDPL-1024',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3601,
+    Name: 'PDPL-1025',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3602,
+    Name: 'PDPL-1026',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3603,
+    Name: 'PDPL-1027',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3604,
+    Name: 'PDPL-1028',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3605,
+    Name: 'PDPL-1029',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3606,
+    Name: 'PDPL-1030',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3607,
+    Name: 'PDPL-1031',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3608,
+    Name: 'PDPL-1032',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3609,
+    Name: 'PDPL-1033',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3610,
+    Name: 'PDPL-1034',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3611,
+    Name: 'PDPL-1035',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3612,
+    Name: 'PDPL-1036',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3613,
+    Name: 'PDPL-1037',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3614,
+    Name: 'PDPL-1038',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3615,
+    Name: 'PDPL-1039',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3616,
+    Name: 'PDPL-1040',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3617,
+    Name: 'PDPL-1041',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3618,
+    Name: 'PDPL-1042',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3619,
+    Name: 'PDPL-1043',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3620,
+    Name: 'PDPL-1044',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3621,
+    Name: 'PDPL-1045',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3622,
+    Name: 'PDPL-1046',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3623,
+    Name: 'PDPL-1047',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3624,
+    Name: 'PDPL-1048',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3625,
+    Name: 'PDPL-1049',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3626,
+    Name: 'PDPL-1051',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3627,
+    Name: 'PDPL-1052',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3628,
+    Name: 'PDPL-1053',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3629,
+    Name: 'PDPL-1054',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3630,
+    Name: 'PDPL-1055',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3631,
+    Name: 'PDPL-1056',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3632,
+    Name: 'PDPL-1057',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3633,
+    Name: 'PDPL-1058',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3634,
+    Name: 'PDPL-1059',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3635,
+    Name: 'PDPL-1060',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3636,
+    Name: 'PDPL-1061',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3637,
+    Name: 'PDPL-1062',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3638,
+    Name: 'PDPL-1063',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3639,
+    Name: 'PDPL-1064',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  }
+]
+PENDANT PLAIN(PDPL)
+[
+  {
+    Id: 3577,
+    Name: 'PDPL-1001',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3578,
+    Name: 'PDPL-1002',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3579,
+    Name: 'PDPL-1003',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3580,
+    Name: 'PDPL-1004',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3581,
+    Name: 'PDPL-1005',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3582,
+    Name: 'PDPL-1006',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3583,
+    Name: 'PDPL-1007',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3584,
+    Name: 'PDPL-1008',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3585,
+    Name: 'PDPL-1009',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3586,
+    Name: 'PDPL-1010',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3587,
+    Name: 'PDPL-1011',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3588,
+    Name: 'PDPL-1012',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3589,
+    Name: 'PDPL-1013',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3590,
+    Name: 'PDPL-1014',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3591,
+    Name: 'PDPL-1015',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3592,
+    Name: 'PDPL-1016',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3593,
+    Name: 'PDPL-1017',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3594,
+    Name: 'PDPL-1018',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3595,
+    Name: 'PDPL-1019',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3596,
+    Name: 'PDPL-1020',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3597,
+    Name: 'PDPL-1021',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3598,
+    Name: 'PDPL-1022',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3599,
+    Name: 'PDPL-1023',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3600,
+    Name: 'PDPL-1024',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3601,
+    Name: 'PDPL-1025',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3602,
+    Name: 'PDPL-1026',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3603,
+    Name: 'PDPL-1027',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3604,
+    Name: 'PDPL-1028',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3605,
+    Name: 'PDPL-1029',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3606,
+    Name: 'PDPL-1030',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3607,
+    Name: 'PDPL-1031',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3608,
+    Name: 'PDPL-1032',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3609,
+    Name: 'PDPL-1033',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3610,
+    Name: 'PDPL-1034',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3611,
+    Name: 'PDPL-1035',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3612,
+    Name: 'PDPL-1036',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3613,
+    Name: 'PDPL-1037',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3614,
+    Name: 'PDPL-1038',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3615,
+    Name: 'PDPL-1039',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3616,
+    Name: 'PDPL-1040',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3617,
+    Name: 'PDPL-1041',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3618,
+    Name: 'PDPL-1042',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3619,
+    Name: 'PDPL-1043',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3620,
+    Name: 'PDPL-1044',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3621,
+    Name: 'PDPL-1045',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3622,
+    Name: 'PDPL-1046',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3623,
+    Name: 'PDPL-1047',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3624,
+    Name: 'PDPL-1048',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3625,
+    Name: 'PDPL-1049',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3626,
+    Name: 'PDPL-1051',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3627,
+    Name: 'PDPL-1052',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3628,
+    Name: 'PDPL-1053',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3629,
+    Name: 'PDPL-1054',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3630,
+    Name: 'PDPL-1055',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3631,
+    Name: 'PDPL-1056',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3632,
+    Name: 'PDPL-1057',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3633,
+    Name: 'PDPL-1058',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3634,
+    Name: 'PDPL-1059',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3635,
+    Name: 'PDPL-1060',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3636,
+    Name: 'PDPL-1061',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3637,
+    Name: 'PDPL-1062',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3638,
+    Name: 'PDPL-1063',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3639,
+    Name: 'PDPL-1064',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  }
+]
+PENDANT PLAIN(PDPL)
+[
+  {
+    Id: 3577,
+    Name: 'PDPL-1001',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3578,
+    Name: 'PDPL-1002',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3579,
+    Name: 'PDPL-1003',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3580,
+    Name: 'PDPL-1004',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3581,
+    Name: 'PDPL-1005',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3582,
+    Name: 'PDPL-1006',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3583,
+    Name: 'PDPL-1007',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3584,
+    Name: 'PDPL-1008',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3585,
+    Name: 'PDPL-1009',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3586,
+    Name: 'PDPL-1010',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3587,
+    Name: 'PDPL-1011',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3588,
+    Name: 'PDPL-1012',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3589,
+    Name: 'PDPL-1013',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3590,
+    Name: 'PDPL-1014',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3591,
+    Name: 'PDPL-1015',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3592,
+    Name: 'PDPL-1016',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3593,
+    Name: 'PDPL-1017',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3594,
+    Name: 'PDPL-1018',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3595,
+    Name: 'PDPL-1019',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3596,
+    Name: 'PDPL-1020',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3597,
+    Name: 'PDPL-1021',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3598,
+    Name: 'PDPL-1022',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3599,
+    Name: 'PDPL-1023',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3600,
+    Name: 'PDPL-1024',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3601,
+    Name: 'PDPL-1025',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3602,
+    Name: 'PDPL-1026',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3603,
+    Name: 'PDPL-1027',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3604,
+    Name: 'PDPL-1028',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3605,
+    Name: 'PDPL-1029',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3606,
+    Name: 'PDPL-1030',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3607,
+    Name: 'PDPL-1031',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3608,
+    Name: 'PDPL-1032',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3609,
+    Name: 'PDPL-1033',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3610,
+    Name: 'PDPL-1034',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3611,
+    Name: 'PDPL-1035',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3612,
+    Name: 'PDPL-1036',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3613,
+    Name: 'PDPL-1037',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3614,
+    Name: 'PDPL-1038',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3615,
+    Name: 'PDPL-1039',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3616,
+    Name: 'PDPL-1040',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3617,
+    Name: 'PDPL-1041',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3618,
+    Name: 'PDPL-1042',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3619,
+    Name: 'PDPL-1043',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3620,
+    Name: 'PDPL-1044',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3621,
+    Name: 'PDPL-1045',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3622,
+    Name: 'PDPL-1046',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3623,
+    Name: 'PDPL-1047',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3624,
+    Name: 'PDPL-1048',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3625,
+    Name: 'PDPL-1049',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3626,
+    Name: 'PDPL-1051',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3627,
+    Name: 'PDPL-1052',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3628,
+    Name: 'PDPL-1053',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3629,
+    Name: 'PDPL-1054',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3630,
+    Name: 'PDPL-1055',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3631,
+    Name: 'PDPL-1056',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3632,
+    Name: 'PDPL-1057',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3633,
+    Name: 'PDPL-1058',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3634,
+    Name: 'PDPL-1059',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3635,
+    Name: 'PDPL-1060',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3636,
+    Name: 'PDPL-1061',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3637,
+    Name: 'PDPL-1062',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3638,
+    Name: 'PDPL-1063',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3639,
+    Name: 'PDPL-1064',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  }
+]
+PENDANT PLAIN(PDPL)
+[
+  {
+    Id: 3577,
+    Name: 'PDPL-1001',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3578,
+    Name: 'PDPL-1002',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3579,
+    Name: 'PDPL-1003',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3580,
+    Name: 'PDPL-1004',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3581,
+    Name: 'PDPL-1005',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3582,
+    Name: 'PDPL-1006',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3583,
+    Name: 'PDPL-1007',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3584,
+    Name: 'PDPL-1008',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3585,
+    Name: 'PDPL-1009',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3586,
+    Name: 'PDPL-1010',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3587,
+    Name: 'PDPL-1011',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3588,
+    Name: 'PDPL-1012',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3589,
+    Name: 'PDPL-1013',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3590,
+    Name: 'PDPL-1014',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3591,
+    Name: 'PDPL-1015',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3592,
+    Name: 'PDPL-1016',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3593,
+    Name: 'PDPL-1017',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3594,
+    Name: 'PDPL-1018',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3595,
+    Name: 'PDPL-1019',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3596,
+    Name: 'PDPL-1020',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3597,
+    Name: 'PDPL-1021',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3598,
+    Name: 'PDPL-1022',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3599,
+    Name: 'PDPL-1023',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3600,
+    Name: 'PDPL-1024',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3601,
+    Name: 'PDPL-1025',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3602,
+    Name: 'PDPL-1026',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3603,
+    Name: 'PDPL-1027',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3604,
+    Name: 'PDPL-1028',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3605,
+    Name: 'PDPL-1029',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3606,
+    Name: 'PDPL-1030',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3607,
+    Name: 'PDPL-1031',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3608,
+    Name: 'PDPL-1032',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3609,
+    Name: 'PDPL-1033',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3610,
+    Name: 'PDPL-1034',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3611,
+    Name: 'PDPL-1035',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3612,
+    Name: 'PDPL-1036',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3613,
+    Name: 'PDPL-1037',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3614,
+    Name: 'PDPL-1038',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3615,
+    Name: 'PDPL-1039',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3616,
+    Name: 'PDPL-1040',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3617,
+    Name: 'PDPL-1041',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3618,
+    Name: 'PDPL-1042',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3619,
+    Name: 'PDPL-1043',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3620,
+    Name: 'PDPL-1044',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3621,
+    Name: 'PDPL-1045',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3622,
+    Name: 'PDPL-1046',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3623,
+    Name: 'PDPL-1047',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3624,
+    Name: 'PDPL-1048',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3625,
+    Name: 'PDPL-1049',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3626,
+    Name: 'PDPL-1051',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3627,
+    Name: 'PDPL-1052',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3628,
+    Name: 'PDPL-1053',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3629,
+    Name: 'PDPL-1054',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3630,
+    Name: 'PDPL-1055',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3631,
+    Name: 'PDPL-1056',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3632,
+    Name: 'PDPL-1057',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3633,
+    Name: 'PDPL-1058',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3634,
+    Name: 'PDPL-1059',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3635,
+    Name: 'PDPL-1060',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3636,
+    Name: 'PDPL-1061',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3637,
+    Name: 'PDPL-1062',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3638,
+    Name: 'PDPL-1063',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3639,
+    Name: 'PDPL-1064',
+    Image_URL_c: null,
+    Category_c: 'PENDANT PLAIN(PDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  }
+]
+📦 Received file: 0014.pdf size: 35064152
+✅ Received PDFs: {
+  hasFile: true,
+  imagesPdfLength: 46758680,
+  detailedPdfLength: 46752124,
+  orderDir: 'D:\\Kalash Sql\\Needha_ERP_server-main\\Upload\\order\\0001-0014'
+}
+📄 Moved uploaded PDF to: D:\Kalash Sql\Needha_ERP_server-main\Upload\order\0001-0014\0001-0014.pdf
+filename /Upload/order/0001-0014/0001-0014.pdf
+{
+  partyCode: '0001',
+  partyName: 'PADI-45',
+  orderNo: '0001/0014',
+  orderDate: '2025-11-03',
+  category: 'PENDANT PLAIN',
+  purity: '22K',
+  advanceMetal: '0',
+  advanceMetalPurity: '22KT',
+  priority: 'HIGH',
+  deliveryDate: '2025-10-31',
+  remark: 'HIGH POLISH 70% DULL 30%',
+  createdBy: 'KUMARAVEL',
+  status: 'Pending',
+  pdfBlob: {}
+}
+0001/0014
+[
+  {
+    modelName: 'PDPL-1001',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1001',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1002',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1002',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1003',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1003',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1004',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1004',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1005',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1005',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1006',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1006',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1007',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1007',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1007',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '6',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1007',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '6',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1008',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 4,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1009',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1009',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1010',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1010',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1011',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1011',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1012',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 4,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1012',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1012',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1013',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1013',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1014',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1014',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1014',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '8',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1015',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1015',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1016',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1016',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1017',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1017',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1018',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1018',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1019',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1019',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1020',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1020',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1021',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1021',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1022',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1022',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 2,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1040',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 4,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1057',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 4,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1058',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 3,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1042',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1045',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 3,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1047',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1024',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 2,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1024',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 2,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 4,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1025',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1025',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1026',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1026',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1027',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1027',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1027',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1027',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1028',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1028',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1030',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1030',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1030',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1030',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '6',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1030',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '8',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1031',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1031',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1032',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1032',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1033',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1033',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1034',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1034',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1035',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1035',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1036',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1036',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1036',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 4,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1037',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1037',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 2,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1037',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '6',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1038',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1038',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1039',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1039',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1041',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1041',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1043',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 2,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1043',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '4',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1044',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 2,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 4,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1046',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 1,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1046',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '2',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1048',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: 4,
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1048',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  {
+    modelName: 'PDPL-1049',
+    category: 'PENDANT PLAIN(PDPL)',
+    quantity: 1,
+    size: '0',
+    grossWeight: '0',
+    netWeight: '1',
+    stoneWeight: '0',
+    itemRemark: '',
+    designImage: ''
+  },
+  ... 20 more items
+]
+/Upload/order/0001-0014/image_0001-0014.pdf
+/Upload/order/0001-0014/detailed_0001-0014.pdf
+/Upload/order/0001-0014/0001-0014.pdf
+
+📘 Executing SQL Query:
+INSERT INTO Casting_dept__c 
+      (Name, Issued_Date_c, Wax_Tree_Weight_c, Required_Purity_c, Gold_Tree_Weight_c,
+       Required_Pure_Metal_Casting_c, Required_Alloy_for_Casting_c, Issud_weight_c, status_c)
+      OUTPUT INSERTED.Id
+      VALUES (@castingNumber, @issuedDate, @waxTreeWeight, @purity, @calculatedWeight,
+              @requiredPure, @requiredAlloy, @totalIssued, @status)
+📘 Parameters:
+  @castingNumber = 03/11/2025/11
+  @issuedDate = 2025-11-03T09:28:00.000Z
+  @waxTreeWeight = 26
+  @purity = 22K
+  @calculatedWeight = 481
+  @requiredPure = 440.83650000000006
+  @requiredAlloy = 40.16349999999996
+  @totalIssued = 481
+  @status = Open
+──────────────────────────────
+
+📘 Executing Order Select Query:
+ SELECT Id, Order_Id_c FROM Order__c WHERE Order_Id_c IN ('0001/0011')
+
+📘 Executing SQL Query:
+UPDATE Order__c
+      SET Casting_c = @castingId,
+          Casting_Id_c = @castingNumber
+      WHERE Id = @id
+📘 Parameters:
+  @id = 42
+  @castingId = 34
+  @castingNumber = 03/11/2025/11
+──────────────────────────────
+
+📘 Executing SQL Query:
+UPDATE CastingTree__c 
+      SET status_c = 'Completed' 
+      WHERE Name = @castingNumber
+📘 Parameters:
+  @castingNumber = 03/11/2025/11
+──────────────────────────────
+
+📘 Executing SQL Query:
+INSERT INTO Issued_inventory__c 
+      (Casting_c, Name, Issued_Date_c, Purity_c, Issue_Weight_c, 
+       Pure_Metal_weight_c, Alloy_Weight_c)
+      VALUES 
+      (@castingId, @itemName, @issuedDate, @purity, @issueWeight, @issuedGold, @issuedAlloy)
+📘 Parameters:
+  @castingNumber = 03/11/2025/11
+  @itemName = Casting Scrap
+  @issuedDate = 2025-11-03T09:28:00.000Z
+  @purity = 91.7%
+  @issueWeight = 481
+  @issuedGold = 441.077
+  @issuedAlloy = 39.92299999999998
+──────────────────────────────
+Received inventory weight update request: {
+  issuedItems: [
+    {
+      partycode: '0001',
+      itemName: 'Casting Scrap',
+      purity: '91.7%',
+      issueWeight: 481
+    }
+  ]
+}
+Processing item: {
+  partycode: '0001',
+  itemName: 'Casting Scrap',
+  purity: '91.7%',
+  issueWeight: 481
+}
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+🔍 Fetching casting details for ID: 03/11/2025/11
+✅ Found casting record: 03/11/2025/11
+✅ Casting details fetched successfully for: 03/11/2025/11
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+
+📘 Executing SQL Query:
+INSERT INTO Casting_dept__c 
+      (Name, Issued_Date_c, Wax_Tree_Weight_c, Required_Purity_c, Gold_Tree_Weight_c,
+       Required_Pure_Metal_Casting_c, Required_Alloy_for_Casting_c, Issud_weight_c, status_c)
+      OUTPUT INSERTED.Id
+      VALUES (@castingNumber, @issuedDate, @waxTreeWeight, @purity, @calculatedWeight,
+              @requiredPure, @requiredAlloy, @totalIssued, @status)
+📘 Parameters:
+  @castingNumber = 03/11/2025/12
+  @issuedDate = 2025-11-03T09:31:00.000Z
+  @waxTreeWeight = 28.56
+  @purity = 22K
+  @calculatedWeight = 528
+  @requiredPure = 484.24194000000006
+  @requiredAlloy = 44.11805999999995
+  @totalIssued = 528.36
+  @status = Open
+──────────────────────────────
+
+📘 Executing Order Select Query:
+ SELECT Id, Order_Id_c FROM Order__c WHERE Order_Id_c IN ('0001/0011')
+
+📘 Executing SQL Query:
+UPDATE Order__c
+      SET Casting_c = @castingId,
+          Casting_Id_c = @castingNumber
+      WHERE Id = @id
+📘 Parameters:
+  @id = 42
+  @castingId = 35
+  @castingNumber = 03/11/2025/12
+──────────────────────────────
+
+📘 Executing SQL Query:
+UPDATE CastingTree__c 
+      SET status_c = 'Completed' 
+      WHERE Name = @castingNumber
+📘 Parameters:
+  @castingNumber = 03/11/2025/12
+──────────────────────────────
+
+📘 Executing SQL Query:
+INSERT INTO Issued_inventory__c 
+      (Casting_c, Name, Issued_Date_c, Purity_c, Issue_Weight_c, 
+       Pure_Metal_weight_c, Alloy_Weight_c)
+      VALUES 
+      (@castingId, @itemName, @issuedDate, @purity, @issueWeight, @issuedGold, @issuedAlloy)
+📘 Parameters:
+  @castingNumber = 03/11/2025/12
+  @itemName = Casting Scrap
+  @issuedDate = 2025-11-03T09:31:00.000Z
+  @purity = 91.7%
+  @issueWeight = 441.98
+  @issuedGold = 405.29566000000005
+  @issuedAlloy = 36.684339999999985
+──────────────────────────────
+
+📘 Executing SQL Query:
+INSERT INTO Issued_inventory__c 
+      (Casting_c, Name, Issued_Date_c, Purity_c, Issue_Weight_c, 
+       Pure_Metal_weight_c, Alloy_Weight_c)
+      VALUES 
+      (@castingId, @itemName, @issuedDate, @purity, @issueWeight, @issuedGold, @issuedAlloy)
+📘 Parameters:
+  @castingNumber = 03/11/2025/12
+  @itemName = PURE GOLD BAR
+  @issuedDate = 2025-11-03T09:31:00.000Z
+  @purity = 99.99%
+  @issueWeight = 79.65
+  @issuedGold = 79.64203499999999
+  @issuedAlloy = 0.007965000000007966
+──────────────────────────────
+
+📘 Executing SQL Query:
+INSERT INTO Issued_inventory__c 
+      (Casting_c, Name, Issued_Date_c, Purity_c, Issue_Weight_c, 
+       Pure_Metal_weight_c, Alloy_Weight_c)
+      VALUES 
+      (@castingId, @itemName, @issuedDate, @purity, @issueWeight, @issuedGold, @issuedAlloy)
+📘 Parameters:
+  @castingNumber = 03/11/2025/12
+  @itemName = ALLOY
+  @issuedDate = 2025-11-03T09:31:00.000Z
+  @purity = 0
+  @issueWeight = 6.73
+  @issuedGold = 0
+  @issuedAlloy = 6.73
+──────────────────────────────
+Received inventory weight update request: {
+  issuedItems: [
+    {
+      partycode: '0001',
+      itemName: 'Casting Scrap',
+      purity: '91.7%',
+      issueWeight: 441.98
+    },
+    {
+      partycode: '0001',
+      itemName: 'PURE GOLD BAR',
+      purity: '99.99%',
+      issueWeight: 79.65
+    },
+    {
+      partycode: '0001',
+      itemName: 'ALLOY',
+      purity: '0',
+      issueWeight: 6.73
+    }
+  ]
+}
+Processing item: {
+  partycode: '0001',
+  itemName: 'Casting Scrap',
+  purity: '91.7%',
+  issueWeight: 441.98
+}
+Processing item: {
+  partycode: '0001',
+  itemName: 'PURE GOLD BAR',
+  purity: '99.99%',
+  issueWeight: 79.65
+}
+Processing item: {
+  partycode: '0001',
+  itemName: 'ALLOY',
+  purity: '0',
+  issueWeight: 6.73
+}
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]

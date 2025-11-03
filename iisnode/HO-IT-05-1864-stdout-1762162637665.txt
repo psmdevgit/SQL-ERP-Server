@@ -1,0 +1,5311 @@
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+
+📘 Executing SQL Query:
+INSERT INTO Casting_dept__c 
+      (Name, Issued_Date_c, Wax_Tree_Weight_c, Required_Purity_c, Gold_Tree_Weight_c,
+       Required_Pure_Metal_Casting_c, Required_Alloy_for_Casting_c, Issud_weight_c, status_c)
+      OUTPUT INSERTED.Id
+      VALUES (@castingNumber, @issuedDate, @waxTreeWeight, @purity, @calculatedWeight,
+              @requiredPure, @requiredAlloy, @totalIssued, @status)
+📘 Parameters:
+  @castingNumber = 03/11/2025/10
+  @issuedDate = 2025-11-03T09:38:00.000Z
+  @waxTreeWeight = 21.38
+  @purity = 22K
+  @calculatedWeight = 396
+  @requiredPure = 362.503245
+  @requiredAlloy = 33.02675499999996
+  @totalIssued = 395.53
+  @status = Open
+──────────────────────────────
+
+📘 Executing Order Select Query:
+ SELECT Id, Order_Id_c FROM Order__c WHERE Order_Id_c IN ('0001/0011')
+
+📘 Executing SQL Query:
+UPDATE Order__c
+      SET Casting_c = @castingId,
+          Casting_Id_c = @castingNumber
+      WHERE Id = @id
+📘 Parameters:
+  @id = 42
+  @castingId = 36
+  @castingNumber = 03/11/2025/10
+──────────────────────────────
+
+📘 Executing SQL Query:
+UPDATE CastingTree__c 
+      SET status_c = 'Completed' 
+      WHERE Name = @castingNumber
+📘 Parameters:
+  @castingNumber = 03/11/2025/10
+──────────────────────────────
+
+📘 Executing SQL Query:
+INSERT INTO Issued_inventory__c 
+      (Casting_c, Name, Issued_Date_c, Purity_c, Issue_Weight_c, 
+       Pure_Metal_weight_c, Alloy_Weight_c)
+      VALUES 
+      (@castingId, @itemName, @issuedDate, @purity, @issueWeight, @issuedGold, @issuedAlloy)
+📘 Parameters:
+  @castingNumber = 03/11/2025/10
+  @itemName = Scrap
+  @issuedDate = 2025-11-03T09:38:00.000Z
+  @purity = 91.7%
+  @issueWeight = 395.53
+  @issuedGold = 362.70101
+  @issuedAlloy = 32.82898999999998
+──────────────────────────────
+Received inventory weight update request: {
+  issuedItems: [
+    {
+      partycode: '0001',
+      itemName: 'Scrap',
+      purity: '91.7%',
+      issueWeight: 395.53
+    }
+  ]
+}
+Processing item: {
+  partycode: '0001',
+  itemName: 'Scrap',
+  purity: '91.7%',
+  issueWeight: 395.53
+}
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Pouches] Fetching pouches for setting: POLISH/01/11/2025/02/1
+[Get Pouches] ✅ Found Setting Id: 15
+[Get Pouches] ✅ Found pouches count: 1
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+🔍 Fetching casting details for ID: 03/11/2025/10
+✅ Found casting record: 03/11/2025/10
+✅ Casting details fetched successfully for: 03/11/2025/10
+[Get Pouches] Fetching pouches for setting: POLISH/01/11/2025/02/1
+[Get Pouches] ✅ Found Setting Id: 15
+[Get Pouches] ✅ Found pouches count: 1
+casting inserted success
+🔍 Checking inventory for: Casting Scrap (352.3g)
+✅ Updated Casting Scrap: 848.69 ➜ 1200.99
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Pouches] Fetching pouches for setting: POLISH/01/11/2025/02/1
+[Get Pouches] ✅ Found Setting Id: 15
+[Get Pouches] ✅ Found pouches count: 1
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+Fetching casting details for ID: 03/11/2025/03
+Found casting record: {
+  Id: 29,
+  Name: '03/11/2025/03',
+  Issued_Date_c: 2025-11-03T00:00:00.000Z,
+  Issud_weight_c: 427.35,
+  Weight_Received_c: 152.29,
+  Received_Date_c: 2025-11-03T00:00:00.000Z,
+  Status_c: 'Finished',
+  Casting_Loss_c: 1.6499999999999773
+}
+[Polishing Update] Received data: {
+  polishingNumber: 'POLISH/01/11/2025/02/1',
+  receivedDate: '2025-11-03T15:12:00.000Z',
+  receivedWeight: 85.28,
+  polishingLoss: 4,
+  scrapReceivedWeight: 0,
+  dustReceivedWeight: 0,
+  ornamentWeight: 85.28
+}
+[Polishing Update] ✅ Polishing record updated.
+[Polishing Update] ✅ Updated pouch 69
+Requested Order ID: 0001/0007
+✅ Got orderSfId: 0001/0007
+[Polishing Update] Received data: {
+  polishingNumber: 'POLISH/01/11/2025/02/1',
+  receivedDate: '2025-11-03T15:12:00.000Z',
+  receivedWeight: 87.28,
+  polishingLoss: 2,
+  scrapReceivedWeight: 2,
+  dustReceivedWeight: 0,
+  ornamentWeight: 85.28
+}
+[Polishing Update] ✅ Polishing record updated.
+[Polishing Update] ✅ Updated pouch 69
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Pouches] Fetching pouches for setting: POLISH/01/11/2025/02/1
+[Get Pouches] ✅ Found Setting Id: 15
+[Get Pouches] ✅ Found pouches count: 1
+Received pouch creation request: {
+  castingId: '03/11/2025/03',
+  filingId: 'PC/03/11/2025/03/1',
+  issuedWeight: 152.29,
+  receivedDate: '2025-11-03',
+  issuedDate: '2025-11-03T09:44:30.373Z',
+  orderId: '0001/0007',
+  orderNumber: 37,
+  name: 'NECKLACE PLAIN(NKPL)',
+  quantity: 1,
+  pouches: [
+    {
+      pouchId: 'PC/03/11/2025/03/POUCH1',
+      orderId: '0001/0007',
+      weight: 152.29,
+      name: 'NECKLACE PLAIN(NKPL)',
+      quantity: 1
+    }
+  ]
+}
+Creating Filing record: {
+  filingId: 'PC/03/11/2025/03/1',
+  issuedWeight: 152.29,
+  issuedDate: '2025-11-03T09:44:30.373Z'
+}
+✅ Filing Inserted Successfully - ID: 85
+Inserting pouches: [
+  {
+    pouchId: 'PC/03/11/2025/03/POUCH1',
+    orderId: '0001/0007',
+    weight: 152.29,
+    name: 'NECKLACE PLAIN(NKPL)',
+    quantity: 1
+  }
+]
+📦 Pouch Inserted - ID: 75
+Updating casting moved status for castingId: 03/11/2025/03
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+[Dull Create] Received data: {
+  polishingId: 'POLISH/01/11/2025/02/1',
+  dullId: 'DULL/01/11/2025/02/1',
+  issuedDate: '2025-11-03T15:14:00.000Z',
+  pouchCount: 1,
+  totalWeight: 85.28,
+  status: 'Pending'
+}
+[Dull Create] Dull record created with Id: 13
+[Dull Create] Updated pouch 69
+Updating setting moved status for castingId: POLISH/01/11/2025/02/1
+[Get Dull] Fetching all dull records
+[Get Dull] Fetching all dull records
+[Get Dull] Found dull records: 1
+[Get Dull] Found dull records: 1
+[Get Pouches] Fetching pouches for setting: DULL/01/11/2025/02/1
+[Get Pouches] ✅ Found Setting Id: 13
+[Get Pouches] ✅ Found pouches count: 1
+Requested Filing ID: PC/03/11/2025/03/1
+Found Filing record: {
+  Id: 85,
+  Name: 'PC/03/11/2025/03/1',
+  Issued_Date_c: 2025-11-03T00:00:00.000Z,
+  Issued_weight_c: 152.29,
+  Receievd_weight_c: null,
+  Received_Date_c: null,
+  Status_c: 'In progress',
+  Filing_loss_c: null
+}
+Found Filing record with ID: 85
+Found pouches: 1
+Looking for filing number: PC/03/11/2025/03/1
+Update data: {
+  receivedDate: '2025-11-03T15:15:00.000Z',
+  receivedWeight: 152.29,
+  ornamentWeight: 152.29,
+  scrapReceivedWeight: 0,
+  dustReceivedWeight: 0,
+  findingReceived: 0,
+  grindingLoss: 0,
+  pouches: [ { pouchId: '75', receivedWeight: 152.29 } ],
+  issuedDate: '2025-11-03',
+  issuedTime: '15:15'
+}
+Filing record found: 85
+Requested Filing ID: PC/03/11/2025/03/1
+Found Filing record: {
+  Id: 85,
+  Name: 'PC/03/11/2025/03/1',
+  Issued_Date_c: 2025-11-03T00:00:00.000Z,
+  Issued_weight_c: 152.29,
+  Receievd_weight_c: 152.29,
+  Received_Date_c: 2025-11-03T00:00:00.000Z,
+  Status_c: 'Finished',
+  Filing_loss_c: 0
+}
+Found Filing record with ID: 85
+Found pouches: 1
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Pouches] Fetching pouches for filing: PC/03/11/2025/01/1
+[Get Pouches] Found Filing ID: 84
+[Get Pouches] Found pouches: 1
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Pouch Update Result: {
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Updating casting moved status for castingId: PC/03/11/2025/01/1
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Grinding - null
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Grinding - null
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Grinding - null
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Grinding - null
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Grinding - null
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Grinding - null
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+[Grinding] Requested Grinding ID: GRIND/03/11/2025/01/1
+[Grinding] Found record ID: 41
+[Grinding] Found pouches: 1
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+🟡 [Grinding Update] Start update for: GRIND/03/11/2025/01/1
+📦 Data: {
+  issuedWeight: 136.38,
+  receivedDate: '2025-11-03T09:47:14.846Z',
+  receivedWeight: 136.38,
+  grindingLoss: 0,
+  scrapWeight: 0,
+  dustWeight: 0,
+  findingReceived: 0,
+  ornamentWeight: 0
+}
+✅ Grinding record updated successfully
+🟢 Updated 1 pouch records
+✅ Grinding update complete: GRIND/03/11/2025/01/1
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+[Get Dull] Fetching all dull records
+[Get Dull] Fetching all dull records
+[Get Dull] Found dull records: 1
+[Get Dull] Found dull records: 1
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Grinding - 136.38
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Grinding - 136.38
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - null
+Dull - null
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Media - 103.61
+Media - 216.21
+[Get Pouches] Fetching pouches for setting: POLISH/01/11/2025/01/1
+[Get Pouches] ✅ Found Setting Id: 16
+[Get Pouches] ✅ Found pouches count: 1
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Polishing Update] Received data: {
+  polishingNumber: 'POLISH/01/11/2025/01/1',
+  receivedDate: '2025-11-03T15:20:00.000Z',
+  receivedWeight: 198.63,
+  polishingLoss: 0,
+  scrapReceivedWeight: 0,
+  dustReceivedWeight: 0,
+  ornamentWeight: 198.63
+}
+[Polishing Update] ✅ Polishing record updated.
+[Polishing Update] ✅ Updated pouch 68
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Pouches] Fetching pouches for setting: POLISH/01/11/2025/01/1
+[Get Pouches] ✅ Found Setting Id: 16
+[Get Pouches] ✅ Found pouches count: 1
+[Dull Create] Received data: {
+  polishingId: 'POLISH/01/11/2025/01/1',
+  dullId: 'DULL/01/11/2025/01/1',
+  issuedDate: '2025-11-03T15:20:00.000Z',
+  pouchCount: 1,
+  totalWeight: 198.63,
+  status: 'Pending'
+}
+[Dull Create] Dull record created with Id: 14
+[Dull Create] Updated pouch 68
+Updating setting moved status for castingId: POLISH/01/11/2025/01/1
+[Get Dull] Fetching all dull records
+[Get Dull] Fetching all dull records
+[Get Dull] Found dull records: 2
+[Get Dull] Found dull records: 2
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+Fetching filing records - API call started
+Executing SQL query: 
+      SELECT 
+        Name,
+        Issued_weight_c,
+        Issued_Date_c,
+        Receievd_weight_c,
+        Received_Date_c,
+        Order_Id_c,
+        Product_c,
+        Quantity_c,
+        Status_c,
+        Filing_loss_c,
+        Filing_scrap_Weight_c,
+        Filing_Dust_Weight_c,
+        movedstatus
+      FROM Filing__c
+      ORDER BY Issued_Date_c DESC
+    
+Casting - 241.63
+Casting - 123.21
+Casting - 89.56
+Casting - 114.29
+Casting - 262.29
+Casting - 136.38
+Casting - 152.29
+Casting - 365.14
+Casting - 93.04
+Casting - 51.69
+Casting - 109.56
+Casting - null
+Casting - null
+Casting - 43.34
+Pouch Creation - 241.63
+Pouch Creation - 123.21
+Pouch Creation - 89.56
+Pouch Creation - 114.29
+Pouch Creation - 262.29
+Pouch Creation - 136.38
+Pouch Creation - 152.29
+Grinding - 241.63
+Grinding - 123.21
+Grinding - 89.5598
+Grinding - null
+Grinding - 262.29
+Grinding - 136.38
+Media - 103.61
+Media - 216.21
+Media - 89.5598
+Media - null
+Correction - 103.56
+Correction - 216.17
+Correction - 85
+Polishing - 87.28
+Polishing - 198.63
+Dull - null
+Dull - null
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+[Get Polishing] Fetching all polishing records
+[Get Polishing] Found polishing records: 2
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
+[
+  {
+    name: 'Casting',
+    object: 'Casting_dept__c',
+    fields: {
+      issued: 'Issud_weight_c',
+      received: 'Weight_Received_c',
+      loss: 'Casting_Loss_c',
+      scrap: 'Casting_Scrap_Weight_c',
+      dust: 'Casting_Dust_Weight_c'
+    }
+  },
+  {
+    name: 'Pouch Creation',
+    object: 'Filing__c',
+    fields: {
+      issued: 'Issued_weight_c',
+      received: 'Receievd_weight_c',
+      loss: 'Filing_loss_c',
+      scrap: 'Filing_Scrap_Weight_c',
+      dust: 'Filing_Dust_Weight_c'
+    }
+  },
+  {
+    name: 'Grinding',
+    object: 'Grinding__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Received_Weight__c',
+      loss: 'Grinding_loss__c',
+      scrap: 'Grinding_Scrap_Weight__c',
+      dust: 'Grinding_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Media',
+    object: 'Media__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Received_Weight__c',
+      loss: 'Grinding_loss__c',
+      scrap: 'Grinding_Scrap_Weight__c',
+      dust: 'Grinding_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Correction',
+    object: 'Correction__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Received_Weight__c',
+      loss: 'Grinding_loss__c',
+      scrap: 'Grinding_Scrap_Weight__c',
+      dust: 'Grinding_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Setting',
+    object: 'Setting__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Returned_weight__c',
+      loss: 'Setting__c',
+      scrap: 'Setting_Scrap_Weight__c',
+      dust: 'Setting_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Polishing',
+    object: 'Polishing__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Received_Weight__c',
+      loss: 'Polishing_Loss__c',
+      scrap: 'Polishing_Scrap_Weight__c',
+      dust: 'Polishing_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Dull',
+    object: 'Dull__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Returned_weight__c',
+      loss: 'Dull_loss__c',
+      scrap: 'Dull_Scrap_Weight__c',
+      dust: 'Dull_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Plating',
+    object: 'Plating__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Returned_Weight__c',
+      loss: 'Plating_loss__c',
+      scrap: 'Plating_Scrap_Weight__c',
+      dust: 'Plating_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Cutting',
+    object: 'Cutting__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Returned_Weight__c',
+      loss: 'Cutting_loss__c',
+      scrap: 'Cutting_Scrap_Weight__c',
+      dust: 'Cutting_Dust_Weight__c'
+    }
+  }
+]
+[
+  {
+    process: 'Casting',
+    issued_wt: 0,
+    process_wt: 1009.36,
+    received_wt: 1782.4199999999998
+  },
+  {
+    process: 'Pouch Creation',
+    issued_wt: 0,
+    process_wt: 0,
+    received_wt: 1119.65
+  },
+  {
+    process: 'Grinding',
+    issued_wt: 0,
+    process_wt: 114.29,
+    received_wt: 853.0698
+  },
+  {
+    process: 'Media',
+    issued_wt: 0,
+    process_wt: 257.85,
+    received_wt: 409.3798
+  },
+  {
+    process: 'Correction',
+    issued_wt: 0,
+    process_wt: 0,
+    received_wt: 404.73
+  },
+  { process: 'Setting', issued_wt: 0, process_wt: 0, received_wt: 0 },
+  {
+    process: 'Polishing',
+    issued_wt: 0,
+    process_wt: 0,
+    received_wt: 285.90999999999997
+  },
+  {
+    process: 'Dull',
+    issued_wt: 0,
+    process_wt: 283.90999999999997,
+    received_wt: 0
+  },
+  { process: 'Plating', issued_wt: 0, process_wt: 0, received_wt: 0 },
+  { process: 'Cutting', issued_wt: 0, process_wt: 0, received_wt: 0 }
+]
+[Get Dull] Fetching all dull records
+[Get Dull] Fetching all dull records
+[Get Dull] Found dull records: 2
+[Get Dull] Found dull records: 2
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.7900000000000205,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.6499999999999773,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.840000000000032,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.990000000000009,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.88,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5900000000000034,
+    Scrap_Weight: 129.73,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: null,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: null,
+    status: 'Open',
+    Casting_Loss: null,
+    Scrap_Weight: null,
+    Dust_Weight: null,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0011'
+  }
+]
