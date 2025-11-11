@@ -1,0 +1,962 @@
+paarty code: 0001
+Query result: {
+  recordsets: [
+    [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  ],
+  recordset: [
+    { Order_Id_c: '0001/0030' },
+    { Order_Id_c: '0001/0029' },
+    { Order_Id_c: '0001/0028' },
+    { Order_Id_c: '0001/0027' },
+    { Order_Id_c: '0001/0026' },
+    { Order_Id_c: '0001/0025' },
+    { Order_Id_c: '0001/0024' },
+    { Order_Id_c: '0001/0023' },
+    { Order_Id_c: '0001/0022' },
+    { Order_Id_c: '0001/0021' },
+    { Order_Id_c: '0001/0020' },
+    { Order_Id_c: '0001/0019' },
+    { Order_Id_c: '0001/0018' },
+    { Order_Id_c: '0001/0017' },
+    { Order_Id_c: '0001/0016' },
+    { Order_Id_c: '0001/0015' },
+    { Order_Id_c: '0001/0014' },
+    { Order_Id_c: '0001/0013' },
+    { Order_Id_c: '0001/0012' },
+    { Order_Id_c: '0001/0011' },
+    { Order_Id_c: '0001/0010' },
+    { Order_Id_c: '0001/0009' },
+    { Order_Id_c: '0001/0008' },
+    { Order_Id_c: '0001/0007' },
+    { Order_Id_c: '0001/0006' },
+    { Order_Id_c: '0001/0005' },
+    { Order_Id_c: '0001/0004' },
+    { Order_Id_c: '0001/0003' }
+  ],
+  output: {},
+  rowsAffected: [ 28 ]
+}
+Last order number: 0001/0030
+ANTIC NECKLACE PLAIN(ANKP320001))
+[
+  {
+    Id: 4,
+    Name: 'ANKP320001',
+    Image_URL_c: null,
+    Category_c: 'ANTIC NECKLACE PLAIN(ANKP320001))',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 18,
+    Stone_Weight_c: null
+  }
+]
+GOD PENDANT PLAIN(GPDPL)
+[
+  {
+    Id: 842,
+    Name: 'GPDPL-1001',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 843,
+    Name: 'GPDPL-1003',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 844,
+    Name: 'GPDPL-1004',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 845,
+    Name: 'GPDPL-1005',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 846,
+    Name: 'GPDPL-1006',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 847,
+    Name: 'GPDPL-1007',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 848,
+    Name: 'GPDPL-1008',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 849,
+    Name: 'GPDPL-1009',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 850,
+    Name: 'GPDPL-1010',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 851,
+    Name: 'GPDPL-1011',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 852,
+    Name: 'GPDPL-1012',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 853,
+    Name: 'GPDPL-1013',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 854,
+    Name: 'GPDPL-1014',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 855,
+    Name: 'GPDPL-1015',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 856,
+    Name: 'GPDPL-1016',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 857,
+    Name: 'GPDPL-1017',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 858,
+    Name: 'GPDPL-1018',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 859,
+    Name: 'GPDPL-1019',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 860,
+    Name: 'GPDPL-1020',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 861,
+    Name: 'GPDPL-1021',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 862,
+    Name: 'GPDPL-1022',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 863,
+    Name: 'GPDPL-1023',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 864,
+    Name: 'GPDPL-1024',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 865,
+    Name: 'GPDPL-1025',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 866,
+    Name: 'GPDPL-1026',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 867,
+    Name: 'GPDPL-1027',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 868,
+    Name: 'GPDPL-1028',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 869,
+    Name: 'GPDPL-1029',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 870,
+    Name: 'GPDPL-1030',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 871,
+    Name: 'GPDPL-1031',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 872,
+    Name: 'GPDPL-1032',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 873,
+    Name: 'GPDPL-1033',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 874,
+    Name: 'GPDPL-1034',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 875,
+    Name: 'GPDPL-1035',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 876,
+    Name: 'GPDPL-1036',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 877,
+    Name: 'GPDPL-1038',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 878,
+    Name: 'GPDPL-1039',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 879,
+    Name: 'GPDPL-1040',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 880,
+    Name: 'GPDPL-1041',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 881,
+    Name: 'GPDPL-1042',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 882,
+    Name: 'GPDPL-1043',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 883,
+    Name: 'GPDPL-1044',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 884,
+    Name: 'GPDPL-1045',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 885,
+    Name: 'GPDPL-1046',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 886,
+    Name: 'GPDPL-1047',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 887,
+    Name: 'GPDPL-1048',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 888,
+    Name: 'GPDPL-1049',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 889,
+    Name: 'GPDPL-1050',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 890,
+    Name: 'GPDPL-1051',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 891,
+    Name: 'GPDPL-1052',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 892,
+    Name: 'GPDPL-1053',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 893,
+    Name: 'GPDPL-1054',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 894,
+    Name: 'GPDPL-1055',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 895,
+    Name: 'GPDPL-1056',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 896,
+    Name: 'GPDPL-1057',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 897,
+    Name: 'GPDPL-1058',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 898,
+    Name: 'GPDPL-1059',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 899,
+    Name: 'GPDPL-1060',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 900,
+    Name: 'GPDPL-1061',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 901,
+    Name: 'GPDPL-1062',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 902,
+    Name: 'GPDPL-1063',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 903,
+    Name: 'GPDPL-1064',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 904,
+    Name: 'GPDPL-1065',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 905,
+    Name: 'GPDPL-1066',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 906,
+    Name: 'GPDPL-1067',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 907,
+    Name: 'GPDPL-1068',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 908,
+    Name: 'GPDPL-1069',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 909,
+    Name: 'GPDPL-1070',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 910,
+    Name: 'GPDPL-1071',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 911,
+    Name: 'GPDPL-1072',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 912,
+    Name: 'GPDPL-1073',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 913,
+    Name: 'GPDPL-1074',
+    Image_URL_c: null,
+    Category_c: 'GOD PENDANT PLAIN(GPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  }
+]
+
+=== FETCHING ALL TAGGING DETAILS ===
+[
+  {
+    name: 'Casting',
+    object: 'Casting_dept__c',
+    fields: {
+      issued: 'Issud_weight_c',
+      received: 'Weight_Received_c',
+      loss: 'Casting_Loss_c',
+      scrap: 'Casting_Scrap_Weight_c',
+      dust: 'Casting_Dust_Weight_c'
+    }
+  },
+  {
+    name: 'Pouch Creation',
+    object: 'Filing__c',
+    fields: {
+      issued: 'Issued_weight_c',
+      received: 'Receievd_weight_c',
+      loss: 'Filing_loss_c',
+      scrap: 'Filing_Scrap_Weight_c',
+      dust: 'Filing_Dust_Weight_c'
+    }
+  },
+  {
+    name: 'Grinding',
+    object: 'Grinding__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Received_Weight__c',
+      loss: 'Grinding_loss__c',
+      scrap: 'Grinding_Scrap_Weight__c',
+      dust: 'Grinding_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Media',
+    object: 'Media__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Received_Weight__c',
+      loss: 'Grinding_loss__c',
+      scrap: 'Grinding_Scrap_Weight__c',
+      dust: 'Grinding_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Correction',
+    object: 'Correction__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Received_Weight__c',
+      loss: 'Grinding_loss__c',
+      scrap: 'Grinding_Scrap_Weight__c',
+      dust: 'Grinding_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Setting',
+    object: 'Setting__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Returned_weight__c',
+      loss: 'Setting__c',
+      scrap: 'Setting_Scrap_Weight__c',
+      dust: 'Setting_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Polishing',
+    object: 'Polishing__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Received_Weight__c',
+      loss: 'Polishing_Loss__c',
+      scrap: 'Polishing_Scrap_Weight__c',
+      dust: 'Polishing_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Dull',
+    object: 'Dull__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Returned_weight__c',
+      loss: 'Dull_loss__c',
+      scrap: 'Dull_Scrap_Weight__c',
+      dust: 'Dull_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Plating',
+    object: 'Plating__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Returned_Weight__c',
+      loss: 'Plating_loss__c',
+      scrap: 'Plating_Scrap_Weight__c',
+      dust: 'Plating_Dust_Weight__c'
+    }
+  },
+  {
+    name: 'Cutting',
+    object: 'Cutting__c',
+    fields: {
+      issued: 'Issued_Weight__c',
+      received: 'Returned_Weight__c',
+      loss: 'Cutting_loss__c',
+      scrap: 'Cutting_Scrap_Weight__c',
+      dust: 'Cutting_Dust_Weight__c'
+    }
+  }
+]
+[
+  {
+    process: 'Casting',
+    issued_wt: 0,
+    process_wt: 0,
+    received_wt: 9904.240000000002
+  },
+  {
+    process: 'Pouch Creation',
+    issued_wt: 0,
+    process_wt: 402.68,
+    received_wt: 6500.690000000001
+  },
+  {
+    process: 'Grinding',
+    issued_wt: 0,
+    process_wt: 1037.77,
+    received_wt: 5009.430000000002
+  },
+  {
+    process: 'Media',
+    issued_wt: 0,
+    process_wt: 0,
+    received_wt: 4613.8099999999995
+  },
+  {
+    process: 'Correction',
+    issued_wt: 0,
+    process_wt: 63.81,
+    received_wt: 4336.5599999999995
+  },
+  {
+    process: 'Setting',
+    issued_wt: 0,
+    process_wt: 767.1999999999999,
+    received_wt: 612.4
+  },
+  {
+    process: 'Polishing',
+    issued_wt: 0,
+    process_wt: 329.5,
+    received_wt: 3111.8599999999997
+  },
+  {
+    process: 'Dull',
+    issued_wt: 0,
+    process_wt: 0,
+    received_wt: 2916.3500000000004
+  },
+  {
+    process: 'Plating',
+    issued_wt: 0,
+    process_wt: 0,
+    received_wt: 2688.07
+  },
+  {
+    process: 'Cutting',
+    issued_wt: 0,
+    process_wt: 0,
+    received_wt: 2175.65
+  }
+]

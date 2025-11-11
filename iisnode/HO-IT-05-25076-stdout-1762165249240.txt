@@ -1,9 +1,0 @@
-Server running at http://localhost:\\.\pipe\c66ff125-c9b2-4521-b4b9-a741f47a1134
-✅ Connected to MSSQL
-Connected to MSSQL
-[Get Pouches] Fetching pouches for setting: DULL/01/11/2025/02/1
-[Get Pouches] ✅ Found Setting Id: 13
-[Get Pouches] ✅ Found pouches count: 1
-[Get Pouches] Fetching pouches for setting: DULL/01/11/2025/02/1
-[Get Pouches] ✅ Found Setting Id: 13
-[Get Pouches] ✅ Found pouches count: 1
