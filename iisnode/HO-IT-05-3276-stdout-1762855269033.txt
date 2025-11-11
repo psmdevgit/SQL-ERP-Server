@@ -1,3 +1,0 @@
-Server running at http://localhost:\\.\pipe\a7fb7226-eb22-4d45-8631-f1f8cb5fd641
-✅ Connected to MSSQL
-Connected to MSSQL

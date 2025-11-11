@@ -1,2617 +1,3 @@
-NECKLACE STONE(NKST 1214))
-NECKLACE STONE(NKST)
-NECKLACE STONE(NKST1166))
-[]
-[
-  {
-    Id: 3553,
-    Name: 'NPDPL-1023',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  }
-]
-[
-  {
-    Id: 3554,
-    Name: 'NPDST-1001',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3555,
-    Name: 'NPDST-1002',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3556,
-    Name: 'NPDST-1003',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3557,
-    Name: 'NPDST-1004',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3558,
-    Name: 'NPDST-1005',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3559,
-    Name: 'NPDST-1006',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3560,
-    Name: 'NPDST-1007',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3561,
-    Name: 'NPDST-1008',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3562,
-    Name: 'NPDST-1009',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3563,
-    Name: 'NPDST-1010',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3564,
-    Name: 'NPDST-1011',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3565,
-    Name: 'NPDST-1012',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3566,
-    Name: 'NPDST-1013',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3567,
-    Name: 'NPDST-1014',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3568,
-    Name: 'NPDST-1015',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3569,
-    Name: 'NPDST-1016',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3570,
-    Name: 'NPDST-1017',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3571,
-    Name: 'NPDST-1018',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3572,
-    Name: 'NPDST-1019',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3573,
-    Name: 'NPDST-1020',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3574,
-    Name: 'NPDST-1021',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3575,
-    Name: 'NPDST-1022',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3576,
-    Name: 'NPDST-1023',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT STONE(NPDST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  }
-]
-PENDANT PLAIN(PDPL)
-PENDANT SET PLAIN(PDSP 1003))
-[
-  {
-    Id: 3276,
-    Name: 'NKPL-1001',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3277,
-    Name: 'NKPL-1002',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3278,
-    Name: 'NKPL-1003',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3279,
-    Name: 'NKPL-1004',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3280,
-    Name: 'NKPL-1005',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3281,
-    Name: 'NKPL-1006',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3282,
-    Name: 'NKPL-1007',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3283,
-    Name: 'NKPL-1008',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3284,
-    Name: 'NKPL-1009',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3285,
-    Name: 'NKPL-1010',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3286,
-    Name: 'NKPL-1011',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3287,
-    Name: 'NKPL-1012',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3288,
-    Name: 'NKPL-1013',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3289,
-    Name: 'NKPL-1014',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3290,
-    Name: 'NKPL-1015',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3291,
-    Name: 'NKPL-1016',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3292,
-    Name: 'NKPL-1017',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3293,
-    Name: 'NKPL-1018',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3294,
-    Name: 'NKPL-1019',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3295,
-    Name: 'NKPL-1020',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3296,
-    Name: 'NKPL-1021',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3297,
-    Name: 'NKPL-1022',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3298,
-    Name: 'NKPL-1023',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3299,
-    Name: 'NKPL-1024',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3300,
-    Name: 'NKPL-1025',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3301,
-    Name: 'NKPL-1026',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3302,
-    Name: 'NKPL-1027',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3303,
-    Name: 'NKPL-1028',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3304,
-    Name: 'NKPL-1029',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3305,
-    Name: 'NKPL-1030',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3306,
-    Name: 'NKPL-1031',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3307,
-    Name: 'NKPL-1033',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3308,
-    Name: 'NKPL-1035',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3309,
-    Name: 'NKPL-1036',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3310,
-    Name: 'NKPL-1038',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3311,
-    Name: 'NKPL-1039',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3312,
-    Name: 'NKPL-1040',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3313,
-    Name: 'NKPL-1041',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3314,
-    Name: 'NKPL-1042',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3315,
-    Name: 'NKPL-1043',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3316,
-    Name: 'NKPL-1044',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3317,
-    Name: 'NKPL-1045',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3318,
-    Name: 'NKPL-1046',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3319,
-    Name: 'NKPL-1047',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3320,
-    Name: 'NKPL-1049',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3321,
-    Name: 'NKPL-1050',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3322,
-    Name: 'NKPL-1052',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3323,
-    Name: 'NKPL-1057',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3324,
-    Name: 'NKPL-1058',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3325,
-    Name: 'NKPL-1062',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3326,
-    Name: 'NKPL-1063',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3327,
-    Name: 'NKPL-1064',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3328,
-    Name: 'NKPL-1066',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3329,
-    Name: 'NKPL-1068',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3330,
-    Name: 'NKPL-1069',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3331,
-    Name: 'NKPL-1071',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3332,
-    Name: 'NKPL-1082',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3333,
-    Name: 'NKPL-1083',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3334,
-    Name: 'NKPL-1084',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3335,
-    Name: 'NKPL-1085',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3336,
-    Name: 'NKPL-1086',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3337,
-    Name: 'NKPL-1087',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3338,
-    Name: 'NKPL-1088',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3339,
-    Name: 'NKPL-1089',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3340,
-    Name: 'NKPL-1090',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3341,
-    Name: 'NKPL-1212',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  }
-]
-[
-  {
-    Id: 3343,
-    Name: 'NKST 1213',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST 1213))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  }
-]
-[
-  {
-    Id: 3342,
-    Name: 'NKPL1074',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL1074))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  }
-]
-PENDANT SET PLAIN(PDSP 1004))
-PENDANT SET PLAIN(PDSP 1005))
-PENDANT SET PLAIN(PDSP)
-PENDANT SET STONE(PDSS 1045))
-PENDANT SET STONE(PDSS 1047))
-[
-  {
-    Id: 3344,
-    Name: 'NKST 1214',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST 1214))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  }
-]
-PENDANT SET STONE(PDSS 1048))
-[
-  {
-    Id: 3577,
-    Name: 'PDPL-1001',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3578,
-    Name: 'PDPL-1002',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3579,
-    Name: 'PDPL-1003',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3580,
-    Name: 'PDPL-1004',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3581,
-    Name: 'PDPL-1005',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3582,
-    Name: 'PDPL-1006',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3583,
-    Name: 'PDPL-1007',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3584,
-    Name: 'PDPL-1008',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3585,
-    Name: 'PDPL-1009',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3586,
-    Name: 'PDPL-1010',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3587,
-    Name: 'PDPL-1011',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3588,
-    Name: 'PDPL-1012',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3589,
-    Name: 'PDPL-1013',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3590,
-    Name: 'PDPL-1014',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3591,
-    Name: 'PDPL-1015',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3592,
-    Name: 'PDPL-1016',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3593,
-    Name: 'PDPL-1017',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3594,
-    Name: 'PDPL-1018',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3595,
-    Name: 'PDPL-1019',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3596,
-    Name: 'PDPL-1020',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3597,
-    Name: 'PDPL-1021',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3598,
-    Name: 'PDPL-1022',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3599,
-    Name: 'PDPL-1023',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3600,
-    Name: 'PDPL-1024',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3601,
-    Name: 'PDPL-1025',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3602,
-    Name: 'PDPL-1026',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3603,
-    Name: 'PDPL-1027',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3604,
-    Name: 'PDPL-1028',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3605,
-    Name: 'PDPL-1029',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3606,
-    Name: 'PDPL-1030',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3607,
-    Name: 'PDPL-1031',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3608,
-    Name: 'PDPL-1032',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3609,
-    Name: 'PDPL-1033',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3610,
-    Name: 'PDPL-1034',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3611,
-    Name: 'PDPL-1035',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3612,
-    Name: 'PDPL-1036',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3613,
-    Name: 'PDPL-1037',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3614,
-    Name: 'PDPL-1038',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3615,
-    Name: 'PDPL-1039',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3616,
-    Name: 'PDPL-1040',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3617,
-    Name: 'PDPL-1041',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3618,
-    Name: 'PDPL-1042',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3619,
-    Name: 'PDPL-1043',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3620,
-    Name: 'PDPL-1044',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3621,
-    Name: 'PDPL-1045',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3622,
-    Name: 'PDPL-1046',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3623,
-    Name: 'PDPL-1047',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3624,
-    Name: 'PDPL-1048',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3625,
-    Name: 'PDPL-1049',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3626,
-    Name: 'PDPL-1051',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3627,
-    Name: 'PDPL-1052',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3628,
-    Name: 'PDPL-1053',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3629,
-    Name: 'PDPL-1054',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3630,
-    Name: 'PDPL-1055',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3631,
-    Name: 'PDPL-1056',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3632,
-    Name: 'PDPL-1057',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3633,
-    Name: 'PDPL-1058',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3634,
-    Name: 'PDPL-1059',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3635,
-    Name: 'PDPL-1060',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3636,
-    Name: 'PDPL-1061',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3637,
-    Name: 'PDPL-1062',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3638,
-    Name: 'PDPL-1063',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3639,
-    Name: 'PDPL-1064',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  }
-]
-[
-  {
-    Id: 3345,
-    Name: 'NKST-1001',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3346,
-    Name: 'NKST-1002',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3347,
-    Name: 'NKST-1003',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3348,
-    Name: 'NKST-1004',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3349,
-    Name: 'NKST-1005',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3350,
-    Name: 'NKST-1006',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3351,
-    Name: 'NKST-1007',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3352,
-    Name: 'NKST-1008',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3353,
-    Name: 'NKST-1009',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3354,
-    Name: 'NKST-1010',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3355,
-    Name: 'NKST-1011',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3356,
-    Name: 'NKST-1012',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3357,
-    Name: 'NKST-1012',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3358,
-    Name: 'NKST-1013',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3359,
-    Name: 'NKST-1014',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3360,
-    Name: 'NKST-1015',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3361,
-    Name: 'NKST-1016',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3362,
-    Name: 'NKST-1017',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3363,
-    Name: 'NKST-1018',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3364,
-    Name: 'NKST-1019',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3365,
-    Name: 'NKST-1020',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3366,
-    Name: 'NKST-1021',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3367,
-    Name: 'NKST-1022',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3368,
-    Name: 'NKST-1023',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3369,
-    Name: 'NKST-1024',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3370,
-    Name: 'NKST-1025',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3371,
-    Name: 'NKST-1026',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3372,
-    Name: 'NKST-1027',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3373,
-    Name: 'NKST-1028',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3374,
-    Name: 'NKST-1029',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3375,
-    Name: 'NKST-1030',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3376,
-    Name: 'NKST-1031',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3377,
-    Name: 'NKST-1032',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3378,
-    Name: 'NKST-1033',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3379,
-    Name: 'NKST-1034',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3380,
-    Name: 'NKST-1035',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3381,
-    Name: 'NKST-1036',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3382,
-    Name: 'NKST-1037',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3383,
-    Name: 'NKST-1038',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3384,
-    Name: 'NKST-1039',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3385,
-    Name: 'NKST-1040',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3386,
-    Name: 'NKST-1041',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3387,
-    Name: 'NKST-1042',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3388,
-    Name: 'NKST-1043',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3389,
-    Name: 'NKST-1044',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3390,
-    Name: 'NKST-1045',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3391,
-    Name: 'NKST-1046',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3392,
-    Name: 'NKST-1047',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3393,
-    Name: 'NKST-1048',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3394,
-    Name: 'NKST-1049',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3395,
-    Name: 'NKST-1050',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3396,
-    Name: 'NKST-1051',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3397,
-    Name: 'NKST-1052',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3398,
-    Name: 'NKST-1053',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3399,
-    Name: 'NKST-1054',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3400,
-    Name: 'NKST-1055',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3401,
-    Name: 'NKST-1056',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3402,
-    Name: 'NKST-1057',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3403,
-    Name: 'NKST-1058',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3404,
-    Name: 'NKST-1059',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3405,
-    Name: 'NKST-1060',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3406,
-    Name: 'NKST-1061',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3407,
-    Name: 'NKST-1062',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3408,
-    Name: 'NKST-1063',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3409,
-    Name: 'NKST-1064',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3410,
-    Name: 'NKST-1065',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3411,
-    Name: 'NKST-1066',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3412,
-    Name: 'NKST-1067',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3413,
-    Name: 'NKST-1068',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3414,
-    Name: 'NKST-1069',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3415,
-    Name: 'NKST-1070',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3416,
-    Name: 'NKST-1071',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3417,
-    Name: 'NKST-1072',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3418,
-    Name: 'NKST-1073',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3419,
-    Name: 'NKST-1074',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3420,
-    Name: 'NKST-1075',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3421,
-    Name: 'NKST-1076',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3422,
-    Name: 'NKST-1077',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3423,
-    Name: 'NKST-1078',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3424,
-    Name: 'NKST-1079',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3425,
-    Name: 'NKST-1080',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3426,
-    Name: 'NKST-1080 (2)',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3427,
-    Name: 'NKST-1081',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3428,
-    Name: 'NKST-1081 (2)',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3429,
-    Name: 'NKST-1082',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3430,
-    Name: 'NKST-1082 (2)',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3431,
-    Name: 'NKST-1083',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3432,
-    Name: 'NKST-1083 (2)',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3433,
-    Name: 'NKST-1084',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3434,
-    Name: 'NKST-1084 (2)',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3435,
-    Name: 'NKST-1085',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3436,
-    Name: 'NKST-1085 (2)',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3437,
-    Name: 'NKST-1086',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3438,
-    Name: 'NKST-1086 (2)',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3439,
-    Name: 'NKST-1087',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3440,
-    Name: 'NKST-1089',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3441,
-    Name: 'NKST-1090',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3442,
-    Name: 'NKST-1091',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3443,
-    Name: 'NKST-1092',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3444,
-    Name: 'NKST-1093',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  ... 83 more items
-]
-[
-  {
-    Id: 3528,
-    Name: 'NKST1166',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST1166))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  }
-]
-PENDANT SET STONE(PDSS 1049))
-[
-  {
-    Id: 3642,
-    Name: 'PDSP 1005',
-    Image_URL_c: null,
-    Category_c: 'PENDANT SET PLAIN(PDSP 1005))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 6,
-    Stone_Weight_c: null
-  }
-]
 [
   {
     Id: 3640,
@@ -2624,9 +10,6 @@ PENDANT SET STONE(PDSS 1049))
     Stone_Weight_c: null
   }
 ]
-PENDANT SET STONE(PDSS 1050))
-PENDANT SET STONE(PDSS 1051))
-PENDANT SET STONE(PDSS)
 [
   {
     Id: 3641,
@@ -2639,6 +22,11 @@ PENDANT SET STONE(PDSS)
     Stone_Weight_c: null
   }
 ]
+PENDANT SET STONE(PDSS 1049))
+PENDANT SET STONE(PDSS 1050))
+PENDANT SET STONE(PDSS)
+PENDANT SET STONE(PDSS 1051))
+PENDANT STONE(PDST)
 [
   {
     Id: 3643,
@@ -2703,7 +91,30 @@ PENDANT SET STONE(PDSS)
     Stone_Weight_c: null
   }
 ]
-PENDANT STONE(PDST)
+[
+  {
+    Id: 3642,
+    Name: 'PDSP 1005',
+    Image_URL_c: null,
+    Category_c: 'PENDANT SET PLAIN(PDSP 1005))',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 6,
+    Stone_Weight_c: null
+  }
+]
+[
+  {
+    Id: 3650,
+    Name: 'PDSS 1048',
+    Image_URL_c: null,
+    Category_c: 'PENDANT SET STONE(PDSS 1048))',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 6,
+    Stone_Weight_c: null
+  }
+]
 [
   {
     Id: 3649,
@@ -2717,33 +128,10 @@ PENDANT STONE(PDST)
   }
 ]
 RE-ORDER(RO)
-SOLITARY EARRING STONE(SERS)
 SOLITARY GENTS RING STONE(SST)
-[
-  {
-    Id: 3650,
-    Name: 'PDSS 1048',
-    Image_URL_c: null,
-    Category_c: 'PENDANT SET STONE(PDSS 1048))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 6,
-    Stone_Weight_c: null
-  }
-]
+SOLITARY EARRING STONE(SERS)
+STAMPING NECKLACE STONE(STNKS)
 STAMPING NECKLACE PLAIN(STNKP)
-[
-  {
-    Id: 3653,
-    Name: 'PDSS 1051',
-    Image_URL_c: null,
-    Category_c: 'PENDANT SET STONE(PDSS 1051))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 6,
-    Stone_Weight_c: null
-  }
-]
 [
   {
     Id: 3651,
@@ -2756,22 +144,6 @@ STAMPING NECKLACE PLAIN(STNKP)
     Stone_Weight_c: null
   }
 ]
-[
-  {
-    Id: 3652,
-    Name: 'PDSS 1050',
-    Image_URL_c: null,
-    Category_c: 'PENDANT SET STONE(PDSS 1050))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 6,
-    Stone_Weight_c: null
-  }
-]
-STAMPING NECKLACE STONE(STNKS)
-TAMPLE HARAM PLAIN(THRPL)
-TAMPLE HARAM STONE(THRST)
-TAMPLE NECKLACE PLAIN(TNKPL)
 [
   {
     Id: 3654,
@@ -3168,6 +540,30 @@ TAMPLE NECKLACE PLAIN(TNKPL)
     Name: 'PDSS-1042',
     Image_URL_c: null,
     Category_c: 'PENDANT SET STONE(PDSS)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 6,
+    Stone_Weight_c: null
+  }
+]
+[
+  {
+    Id: 3652,
+    Name: 'PDSS 1050',
+    Image_URL_c: null,
+    Category_c: 'PENDANT SET STONE(PDSS 1050))',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 6,
+    Stone_Weight_c: null
+  }
+]
+[
+  {
+    Id: 3653,
+    Name: 'PDSS 1051',
+    Image_URL_c: null,
+    Category_c: 'PENDANT SET STONE(PDSS 1051))',
     Size_c: null,
     Gross_Weight_C: null,
     Net_Weight_c: 6,
@@ -4177,6 +1573,11 @@ TAMPLE NECKLACE PLAIN(TNKPL)
   },
   ... 184 more items
 ]
+TAMPLE HARAM PLAIN(THRPL)
+TAMPLE NECKLACE STONE(TNKST 2002))
+TAMPLE NECKLACE PLAIN(TNKPL)
+TAMPLE HARAM STONE(THRST)
+TAMPLE NECKLACE STONE(TNKST)
 [
   {
     Id: 4430,
@@ -4378,6 +1779,100 @@ TAMPLE NECKLACE PLAIN(TNKPL)
     Size_c: '24',
     Gross_Weight_C: null,
     Net_Weight_c: 6,
+    Stone_Weight_c: null
+  }
+]
+[
+  {
+    Id: 4032,
+    Name: 'STNKP-1001',
+    Image_URL_c: null,
+    Category_c: 'STAMPING NECKLACE PLAIN(STNKP)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 14,
+    Stone_Weight_c: null
+  }
+]
+[
+  {
+    Id: 4033,
+    Name: 'STNKS-1001',
+    Image_URL_c: null,
+    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 14,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4034,
+    Name: 'STNKS-1002',
+    Image_URL_c: null,
+    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 14,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4035,
+    Name: 'STNKS-1003',
+    Image_URL_c: null,
+    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 14,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4036,
+    Name: 'STNKS-1004',
+    Image_URL_c: null,
+    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 14,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4037,
+    Name: 'STNKS-1005',
+    Image_URL_c: null,
+    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 14,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4038,
+    Name: 'STNKS-1006',
+    Image_URL_c: null,
+    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 14,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4039,
+    Name: 'STNKS-1007',
+    Image_URL_c: null,
+    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 14,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4040,
+    Name: 'STNKS-1008',
+    Image_URL_c: null,
+    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 14,
     Stone_Weight_c: null
   }
 ]
@@ -4733,105 +2228,154 @@ TAMPLE NECKLACE PLAIN(TNKPL)
     Stone_Weight_c: null
   }
 ]
-TAMPLE NECKLACE STONE(TNKST 2002))
-TAMPLE NECKLACE STONE(TNKST)
-[
-  {
-    Id: 4032,
-    Name: 'STNKP-1001',
-    Image_URL_c: null,
-    Category_c: 'STAMPING NECKLACE PLAIN(STNKP)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  }
-]
 WEDDDING BAND RING STONE(WBST)
+WEDDING BAND RING STONE(WBST)
 WEDDING BAND RING PLAIN(WBPL)
+LADIES RING GOD STONE(LRGS)
 [
   {
-    Id: 4033,
-    Name: 'STNKS-1001',
+    Id: 4047,
+    Name: 'THRST-1001',
     Image_URL_c: null,
-    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Category_c: 'TAMPLE HARAM STONE(THRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 28,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4048,
+    Name: 'THRST-1002',
+    Image_URL_c: null,
+    Category_c: 'TAMPLE HARAM STONE(THRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 28,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4049,
+    Name: 'THRST-1003',
+    Image_URL_c: null,
+    Category_c: 'TAMPLE HARAM STONE(THRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 28,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4050,
+    Name: 'THRST-1004',
+    Image_URL_c: null,
+    Category_c: 'TAMPLE HARAM STONE(THRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 28,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4051,
+    Name: 'THRST-1005',
+    Image_URL_c: null,
+    Category_c: 'TAMPLE HARAM STONE(THRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 28,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4052,
+    Name: 'THRST-1006',
+    Image_URL_c: null,
+    Category_c: 'TAMPLE HARAM STONE(THRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 28,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4053,
+    Name: 'THRST-1007',
+    Image_URL_c: null,
+    Category_c: 'TAMPLE HARAM STONE(THRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 28,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4444,
+    Name: 'THRST-1008',
+    Image_URL_c: '/Upload/model/THRST-1008.jpg',
+    Category_c: 'TAMPLE HARAM STONE(THRST)',
+    Size_c: null,
+    Gross_Weight_C: 50,
+    Net_Weight_c: null,
+    Stone_Weight_c: null
+  }
+]
+[
+  {
+    Id: 4080,
+    Name: 'TNKST-2001',
+    Image_URL_c: null,
+    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
     Size_c: null,
     Gross_Weight_C: null,
     Net_Weight_c: 14,
     Stone_Weight_c: null
   },
   {
-    Id: 4034,
-    Name: 'STNKS-1002',
+    Id: 4081,
+    Name: 'TNKST-2003',
     Image_URL_c: null,
-    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
     Size_c: null,
     Gross_Weight_C: null,
     Net_Weight_c: 14,
     Stone_Weight_c: null
   },
   {
-    Id: 4035,
-    Name: 'STNKS-1003',
+    Id: 4082,
+    Name: 'TNKST-2004',
     Image_URL_c: null,
-    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
     Size_c: null,
     Gross_Weight_C: null,
     Net_Weight_c: 14,
     Stone_Weight_c: null
   },
   {
-    Id: 4036,
-    Name: 'STNKS-1004',
+    Id: 4083,
+    Name: 'TNKST-2005',
     Image_URL_c: null,
-    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
     Size_c: null,
     Gross_Weight_C: null,
     Net_Weight_c: 14,
     Stone_Weight_c: null
   },
   {
-    Id: 4037,
-    Name: 'STNKS-1005',
+    Id: 4084,
+    Name: 'TNKST-2006',
     Image_URL_c: null,
-    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
     Size_c: null,
     Gross_Weight_C: null,
     Net_Weight_c: 14,
     Stone_Weight_c: null
   },
   {
-    Id: 4038,
-    Name: 'STNKS-1006',
+    Id: 4085,
+    Name: 'TNKST-2007',
     Image_URL_c: null,
-    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4039,
-    Name: 'STNKS-1007',
-    Image_URL_c: null,
-    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4040,
-    Name: 'STNKS-1008',
-    Image_URL_c: null,
-    Category_c: 'STAMPING NECKLACE STONE(STNKS)',
+    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
     Size_c: null,
     Gross_Weight_C: null,
     Net_Weight_c: 14,
     Stone_Weight_c: null
   }
 ]
-WEDDING BAND RING STONE(WBST)
 [
   {
     Id: 4054,
@@ -5086,83 +2630,13 @@ WEDDING BAND RING STONE(WBST)
 ]
 [
   {
-    Id: 4047,
-    Name: 'THRST-1001',
+    Id: 4079,
+    Name: 'TNKST 2002',
     Image_URL_c: null,
-    Category_c: 'TAMPLE HARAM STONE(THRST)',
+    Category_c: 'TAMPLE NECKLACE STONE(TNKST 2002))',
     Size_c: null,
     Gross_Weight_C: null,
-    Net_Weight_c: 28,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4048,
-    Name: 'THRST-1002',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE HARAM STONE(THRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 28,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4049,
-    Name: 'THRST-1003',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE HARAM STONE(THRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 28,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4050,
-    Name: 'THRST-1004',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE HARAM STONE(THRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 28,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4051,
-    Name: 'THRST-1005',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE HARAM STONE(THRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 28,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4052,
-    Name: 'THRST-1006',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE HARAM STONE(THRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 28,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4053,
-    Name: 'THRST-1007',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE HARAM STONE(THRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 28,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4444,
-    Name: 'THRST-1008',
-    Image_URL_c: '/Upload/model/THRST-1008.jpg',
-    Category_c: 'TAMPLE HARAM STONE(THRST)',
-    Size_c: null,
-    Gross_Weight_C: 50,
-    Net_Weight_c: null,
+    Net_Weight_c: 14,
     Stone_Weight_c: null
   }
 ]
@@ -5230,81 +2704,6 @@ WEDDING BAND RING STONE(WBST)
 ]
 [
   {
-    Id: 4079,
-    Name: 'TNKST 2002',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE NECKLACE STONE(TNKST 2002))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  }
-]
-[
-  {
-    Id: 4080,
-    Name: 'TNKST-2001',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4081,
-    Name: 'TNKST-2003',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4082,
-    Name: 'TNKST-2004',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4083,
-    Name: 'TNKST-2005',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4084,
-    Name: 'TNKST-2006',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4085,
-    Name: 'TNKST-2007',
-    Image_URL_c: null,
-    Category_c: 'TAMPLE NECKLACE STONE(TNKST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  }
-]
-[]
-[
-  {
     Id: 4086,
     Name: 'WBPL-1001',
     Image_URL_c: null,
@@ -5325,6 +2724,7 @@ WEDDING BAND RING STONE(WBST)
     Stone_Weight_c: null
   }
 ]
+[]
 [
   {
     Id: 4088,
@@ -6265,5 +3665,1667 @@ WEDDING BAND RING STONE(WBST)
     Gross_Weight_C: null,
     Net_Weight_c: 6,
     Stone_Weight_c: null
+  }
+]
+[
+  {
+    Id: 2146,
+    Name: 'LRGS-1001',
+    Image_URL_c: null,
+    Category_c: 'LADIES RING GOD STONE(LRGS)',
+    Size_c: '16',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2147,
+    Name: 'LRGS-1002',
+    Image_URL_c: null,
+    Category_c: 'LADIES RING GOD STONE(LRGS)',
+    Size_c: '18',
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2148,
+    Name: 'LRGS-1003',
+    Image_URL_c: null,
+    Category_c: 'LADIES RING GOD STONE(LRGS)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2149,
+    Name: 'LRGS-1004',
+    Image_URL_c: null,
+    Category_c: 'LADIES RING GOD STONE(LRGS)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2150,
+    Name: 'LRGS-1005',
+    Image_URL_c: null,
+    Category_c: 'LADIES RING GOD STONE(LRGS)',
+    Size_c: '12',
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2151,
+    Name: 'LRGS-1006',
+    Image_URL_c: null,
+    Category_c: 'LADIES RING GOD STONE(LRGS)',
+    Size_c: '14',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: 53.48,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 416.56,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: 56.3,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.8999999999999773,
+    Scrap_Weight: 474.96,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.05,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 100.00991000000002,
+    Scrap_Weight: 0,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '04/11/2025/01',
+    Issued_weight: 1934.79,
+    Received_Weight: 739.92,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 1194.87,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '04/11/2025/03',
+    Issued_weight: 445.48,
+    Received_Weight: 146.74,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.0400000000000205,
+    Scrap_Weight: 296.7,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0013'
+  },
+  {
+    Name: '04/11/2025/04',
+    Issued_weight: 548.9,
+    Received_Weight: 200.27,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 9.350000000000023,
+    Scrap_Weight: 339.28,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0013'
+  },
+  {
+    Name: '04/11/2025/05',
+    Issued_weight: 606.99,
+    Received_Weight: 318.52,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 28.350000000000023,
+    Scrap_Weight: 260.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0014'
+  },
+  {
+    Name: '04/11/2025/06',
+    Issued_weight: 348.39,
+    Received_Weight: 130.73,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.2999999999999545,
+    Scrap_Weight: 211.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0013, 0001/0010'
+  },
+  {
+    Name: '04/11/2025/02',
+    Issued_weight: 306.24,
+    Received_Weight: 119.68,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.9600000000000364,
+    Scrap_Weight: 182.6,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0013, 0001/0010'
+  },
+  {
+    Name: '05/11/2025/01',
+    Issued_weight: 493.02,
+    Received_Weight: 127.71,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.180000000000007,
+    Scrap_Weight: 367.49,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0015'
+  },
+  {
+    Name: '05/11/2025/02',
+    Issued_weight: 393.5,
+    Received_Weight: 145.73,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 10.25,
+    Scrap_Weight: 237.52,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0015'
+  },
+  {
+    Name: '05/11/2025/03',
+    Issued_weight: 445.3,
+    Received_Weight: 87.45,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 5.3700000000000045,
+    Scrap_Weight: 352.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0015'
+  },
+  {
+    Name: '05/11/2025/04',
+    Issued_weight: 538.9,
+    Received_Weight: 142.15,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.839999999999918,
+    Scrap_Weight: 392.91,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0012'
+  },
+  {
+    Name: '05/11/2025/05',
+    Issued_weight: 451.03,
+    Received_Weight: 63.66,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -5.980000000000018,
+    Scrap_Weight: 393.35,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0012'
+  },
+  {
+    Name: '05/11/2025/07',
+    Issued_weight: 463.41,
+    Received_Weight: 200.18,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 15.95999999999998,
+    Scrap_Weight: 247.27,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0016'
+  },
+  {
+    Name: '05/11/2025/09',
+    Issued_weight: 295.08,
+    Received_Weight: 48.15,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 8.939999999999998,
+    Scrap_Weight: 237.99,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0018'
+  },
+  {
+    Name: '05/11/2025/06',
+    Issued_weight: 404.04,
+    Received_Weight: 130.14,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 17.53000000000003,
+    Scrap_Weight: 256.37,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0012'
+  },
+  {
+    Name: '05/11/2025/08',
+    Issued_weight: 234.4,
+    Received_Weight: 79.11,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -18.72,
+    Scrap_Weight: 174.01,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0016'
+  },
+  {
+    Name: '05/11/2025/144',
+    Issued_weight: 370.35,
+    Received_Weight: 370.35,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 0,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '05/11/2025/143',
+    Issued_weight: 281.93,
+    Received_Weight: 281.93,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 0,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0019'
+  },
+  {
+    Name: '06/11/2025/01',
+    Issued_weight: 378.14,
+    Received_Weight: 177.35,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-06T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.509999999999991,
+    Scrap_Weight: 198.28,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0018'
+  },
+  {
+    Name: '06/11/2025/04',
+    Issued_weight: 365.9,
+    Received_Weight: 140.52,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-06T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.1399999999999864,
+    Scrap_Weight: 222.24,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/05',
+    Issued_weight: 496.77,
+    Received_Weight: 80.71,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-06T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 4.319999999999993,
+    Scrap_Weight: 411.74,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/02',
+    Issued_weight: 511.94,
+    Received_Weight: 254.74,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-06T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 7.8209999999999695,
+    Scrap_Weight: 249.38,
+    Dust_Weight: -0.001,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0021'
+  },
+  {
+    Name: '06/11/2025/03',
+    Issued_weight: 446.37,
+    Received_Weight: 197.49,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-06T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.5600000000000023,
+    Scrap_Weight: 246.32,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0006'
+  },
+  {
+    Name: '06/11/2025/06',
+    Issued_weight: 421.06,
+    Received_Weight: 190.3,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-07T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.25,
+    Scrap_Weight: 228.51,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/07',
+    Issued_weight: 470.08,
+    Received_Weight: 165.6,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-07T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -4.630000000000052,
+    Scrap_Weight: 309.11,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/08',
+    Issued_weight: 300.07,
+    Received_Weight: 104.94,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-07T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -3.079999999999984,
+    Scrap_Weight: 198.21,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/09',
+    Issued_weight: 318.76,
+    Received_Weight: 40.91,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-07T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.0299999999999727,
+    Scrap_Weight: 274.82,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/10',
+    Issued_weight: 412.37,
+    Received_Weight: 114.06,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-07T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5199999999999818,
+    Scrap_Weight: 296.79,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '08/11/2025/01',
+    Issued_weight: 529.66,
+    Received_Weight: 130.78,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 10.339999999999918,
+    Scrap_Weight: 388.54,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0018'
+  },
+  {
+    Name: '08/11/2025/02',
+    Issued_weight: 466.4,
+    Received_Weight: 265.46,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.8500000000000227,
+    Scrap_Weight: 198.09,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0023'
+  },
+  {
+    Name: '08/11/2025/03',
+    Issued_weight: 760.88,
+    Received_Weight: 337.17,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.2000000000000455,
+    Scrap_Weight: 425.91,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0022'
+  },
+  {
+    Name: '08/11/2025/04',
+    Issued_weight: 318.72,
+    Received_Weight: 114.89,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -4.159999999999968,
+    Scrap_Weight: 207.99,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0015'
+  },
+  {
+    Name: '08/11/2025/05',
+    Issued_weight: 399.57,
+    Received_Weight: 64.07,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.029999999999972715,
+    Scrap_Weight: 335.53,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0015'
+  },
+  {
+    Name: '08/11/2025/06',
+    Issued_weight: 391.09,
+    Received_Weight: 144.73,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 7.149999999999977,
+    Scrap_Weight: 239.21,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '08/11/2025/07',
+    Issued_weight: 455.1,
+    Received_Weight: 133.73,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 5.210000000000036,
+    Scrap_Weight: 316.16,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0018'
+  },
+  {
+    Name: '08/11/2025/08',
+    Issued_weight: 347.99,
+    Received_Weight: 160.52,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0.8199999999999932,
+    Scrap_Weight: 186.65,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0023'
+  },
+  {
+    Name: '10/11/2025/01',
+    Issued_weight: 515.96,
+    Received_Weight: 302.87,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.38999999999998636,
+    Scrap_Weight: 213.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0027'
+  },
+  {
+    Name: '10/11/2025/02',
+    Issued_weight: 487.29,
+    Received_Weight: 271.07,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.2900000000000205,
+    Scrap_Weight: 213.93,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0028'
+  },
+  {
+    Name: '10/11/2025/03',
+    Issued_weight: 357.24,
+    Received_Weight: 179.29,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 4.889999999999986,
+    Scrap_Weight: 173.06,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0029'
+  },
+  {
+    Name: '10/11/2025/04',
+    Issued_weight: 340.77,
+    Received_Weight: 142.13,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0.8799999999999955,
+    Scrap_Weight: 197.76,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0030'
+  },
+  {
+    Name: '10/11/2025/06',
+    Issued_weight: 273.06,
+    Received_Weight: 124.67,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -3.6299999999999955,
+    Scrap_Weight: 152.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0024'
+  },
+  {
+    Name: '10/11/2025/08',
+    Issued_weight: 414.39,
+    Received_Weight: 178.68,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.4599999999999795,
+    Scrap_Weight: 232.25,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0026'
+  },
+  {
+    Name: '10/11/2025/05',
+    Issued_weight: 515.97,
+    Received_Weight: 328.53,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.2900000000000773,
+    Scrap_Weight: 186.15,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0024'
+  },
+  {
+    Name: '10/11/2025/07',
+    Issued_weight: 575.28,
+    Received_Weight: 334.41,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 4.519999999999982,
+    Scrap_Weight: 236.35,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0025'
+  }
+]
+✅ Fetched casting data from MSSQL, records count: [
+  {
+    Name: '01/11/2025/01',
+    Issued_weight: 516.52,
+    Received_Weight: 241.63,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.8899999999999864,
+    Scrap_Weight: 274,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '01/11/2025/02',
+    Issued_weight: 300.25,
+    Received_Weight: 123.21,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.009999999999990905,
+    Scrap_Weight: 177.03,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0003'
+  },
+  {
+    Name: '01/11/2025/03',
+    Issued_weight: 329.48,
+    Received_Weight: 89.56,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.44000000000005457,
+    Scrap_Weight: 239.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/04',
+    Issued_weight: 330.41,
+    Received_Weight: 114.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: -0.2400000000000091,
+    Scrap_Weight: 216.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0005'
+  },
+  {
+    Name: '01/11/2025/05',
+    Issued_weight: 529.47,
+    Received_Weight: 262.29,
+    Issued_Date: 2025-11-01T00:00:00.000Z,
+    Received_Date: 2025-11-01T00:00:00.000Z,
+    status: 'Open',
+    Casting_Loss: 0.16000000000008185,
+    Scrap_Weight: 267.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0004'
+  },
+  {
+    Name: '03/11/2025/01',
+    Issued_weight: 348.6,
+    Received_Weight: 136.38,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 210.43,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0009'
+  },
+  {
+    Name: '03/11/2025/03',
+    Issued_weight: 427.35,
+    Received_Weight: 152.29,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 273.41,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '03/11/2025/02',
+    Issued_weight: 603.1,
+    Received_Weight: 365.14,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 234.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0008'
+  },
+  {
+    Name: '03/11/2025/08',
+    Issued_weight: 317.3,
+    Received_Weight: 93.04,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.430000000000007,
+    Scrap_Weight: 226.69,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/09',
+    Issued_weight: 456.02,
+    Received_Weight: 51.69,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 397.34,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/11',
+    Issued_weight: 481,
+    Received_Weight: 53.48,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 416.56,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/12',
+    Issued_weight: 528.36,
+    Received_Weight: 56.3,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.8999999999999773,
+    Scrap_Weight: 474.96,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/10',
+    Issued_weight: 395.53,
+    Received_Weight: 43.34,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.11000000000001364,
+    Scrap_Weight: 352.3,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '03/11/2025/04',
+    Issued_weight: 240.05,
+    Received_Weight: 109.56,
+    Issued_Date: 2025-11-03T00:00:00.000Z,
+    Received_Date: 2025-11-03T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 100.00991000000002,
+    Scrap_Weight: 0,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0007'
+  },
+  {
+    Name: '04/11/2025/01',
+    Issued_weight: 1934.79,
+    Received_Weight: 739.92,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 1194.87,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '04/11/2025/03',
+    Issued_weight: 445.48,
+    Received_Weight: 146.74,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.0400000000000205,
+    Scrap_Weight: 296.7,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0013'
+  },
+  {
+    Name: '04/11/2025/04',
+    Issued_weight: 548.9,
+    Received_Weight: 200.27,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 9.350000000000023,
+    Scrap_Weight: 339.28,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0013'
+  },
+  {
+    Name: '04/11/2025/05',
+    Issued_weight: 606.99,
+    Received_Weight: 318.52,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 28.350000000000023,
+    Scrap_Weight: 260.12,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0014'
+  },
+  {
+    Name: '04/11/2025/06',
+    Issued_weight: 348.39,
+    Received_Weight: 130.73,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 6.2999999999999545,
+    Scrap_Weight: 211.36,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0013, 0001/0010'
+  },
+  {
+    Name: '04/11/2025/02',
+    Issued_weight: 306.24,
+    Received_Weight: 119.68,
+    Issued_Date: 2025-11-04T00:00:00.000Z,
+    Received_Date: 2025-11-04T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.9600000000000364,
+    Scrap_Weight: 182.6,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0013, 0001/0010'
+  },
+  {
+    Name: '05/11/2025/01',
+    Issued_weight: 493.02,
+    Received_Weight: 127.71,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.180000000000007,
+    Scrap_Weight: 367.49,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0015'
+  },
+  {
+    Name: '05/11/2025/02',
+    Issued_weight: 393.5,
+    Received_Weight: 145.73,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 10.25,
+    Scrap_Weight: 237.52,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0015'
+  },
+  {
+    Name: '05/11/2025/03',
+    Issued_weight: 445.3,
+    Received_Weight: 87.45,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 5.3700000000000045,
+    Scrap_Weight: 352.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0015'
+  },
+  {
+    Name: '05/11/2025/04',
+    Issued_weight: 538.9,
+    Received_Weight: 142.15,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.839999999999918,
+    Scrap_Weight: 392.91,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0012'
+  },
+  {
+    Name: '05/11/2025/05',
+    Issued_weight: 451.03,
+    Received_Weight: 63.66,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -5.980000000000018,
+    Scrap_Weight: 393.35,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0012'
+  },
+  {
+    Name: '05/11/2025/07',
+    Issued_weight: 463.41,
+    Received_Weight: 200.18,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 15.95999999999998,
+    Scrap_Weight: 247.27,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0016'
+  },
+  {
+    Name: '05/11/2025/09',
+    Issued_weight: 295.08,
+    Received_Weight: 48.15,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 8.939999999999998,
+    Scrap_Weight: 237.99,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0018'
+  },
+  {
+    Name: '05/11/2025/06',
+    Issued_weight: 404.04,
+    Received_Weight: 130.14,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 17.53000000000003,
+    Scrap_Weight: 256.37,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0012'
+  },
+  {
+    Name: '05/11/2025/08',
+    Issued_weight: 234.4,
+    Received_Weight: 79.11,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -18.72,
+    Scrap_Weight: 174.01,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0016'
+  },
+  {
+    Name: '05/11/2025/144',
+    Issued_weight: 370.35,
+    Received_Weight: 370.35,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 0,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0011'
+  },
+  {
+    Name: '05/11/2025/143',
+    Issued_weight: 281.93,
+    Received_Weight: 281.93,
+    Issued_Date: 2025-11-05T00:00:00.000Z,
+    Received_Date: 2025-11-05T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0,
+    Scrap_Weight: 0,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0019'
+  },
+  {
+    Name: '06/11/2025/01',
+    Issued_weight: 378.14,
+    Received_Weight: 177.35,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-06T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.509999999999991,
+    Scrap_Weight: 198.28,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0018'
+  },
+  {
+    Name: '06/11/2025/04',
+    Issued_weight: 365.9,
+    Received_Weight: 140.52,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-06T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.1399999999999864,
+    Scrap_Weight: 222.24,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/05',
+    Issued_weight: 496.77,
+    Received_Weight: 80.71,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-06T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 4.319999999999993,
+    Scrap_Weight: 411.74,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/02',
+    Issued_weight: 511.94,
+    Received_Weight: 254.74,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-06T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 7.8209999999999695,
+    Scrap_Weight: 249.38,
+    Dust_Weight: -0.001,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0021'
+  },
+  {
+    Name: '06/11/2025/03',
+    Issued_weight: 446.37,
+    Received_Weight: 197.49,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-06T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.5600000000000023,
+    Scrap_Weight: 246.32,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0006'
+  },
+  {
+    Name: '06/11/2025/06',
+    Issued_weight: 421.06,
+    Received_Weight: 190.3,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-07T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.25,
+    Scrap_Weight: 228.51,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/07',
+    Issued_weight: 470.08,
+    Received_Weight: 165.6,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-07T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -4.630000000000052,
+    Scrap_Weight: 309.11,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/08',
+    Issued_weight: 300.07,
+    Received_Weight: 104.94,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-07T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -3.079999999999984,
+    Scrap_Weight: 198.21,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/09',
+    Issued_weight: 318.76,
+    Received_Weight: 40.91,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-07T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.0299999999999727,
+    Scrap_Weight: 274.82,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '06/11/2025/10',
+    Issued_weight: 412.37,
+    Received_Weight: 114.06,
+    Issued_Date: 2025-11-06T00:00:00.000Z,
+    Received_Date: 2025-11-07T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.5199999999999818,
+    Scrap_Weight: 296.79,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '08/11/2025/01',
+    Issued_weight: 529.66,
+    Received_Weight: 130.78,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 10.339999999999918,
+    Scrap_Weight: 388.54,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0018'
+  },
+  {
+    Name: '08/11/2025/02',
+    Issued_weight: 466.4,
+    Received_Weight: 265.46,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.8500000000000227,
+    Scrap_Weight: 198.09,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0023'
+  },
+  {
+    Name: '08/11/2025/03',
+    Issued_weight: 760.88,
+    Received_Weight: 337.17,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -2.2000000000000455,
+    Scrap_Weight: 425.91,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0022'
+  },
+  {
+    Name: '08/11/2025/04',
+    Issued_weight: 318.72,
+    Received_Weight: 114.89,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -4.159999999999968,
+    Scrap_Weight: 207.99,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0015'
+  },
+  {
+    Name: '08/11/2025/05',
+    Issued_weight: 399.57,
+    Received_Weight: 64.07,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.029999999999972715,
+    Scrap_Weight: 335.53,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0015'
+  },
+  {
+    Name: '08/11/2025/06',
+    Issued_weight: 391.09,
+    Received_Weight: 144.73,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 7.149999999999977,
+    Scrap_Weight: 239.21,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0020'
+  },
+  {
+    Name: '08/11/2025/07',
+    Issued_weight: 455.1,
+    Received_Weight: 133.73,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 5.210000000000036,
+    Scrap_Weight: 316.16,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0018'
+  },
+  {
+    Name: '08/11/2025/08',
+    Issued_weight: 347.99,
+    Received_Weight: 160.52,
+    Issued_Date: 2025-11-08T00:00:00.000Z,
+    Received_Date: 2025-11-08T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0.8199999999999932,
+    Scrap_Weight: 186.65,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: 1,
+    Order_ID: '0001/0023'
+  },
+  {
+    Name: '10/11/2025/01',
+    Issued_weight: 515.96,
+    Received_Weight: 302.87,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -0.38999999999998636,
+    Scrap_Weight: 213.48,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0027'
+  },
+  {
+    Name: '10/11/2025/02',
+    Issued_weight: 487.29,
+    Received_Weight: 271.07,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 2.2900000000000205,
+    Scrap_Weight: 213.93,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0028'
+  },
+  {
+    Name: '10/11/2025/03',
+    Issued_weight: 357.24,
+    Received_Weight: 179.29,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 4.889999999999986,
+    Scrap_Weight: 173.06,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0029'
+  },
+  {
+    Name: '10/11/2025/04',
+    Issued_weight: 340.77,
+    Received_Weight: 142.13,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 0.8799999999999955,
+    Scrap_Weight: 197.76,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0030'
+  },
+  {
+    Name: '10/11/2025/06',
+    Issued_weight: 273.06,
+    Received_Weight: 124.67,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: -3.6299999999999955,
+    Scrap_Weight: 152.02,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0024'
+  },
+  {
+    Name: '10/11/2025/08',
+    Issued_weight: 414.39,
+    Received_Weight: 178.68,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 3.4599999999999795,
+    Scrap_Weight: 232.25,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0026'
+  },
+  {
+    Name: '10/11/2025/05',
+    Issued_weight: 515.97,
+    Received_Weight: 328.53,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 1.2900000000000773,
+    Scrap_Weight: 186.15,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0024'
+  },
+  {
+    Name: '10/11/2025/07',
+    Issued_weight: 575.28,
+    Received_Weight: 334.41,
+    Issued_Date: 2025-11-10T00:00:00.000Z,
+    Received_Date: 2025-11-10T00:00:00.000Z,
+    status: 'Finished',
+    Casting_Loss: 4.519999999999982,
+    Scrap_Weight: 236.35,
+    Dust_Weight: 0,
+    Ornament_Weight: null,
+    movedstatus: null,
+    Order_ID: '0001/0025'
   }
 ]
