@@ -1670,6 +1670,7 @@ app.post("/api/casting/update/:date/:month/:year/:number", async (req, res) => {
           Casting_Dust_Weight_c = @DustReceivedWeight,
           Casting_Ornament_Weight_c= @OrnamentWeight,
           status_c = @Status
+          Available_Weight_c = @ReceivedWeight
         WHERE Name = @CastingNumber
       `);
 
@@ -13584,6 +13585,50 @@ app.get("/api/model-image",checkMssqlConnection, async (req, res) => {
   }
 });
 
+app.post("/api/add-category",checkMssqlConnection, async (req, res) => {
+  try {
+    const { Name } = req.body;
+    console.log("Name :",Name)
+
+    if (!Name || Name.trim() === "") {
+      return res.json({ success: false, message: "Category name is required" });
+    }
+
+    const pool = await req.mssql;
+
+    // 1️⃣ Check if category exists
+    const check = await pool
+      .request()
+      .input("Name", sql.NVarChar, Name)
+      .query("SELECT * FROM Jewelry_Category__c WHERE Name = @Name");
+
+      console.log(check)
+
+    if (check.recordset.length > 0) {
+      console.log('Category already exists');
+      return res.json({
+        success: true,
+        message: "Category already exists",
+      });
+    }
+
+    // 2️⃣ Insert new category
+    await pool
+      .request()
+      .input("Name", sql.NVarChar, Name)
+      .query(
+        "INSERT INTO Jewelry_Category__c (Name) VALUES (@Name)"
+      );
+
+    return res.json({
+      success: true,
+      message: "Category added successfully",
+    });
+  } catch (error) {
+    return res.json({ success: false, message: `Server error ${error}` });
+  }
+});
+
 /**----------------- Create Tagged Item ----------------- */
 
 app.post("/api/create-tagged-item", checkMssqlConnection, upload.single('pdf'), async (req, res) => {
@@ -20369,9 +20414,9 @@ app.post("/tree-casting", checkMssqlConnection, async (req, res) => {
 
     // combined values
     const totalStoneWeight = stones.reduce((sum, s) => sum + (parseFloat(s.weight) || 0), 0);
-    const stoneType = stones.map(s => s.type || "unknown").join(", ");
-    const stoneColor = stones.map(s => s.color || "unknown").join(", ");
-    const stoneShape = stones.map(s => s.shape || "unknown").join(", ");
+    const stoneType = stones.map(s => s.type || "-").join(", ");
+    const stoneColor = stones.map(s => s.color || "-").join(", ");
+    const stoneShape = stones.map(s => s.shape || "-").join(", ");
     const issuedDate = new Date().toISOString().split("T")[0];
 
     // 1) Insert parent tree and get Id
@@ -20588,3 +20633,353 @@ app.get("/casting-trees/all", checkMssqlConnection, async (req, res) => {
 
 
 //#endregion      ============================================================================================
+app.post("/api/assembly/create", async (req, res) => {
+
+  console.log("Received pouch creation request:", req.body);
+
+  try {
+    const {
+      castingId,
+      filingId,
+      receivedWeight,
+      issuedDate,
+      pouches,
+      orderId,
+      name,
+      quantity,selectedCastings
+    } = req.body;
+
+    console.log("Creating assemply record:", {
+      filingId,
+      receivedWeight,
+      issuedDate,selectedCastings
+    });
+
+    const pool = await poolPromise;
+
+    console.log("count : ", selectedCastings.length)
+
+    // 1️⃣ Insert Filing record
+    const assemblyInsertResult = await pool.request()
+      .input("Name", sql.VarChar, filingId)
+      .input("IssuedWeight", sql.Float, receivedWeight)
+      .input("IssuedDate", sql.DateTime, issuedDate)
+      .input("OrderId", sql.VarChar, orderId)
+      .input("Product", sql.VarChar, name)
+      .input("Quantity", sql.Int, quantity)
+      .input("Status", sql.VarChar, "Finished")
+      .input("count", sql.Int, selectedCastings.length)
+      .query(`
+        INSERT INTO assembly__c 
+        (Name, Issued_Weight_c, Issued_Date_c, Order_Id_c, Product_c, Quantity_c, Status_c, createddate, castingcount)
+        OUTPUT INSERTED.Id
+        VALUES (@Name, @IssuedWeight, @IssuedDate, @OrderId, @Product, @Quantity, @Status, getdate(), @count)
+      `);
+
+    // ✅ Get inserted Filing record ID
+    const assemblyRecordId = assemblyInsertResult.recordset[0].Id;
+
+    console.log("✅ assembly Inserted Successfully - ID:", assemblyRecordId);
+
+
+    for (const cast of selectedCastings) {
+
+    // 1️⃣ GET EXISTING VALUES
+    const existing = await pool.request()
+        .input("Name", sql.VarChar, cast.castingName)
+        .query(`
+            SELECT usedWeightPouch, Available_Weight_c
+            FROM Casting_dept__c
+            WHERE Name = @Name
+        `);
+
+    if (existing.recordset.length === 0) {
+        console.log("Casting not found:", cast.castingName);
+        continue;
+    }
+
+    const oldUsed = existing.recordset[0].usedWeightPouch || 0;
+    const oldAvailable = existing.recordset[0].Available_Weight_c || 0;
+
+    // 2️⃣ CALCULATE NEW VALUES
+    const newUsed = oldUsed + cast.usedWeight;
+    const newAvailable = oldAvailable - cast.usedWeight;
+
+    // 3️⃣ UPDATE TABLE
+    await pool.request()
+        .input("Name", sql.VarChar, cast.castingName)
+        .input("usedWeightPouch", sql.Float, newUsed)
+        .input("Available_Weight_c", sql.Float, newAvailable)
+        .query(`
+            UPDATE Casting_dept__c
+            SET 
+                usedWeightPouch = @usedWeightPouch,
+                Available_Weight_c = @Available_Weight_c
+            WHERE Name = @Name
+        `);
+
+    console.log(`Updated ${cast.castingName} → Used: ${newUsed}, Available: ${newAvailable}`);
+
+    const aseemblyitemInsert = await pool.request()
+        .input("castingName", sql.VarChar, cast.castingName)
+        .input("usedWeightPouch", sql.Float, cast.usedWeight)
+        .input("availableWeightPouch", sql.Float, cast.available)
+        .input("assemblyID", sql.Int, assemblyRecordId)
+        .query(`
+            insert into assembly_item__c (castingName, assemblyId, usedWeight, availableWeight, createddate)
+            values (@castingName, @assemblyID, @usedWeightPouch, @availableWeightPouch, getdate());
+        `);
+}
+
+    // 2️⃣ Insert Pouches related to this filing
+    const pouchResults = [];
+
+    console.log("Inserting pouches:", pouches);
+
+    for (const pouch of pouches) {
+
+
+        const filingInsert = await pool.request()
+        .input("Name", sql.VarChar, pouch.pouchId)
+        .input("issuedweight", sql.Float, pouch.weight)
+        .input("issueddate", sql.VarChar, issuedDate)
+        .input("OrderId", sql.VarChar, pouch.orderId)
+        .input("Product", sql.VarChar, pouch.name)
+        .input("Quantity", sql.Int, pouch.quantity)
+        .query(`
+          INSERT INTO Filing__c (
+            Name, createddate,Issued_weight_c,Issued_Date_c,  Product_c, Order_Id_c, Quantity_c, status_c
+          )
+          OUTPUT INSERTED.Id
+          VALUES (@Name,getdate(), @issuedweight, @issueddate, @Product, @OrderId, @Quantity, 'In Progress')
+        `);
+
+      const filingId = filingInsert.recordset[0].Id;
+
+      console.log("📦 filing Inserted - ID:", filingId);
+
+
+      const pouchInsert = await pool.request()
+        .input("Name", sql.VarChar, pouch.pouchId)
+        .input("FilingId", sql.Int, filingId)
+        .input("OrderId", sql.VarChar, pouch.orderId)
+        .input("Weight", sql.Float, pouch.weight)
+        .input("Product", sql.VarChar, pouch.name)
+        .input("Quantity", sql.Int, pouch.quantity)
+        .query(`
+          INSERT INTO Pouch__c (
+            Name, Filing__c, Order_Id__c, Issued_Pouch_weight__c, Product__c, Quantity__c, createddate
+          )
+          OUTPUT INSERTED.Id
+          VALUES (@Name, @FilingId, @OrderId, @Weight, @Product, @Quantity, getdate())
+        `);
+
+      const pouchId = pouchInsert.recordset[0].Id;
+      pouchResults.push({ pouchRecordId: pouchId });
+
+      console.log("📦 Pouch Inserted - ID:", pouchId);
+
+      // 3️⃣ Insert Pouch Items for each pouch
+      if (Array.isArray(pouch.categories) && pouch.categories.length > 0) {
+        for (const category of pouch.categories) {
+          await pool.request()
+            .input("Name", sql.VarChar, category.category)
+            .input("PouchId", sql.Int, pouchId)
+            .input("Category", sql.VarChar, category.category)
+            .input("Quantity", sql.Int, category.quantity)
+            .query(`
+              INSERT INTO Pouch_Items__c (Name, WIPPouch__c, Category__c, Quantity__c, createddate)
+              VALUES (@Name, @PouchId, @Category, @Quantity, getdate())
+            `);
+        }
+      }
+    }
+
+    if(castingId){
+      console.log("Updating casting moved status for castingId:", castingId);
+await pool.request()
+  .input("castingId", sql.NVarChar, castingId)
+  .query(`UPDATE casting_dept__c SET movedStatus = '1' WHERE name = @castingId`);
+    }
+
+    // ✅ Respond to client
+    res.json({
+      success: true,
+      message: "Filing record and related pouches/items created successfully",
+      data: {
+        filingId,
+        pouches: pouchResults,
+      },
+    });
+
+  } catch (error) {
+    console.error("❌ Error creating filing record:", error);
+    res.status(500).json({
+      success: false,
+      message: error.message || "Failed to create filing record",
+    });
+  }
+});
+
+
+app.get("/assembly/all", checkMssqlConnection, async (req, res) => {
+  try {
+    const pool = req.mssql;
+
+    const query = `
+      SELECT 
+        Id,
+        Name,
+        createddate,issued_weight_c,
+        issued_date_c,
+        order_id_c,
+        quantity_c,
+        status_c
+      FROM assembly__c
+      ORDER BY createddate DESC
+    `;
+
+    const result = await pool.request().query(query);
+
+    console.log(result.recordset)
+
+    res.json({
+      success: true,
+      data: result.recordset
+    });
+  } catch (error) {
+    console.error("Error fetching casting trees:", error);
+    res.status(500).json({
+      success: false,
+      message: "Failed to fetch casting trees"
+    });
+  }
+});
+
+
+app.get("/api/Pouchcasting", checkMssqlConnection, async (req, res) => {
+  try {
+    const pool = req.mssql;
+    const result = await pool.request().query(`
+      SELECT Id, Name, Weight_Received_c,Issud_weight_c,usedWeightPouch, Available_Weight_c
+
+     FROM Casting_dept__c
+      WHERE Status_c = 'Finished' and Available_Weight_c > 0 order by Issued_Date_c desc  `-  +9*-6+                                                                                                    ```````````````````````````````````````````````````````````
+
+      
+    `);
+    res.json({ success: true, data: result.recordset });
+  } catch (err) {
+    console.error("Error fetching castings:", err);
+    res.status(500).json({ success: false, message: "Error fetching castings" });
+  }
+});
+
+app.post("/api/pouch-multi-casting", checkMssqlConnection, async (req, res) => {
+  try {
+    const pool = req.mssql;
+    const { castings } = req.body;
+
+    for (const cast of castings) {
+      const { castingId, receivedWeight, pouches } = cast;
+
+      // Update casting record
+      await pool.request()
+        .input("receivedWeight", receivedWeight)
+        .input("castingId", castingId)
+        .query(`
+          UPDATE Casting_dept_c
+          SET Received_Weight_c = @receivedWeight
+          WHERE Name = @castingId
+        `);
+
+      // Insert pouches for this casting
+      for (const p of pouches) {
+        await pool.request()
+          .input("castingId", castingId)
+          .input("pouchName", p.pouch)
+          .input("weight", p.weight)
+          .query(`
+            INSERT INTO Pouch_Details_c (Casting_Name_c, Pouch_Name_c, Weight_c)
+            VALUES (@castingId, @pouchName, @weight)
+          `);
+      }
+    }
+
+    res.json({ success: true, message: "All castings updated successfully" });
+  } catch (err) {
+    console.error("Error in multi-casting update:", err);
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+
+
+
+app.post("/api/pouch/create", checkMssqlConnection, async (req, res) => {
+  const { pouchId, issuedDate, selectedCastings } = req.body;
+  const pool = req.mssql;
+  const transaction = new sql.Transaction(pool);
+
+  try {
+    await transaction.begin();
+
+    let totalUsedWeight = 0;
+
+    for (const cast of selectedCastings) {
+      const { castingId, usedWeight } = cast;
+      totalUsedWeight += usedWeight;
+
+      // Fetch current weights
+      const checkQuery = `select Issud_weight_c,usedWeightPouch,Weight_Received_c from Casting_dept__c  WHERE Name=@castingId`;
+      const result = await transaction.request()
+        .input('castingId', sql.NVarChar, castingId)
+        .query(checkQuery);
+
+      if (result.recordset.length === 0) throw new Error(`Casting ${castingId} not found`);
+
+      const rec = result.recordset[0];
+      const newUsed = (rec.usedWeightPouch || 0) + usedWeight;
+      const available = (rec.Issud_weight_c || 0) - (newUsed + (rec.Weight_Received_c || 0));
+
+      // Update casting record
+      await transaction.request()
+        .input('newUsed', sql.Decimal(18, 2), newUsed)
+        .input('available', sql.Decimal(18, 2), available)
+        .input('castingId', sql.NVarChar, castingId)
+        .query(`UPDATE Casting__c 
+                SET usedWeightPouch=@newUsed, Available_Weight_c=@available
+                WHERE Name=@castingId`);
+
+      // Insert into Filing__c
+      await transaction.request()
+        .input('pouchId', sql.NVarChar, pouchId)
+        .input('castingId', sql.NVarChar, castingId)
+        .input('usedWeight', sql.Decimal(18, 2), usedWeight)
+        .query(`INSERT INTO Filing__c (Pouch_ID, Casting_ID, Used_Weight, CreatedDate)
+                VALUES (@pouchId, @castingId, @usedWeight, GETDATE())`);
+    }
+
+    // Insert pouch__c
+    await transaction.request()
+      .input('pouchId', sql.NVarChar, pouchId)
+      .input('issuedDate', sql.DateTime, issuedDate)
+      .input('totalUsed', sql.Decimal(18, 2), totalUsedWeight)
+      .input('status', sql.NVarChar, 'Active')
+      .query(`INSERT INTO Pouch__c (Pouch_ID, Issued_Date, Used_Weight, Status)
+              VALUES (@pouchId, @issuedDate, @totalUsed, @status)`);
+
+    // Insert AssemblePouch__c
+    await transaction.request()
+      .input('pouchId', sql.NVarChar, pouchId)
+      .input('castingIds', sql.NVarChar, JSON.stringify(selectedCastings.map(c => c.castingId)))
+      .query(`INSERT INTO AssemblePouch__c (Pouch_ID, Casting_IDs, IssuedDate, Status)
+              VALUES (@pouchId, @castingIds, GETDATE(), 'Y')`);
+
+    await transaction.commit();
+    res.json({ success: true, message: "Pouch created successfully" });
+  } catch (error) {
+    await transaction.rollback();
+    res.status(500).json({ success: false, message: error.message });
+  }
+});

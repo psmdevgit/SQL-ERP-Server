@@ -1,7 +1,393 @@
-MUGAPU PLAIN(MUPL)
 LOOSE BRACELET STONE(LBRST)
+[
+  {
+    Id: 2956,
+    Name: 'LVRS-1001',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '16',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2957,
+    Name: 'LVRS-1002',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '18',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2958,
+    Name: 'LVRS-1003',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2959,
+    Name: 'LVRS-1004',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2960,
+    Name: 'LVRS-1005',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '12',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2961,
+    Name: 'LVRS-1006',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '14',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2962,
+    Name: 'LVRS-1007',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '16',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2963,
+    Name: 'LVRS-1008',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '18',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2964,
+    Name: 'LVRS-1009',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2965,
+    Name: 'LVRS-1010',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2966,
+    Name: 'LVRS-1011',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '12',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2967,
+    Name: 'LVRS-1012',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '14',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2968,
+    Name: 'LVRS-1013',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '16',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2969,
+    Name: 'LVRS-1014',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '18',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2970,
+    Name: 'LVRS-1015',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2971,
+    Name: 'LVRS-1016',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2972,
+    Name: 'LVRS-1017',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '12',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2973,
+    Name: 'LVRS-1018',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '14',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2974,
+    Name: 'LVRS-1019',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '16',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2975,
+    Name: 'LVRS-1020',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '18',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2976,
+    Name: 'LVRS-1021',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2977,
+    Name: 'LVRS-1022',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2978,
+    Name: 'LVRS-1023',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '12',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2979,
+    Name: 'LVRS-1024',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '14',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2980,
+    Name: 'LVRS-1025',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '16',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2981,
+    Name: 'LVRS-1026',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '18',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2982,
+    Name: 'LVRS-1027',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2983,
+    Name: 'LVRS-1028',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2984,
+    Name: 'LVRS-1029',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '12',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2985,
+    Name: 'LVRS-1030',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '14',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2986,
+    Name: 'LVRS-1031',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '16',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2987,
+    Name: 'LVRS-1032',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '18',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2988,
+    Name: 'LVRS-1033',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2989,
+    Name: 'LVRS-1034',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2990,
+    Name: 'LVRS-1035',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '12',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2991,
+    Name: 'LVRS-1036',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '14',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2992,
+    Name: 'LVRS-1037',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '16',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2993,
+    Name: 'LVRS-1038',
+    Image_URL_c: null,
+    Category_c: 'LADIES VANKY RING STONE(LVRS)',
+    Size_c: '18',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  }
+]
+[]
+[]
+MUGAPU PLAIN(MUPL)
 Mogapu Plain(MUPL)
+[]
 Mugapu stone(MUST)
+NAME GENTS RING PLAIN(NGRPL)
 NAME LADIES RING PLAIN(NRPL)
 [
   {
@@ -15,7 +401,6 @@ NAME LADIES RING PLAIN(NRPL)
     Stone_Weight_c: null
   }
 ]
-[]
 [
   {
     Id: 2070,
@@ -448,10 +833,122 @@ NAME LADIES RING PLAIN(NRPL)
     Stone_Weight_c: null
   }
 ]
-NAME GENTS RING PLAIN(NGRPL)
+NAME LADIES RING STONE(NRST)
+[
+  {
+    Id: 2113,
+    Name: 'LHRST-1001',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 146,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2114,
+    Name: 'LHRST-1001 STONE DETAILS',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 35,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2115,
+    Name: 'LHRST-1002',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 40,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2116,
+    Name: 'LHRST-1003',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 80,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2117,
+    Name: 'LHRST-1004',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 62.3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2118,
+    Name: 'LHRST-1005',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 60.8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2119,
+    Name: 'LHRST-1006',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 58.5,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2120,
+    Name: 'LHRST-1007',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 56.3,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2121,
+    Name: 'LHRST-1008',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 48.8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2122,
+    Name: 'LHRST-1010',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 23,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 2123,
+    Name: 'LHRST-1136',
+    Image_URL_c: null,
+    Category_c: 'LONG HARAM STONE(LHRST)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 28,
+    Stone_Weight_c: null
+  }
+]
 NAME PENDANT PLAIN(NPDPL)
 NAME PENDANT STONE(NPDPL)
-NAME PENDANT STONE(NPDST)
+[]
 [
   {
     Id: 2994,
@@ -1454,6 +1951,530 @@ NAME PENDANT STONE(NPDST)
     Stone_Weight_c: null
   },
   ... 22 more items
+]
+[]
+NAME PENDANT STONE(NPDST)
+[
+  {
+    Id: 4615,
+    Name: 'NGRPL-1001',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4616,
+    Name: 'NGRPL-1002',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4617,
+    Name: 'NGRPL-1003',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4618,
+    Name: 'NGRPL-1004',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4619,
+    Name: 'NGRPL-1005',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4620,
+    Name: 'NGRPL-1006',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4621,
+    Name: 'NGRPL-1007',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4622,
+    Name: 'NGRPL-1008',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4623,
+    Name: 'NGRPL-1009',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4624,
+    Name: 'NGRPL-1010',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4625,
+    Name: 'NGRPL-1011',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4626,
+    Name: 'NGRPL-1012',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4627,
+    Name: 'NGRPL-1013',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4628,
+    Name: 'NGRPL-1014',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4629,
+    Name: 'NGRPL-1015',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4630,
+    Name: 'NGRPL-1016',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4631,
+    Name: 'NGRPL-1017',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4632,
+    Name: 'NGRPL-1018',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4633,
+    Name: 'NGRPL-1019',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4634,
+    Name: 'NGRPL-1020',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4635,
+    Name: 'NGRPL-1021',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4636,
+    Name: 'NGRPL-1022',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4637,
+    Name: 'NGRPL-1023',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4638,
+    Name: 'NGRPL-1024',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4639,
+    Name: 'NGRPL-1025',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4640,
+    Name: 'NGRPL-1026',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 4,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4641,
+    Name: 'NGRPL-1027',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4642,
+    Name: 'NGRPL-1028',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4643,
+    Name: 'NGRPL-1029',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4644,
+    Name: 'NGRPL-1030',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4645,
+    Name: 'NGRPL-1031',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4646,
+    Name: 'NGRPL-1032',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4647,
+    Name: 'NGRPL-1033',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4648,
+    Name: 'NGRPL-1034',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4649,
+    Name: 'NGRPL-1035',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4650,
+    Name: 'NGRPL-1036',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4651,
+    Name: 'NGRPL-1037',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4652,
+    Name: 'NGRPL-1038',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4653,
+    Name: 'NGRPL-1039',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4654,
+    Name: 'NGRPL-1040',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4655,
+    Name: 'NGRPL-1041',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4656,
+    Name: 'NGRPL-1042',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4657,
+    Name: 'NGRPL-1043',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4658,
+    Name: 'NGRPL-1044',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4659,
+    Name: 'NGRPL-1045',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4660,
+    Name: 'NGRPL-1046',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4661,
+    Name: 'NGRPL-1047',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4662,
+    Name: 'NGRPL-1048',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4663,
+    Name: 'NGRPL-1049',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4664,
+    Name: 'NGRPL-1050',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4665,
+    Name: 'NGRPL-1051',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 4666,
+    Name: 'NGRPL-1052',
+    Image_URL_c: null,
+    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
+    Size_c: '20',
+    Gross_Weight_C: null,
+    Net_Weight_c: 8,
+    Stone_Weight_c: null
+  }
 ]
 [
   {
@@ -2458,119 +3479,7 @@ NAME PENDANT STONE(NPDST)
   },
   ... 60 more items
 ]
-[
-  {
-    Id: 2113,
-    Name: 'LHRST-1001',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 146,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 2114,
-    Name: 'LHRST-1001 STONE DETAILS',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 35,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 2115,
-    Name: 'LHRST-1002',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 40,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 2116,
-    Name: 'LHRST-1003',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 80,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 2117,
-    Name: 'LHRST-1004',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 62.3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 2118,
-    Name: 'LHRST-1005',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 60.8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 2119,
-    Name: 'LHRST-1006',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 58.5,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 2120,
-    Name: 'LHRST-1007',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 56.3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 2121,
-    Name: 'LHRST-1008',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 48.8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 2122,
-    Name: 'LHRST-1010',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 23,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 2123,
-    Name: 'LHRST-1136',
-    Image_URL_c: null,
-    Category_c: 'LONG HARAM STONE(LHRST)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 28,
-    Stone_Weight_c: null
-  }
-]
-[]
+PENDANT SET STONE(PDSS 1050))
 [
   {
     Id: 4667,
@@ -3093,535 +4002,775 @@ NAME PENDANT STONE(NPDST)
     Stone_Weight_c: null
   }
 ]
-[]
-NECKLACE PLAIN (NKPL)
+NECKLACE PLAIN(NKPL)
+NECKLACE PLAIN(NKPL1074))
+NECKLACE STONE(NKST 1214))
+NECKLACE STONE(NKST1166))
 [
   {
-    Id: 4615,
-    Name: 'NGRPL-1001',
+    Id: 5153,
+    Name: 'NRST-1001',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5154,
+    Name: 'NRST-1002',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5155,
+    Name: 'NRST-1003',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5156,
+    Name: 'NRST-1004',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5157,
+    Name: 'NRST-1005',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5158,
+    Name: 'NRST-1006',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5159,
+    Name: 'NRST-1007',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5160,
+    Name: 'NRST-1008',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5161,
+    Name: 'NRST-1009',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5162,
+    Name: 'NRST-1010',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5163,
+    Name: 'NRST-1011',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5164,
+    Name: 'NRST-1012',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5165,
+    Name: 'NRST-1013',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5166,
+    Name: 'NRST-1014',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5167,
+    Name: 'NRST-1015',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5168,
+    Name: 'NRST-1016',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5169,
+    Name: 'NRST-1017',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5170,
+    Name: 'NRST-1018',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5171,
+    Name: 'NRST-1019',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5172,
+    Name: 'NRST-1020',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5173,
+    Name: 'NRST-1021',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5174,
+    Name: 'NRST-1022',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5175,
+    Name: 'NRST-1023',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5176,
+    Name: 'NRST-1024',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5177,
+    Name: 'NRST-1025',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '8',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5178,
+    Name: 'NRST-1026',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
+    Gross_Weight_C: null,
+    Net_Weight_c: 2,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 5179,
+    Name: 'NRST-1027',
+    Image_URL_c: null,
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '12',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4616,
-    Name: 'NGRPL-1002',
+    Id: 5180,
+    Name: 'NRST-1028',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '18',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4617,
-    Name: 'NGRPL-1003',
+    Id: 5181,
+    Name: 'NRST-1029',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4618,
-    Name: 'NGRPL-1004',
+    Id: 5182,
+    Name: 'NRST-1030',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '12',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4619,
-    Name: 'NGRPL-1005',
+    Id: 5183,
+    Name: 'NRST-1031',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '18',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4620,
-    Name: 'NGRPL-1006',
+    Id: 5184,
+    Name: 'NRST-1032',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4621,
-    Name: 'NGRPL-1007',
+    Id: 5185,
+    Name: 'NRST-1033',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '12',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4622,
-    Name: 'NGRPL-1008',
+    Id: 5186,
+    Name: 'NRST-1034',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '18',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4623,
-    Name: 'NGRPL-1009',
+    Id: 5187,
+    Name: 'NRST-1035',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4624,
-    Name: 'NGRPL-1010',
+    Id: 5188,
+    Name: 'NRST-1036',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '12',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4625,
-    Name: 'NGRPL-1011',
+    Id: 5189,
+    Name: 'NRST-1037',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '18',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4626,
-    Name: 'NGRPL-1012',
+    Id: 5190,
+    Name: 'NRST-1038',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4627,
-    Name: 'NGRPL-1013',
+    Id: 5191,
+    Name: 'NRST-1039',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '12',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4628,
-    Name: 'NGRPL-1014',
+    Id: 5192,
+    Name: 'NRST-1040',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '18',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4629,
-    Name: 'NGRPL-1015',
+    Id: 5193,
+    Name: 'NRST-1041',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4630,
-    Name: 'NGRPL-1016',
+    Id: 5194,
+    Name: 'NRST-1042',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '12',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4631,
-    Name: 'NGRPL-1017',
+    Id: 5195,
+    Name: 'NRST-1043',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '18',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4632,
-    Name: 'NGRPL-1018',
+    Id: 5196,
+    Name: 'NRST-1044',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4633,
-    Name: 'NGRPL-1019',
+    Id: 5197,
+    Name: 'NRST-1045',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '12',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4634,
-    Name: 'NGRPL-1020',
+    Id: 5198,
+    Name: 'NRST-1046',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '18',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4635,
-    Name: 'NGRPL-1021',
+    Id: 5199,
+    Name: 'NRST-1047',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4636,
-    Name: 'NGRPL-1022',
+    Id: 5200,
+    Name: 'NRST-1048',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '12',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4637,
-    Name: 'NGRPL-1023',
+    Id: 5201,
+    Name: 'NRST-1049',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '18',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4638,
-    Name: 'NGRPL-1024',
+    Id: 5202,
+    Name: 'NRST-1050',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '10',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4639,
-    Name: 'NGRPL-1025',
+    Id: 5203,
+    Name: 'NRST-1051',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '12',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
     Stone_Weight_c: null
   },
   {
-    Id: 4640,
-    Name: 'NGRPL-1026',
+    Id: 5204,
+    Name: 'NRST-1052',
     Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
+    Category_c: 'NAME LADIES RING STONE(NRST)',
+    Size_c: '18',
     Gross_Weight_C: null,
     Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4641,
-    Name: 'NGRPL-1027',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4642,
-    Name: 'NGRPL-1028',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4643,
-    Name: 'NGRPL-1029',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4644,
-    Name: 'NGRPL-1030',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4645,
-    Name: 'NGRPL-1031',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4646,
-    Name: 'NGRPL-1032',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4647,
-    Name: 'NGRPL-1033',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4648,
-    Name: 'NGRPL-1034',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4649,
-    Name: 'NGRPL-1035',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4650,
-    Name: 'NGRPL-1036',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4651,
-    Name: 'NGRPL-1037',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4652,
-    Name: 'NGRPL-1038',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4653,
-    Name: 'NGRPL-1039',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4654,
-    Name: 'NGRPL-1040',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4655,
-    Name: 'NGRPL-1041',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4656,
-    Name: 'NGRPL-1042',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4657,
-    Name: 'NGRPL-1043',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4658,
-    Name: 'NGRPL-1044',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4659,
-    Name: 'NGRPL-1045',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4660,
-    Name: 'NGRPL-1046',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4661,
-    Name: 'NGRPL-1047',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4662,
-    Name: 'NGRPL-1048',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4663,
-    Name: 'NGRPL-1049',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4664,
-    Name: 'NGRPL-1050',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4665,
-    Name: 'NGRPL-1051',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 4666,
-    Name: 'NGRPL-1052',
-    Image_URL_c: null,
-    Category_c: 'NAME GENTS RING PLAIN(NGRPL)',
-    Size_c: '20',
-    Gross_Weight_C: null,
-    Net_Weight_c: 8,
     Stone_Weight_c: null
   }
 ]
-NECKLACE PLAIN(NKPL)
-NECKLACE PLAIN(NKPL1074))
-NECKLACE STONE(NKST 1213))
-NECKLACE STONE(NKST 1214))
 NECKLACE STONE(NKST)
+[
+  {
+    Id: 3529,
+    Name: 'NPDPL-1001',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3530,
+    Name: 'NPDPL-1001.1',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3531,
+    Name: 'NPDPL-1002',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3532,
+    Name: 'NPDPL-1003',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3533,
+    Name: 'NPDPL-1004',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3534,
+    Name: 'NPDPL-1005',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3535,
+    Name: 'NPDPL-1006',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3536,
+    Name: 'NPDPL-1007',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3537,
+    Name: 'NPDPL-1008',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3538,
+    Name: 'NPDPL-1009',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3539,
+    Name: 'NPDPL-1010',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3540,
+    Name: 'NPDPL-1011',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3541,
+    Name: 'NPDPL-1012',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3542,
+    Name: 'NPDPL-1013',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3543,
+    Name: 'NPDPL-1014',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3544,
+    Name: 'NPDPL-1015',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3545,
+    Name: 'NPDPL-1016',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3546,
+    Name: 'NPDPL-1017',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3547,
+    Name: 'NPDPL-1018',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3548,
+    Name: 'NPDPL-1019',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3549,
+    Name: 'NPDPL-1019.1',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3550,
+    Name: 'NPDPL-1020',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3551,
+    Name: 'NPDPL-1021',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  },
+  {
+    Id: 3552,
+    Name: 'NPDPL-1022',
+    Image_URL_c: null,
+    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
+    Size_c: null,
+    Gross_Weight_C: null,
+    Net_Weight_c: 1,
+    Stone_Weight_c: null
+  }
+]
 [
   {
     Id: 3554,
@@ -3866,265 +5015,8 @@ NECKLACE STONE(NKST)
     Stone_Weight_c: null
   }
 ]
-[
-  {
-    Id: 3529,
-    Name: 'NPDPL-1001',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3530,
-    Name: 'NPDPL-1001.1',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3531,
-    Name: 'NPDPL-1002',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3532,
-    Name: 'NPDPL-1003',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3533,
-    Name: 'NPDPL-1004',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3534,
-    Name: 'NPDPL-1005',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3535,
-    Name: 'NPDPL-1006',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3536,
-    Name: 'NPDPL-1007',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3537,
-    Name: 'NPDPL-1008',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3538,
-    Name: 'NPDPL-1009',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3539,
-    Name: 'NPDPL-1010',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3540,
-    Name: 'NPDPL-1011',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3541,
-    Name: 'NPDPL-1012',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3542,
-    Name: 'NPDPL-1013',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3543,
-    Name: 'NPDPL-1014',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3544,
-    Name: 'NPDPL-1015',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3545,
-    Name: 'NPDPL-1016',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3546,
-    Name: 'NPDPL-1017',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3547,
-    Name: 'NPDPL-1018',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3548,
-    Name: 'NPDPL-1019',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3549,
-    Name: 'NPDPL-1019.1',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3550,
-    Name: 'NPDPL-1020',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3551,
-    Name: 'NPDPL-1021',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3552,
-    Name: 'NPDPL-1022',
-    Image_URL_c: null,
-    Category_c: 'NAME PENDANT PLAIN(NPDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  }
-]
-NECKLACE STONE(NKST1166))
 PENDANT PLAIN(PDPL)
-PENDANT SET PLAIN(PDSP 1003))
 PENDANT SET PLAIN(PDSP 1004))
-[]
-[
-  {
-    Id: 3342,
-    Name: 'NKPL1074',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE PLAIN(NKPL1074))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  }
-]
 [
   {
     Id: 3276,
@@ -4789,22 +5681,10 @@ PENDANT SET PLAIN(PDSP 1004))
 ]
 [
   {
-    Id: 3343,
-    Name: 'NKST 1213',
+    Id: 3342,
+    Name: 'NKPL1074',
     Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST 1213))',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 14,
-    Stone_Weight_c: null
-  }
-]
-[
-  {
-    Id: 3344,
-    Name: 'NKST 1214',
-    Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST 1214))',
+    Category_c: 'NECKLACE PLAIN(NKPL1074))',
     Size_c: null,
     Gross_Weight_C: null,
     Net_Weight_c: 14,
@@ -4812,22 +5692,20 @@ PENDANT SET PLAIN(PDSP 1004))
   }
 ]
 PENDANT SET PLAIN(PDSP 1005))
-PENDANT SET STONE(PDSS 1045))
-PENDANT SET STONE(PDSS 1047))
-PENDANT SET PLAIN(PDSP)
-PENDANT SET STONE(PDSS 1048))
+PENDANT SET PLAIN(PDSP 1003))
 [
   {
-    Id: 3528,
-    Name: 'NKST1166',
+    Id: 3652,
+    Name: 'PDSS 1050',
     Image_URL_c: null,
-    Category_c: 'NECKLACE STONE(NKST1166))',
+    Category_c: 'PENDANT SET STONE(PDSS 1050))',
     Size_c: null,
     Gross_Weight_C: null,
-    Net_Weight_c: 14,
+    Net_Weight_c: 6,
     Stone_Weight_c: null
   }
 ]
+PENDANT SET PLAIN(PDSP)
 [
   {
     Id: 3345,
@@ -5830,636 +6708,4 @@ PENDANT SET STONE(PDSS 1048))
     Stone_Weight_c: null
   },
   ... 83 more items
-]
-[
-  {
-    Id: 3577,
-    Name: 'PDPL-1001',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3578,
-    Name: 'PDPL-1002',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3579,
-    Name: 'PDPL-1003',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3580,
-    Name: 'PDPL-1004',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3581,
-    Name: 'PDPL-1005',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3582,
-    Name: 'PDPL-1006',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3583,
-    Name: 'PDPL-1007',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3584,
-    Name: 'PDPL-1008',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3585,
-    Name: 'PDPL-1009',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3586,
-    Name: 'PDPL-1010',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3587,
-    Name: 'PDPL-1011',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3588,
-    Name: 'PDPL-1012',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3589,
-    Name: 'PDPL-1013',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3590,
-    Name: 'PDPL-1014',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3591,
-    Name: 'PDPL-1015',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3592,
-    Name: 'PDPL-1016',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3593,
-    Name: 'PDPL-1017',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3594,
-    Name: 'PDPL-1018',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3595,
-    Name: 'PDPL-1019',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3596,
-    Name: 'PDPL-1020',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3597,
-    Name: 'PDPL-1021',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3598,
-    Name: 'PDPL-1022',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3599,
-    Name: 'PDPL-1023',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3600,
-    Name: 'PDPL-1024',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3601,
-    Name: 'PDPL-1025',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3602,
-    Name: 'PDPL-1026',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3603,
-    Name: 'PDPL-1027',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3604,
-    Name: 'PDPL-1028',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3605,
-    Name: 'PDPL-1029',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3606,
-    Name: 'PDPL-1030',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3607,
-    Name: 'PDPL-1031',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3608,
-    Name: 'PDPL-1032',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3609,
-    Name: 'PDPL-1033',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3610,
-    Name: 'PDPL-1034',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3611,
-    Name: 'PDPL-1035',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3612,
-    Name: 'PDPL-1036',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3613,
-    Name: 'PDPL-1037',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3614,
-    Name: 'PDPL-1038',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3615,
-    Name: 'PDPL-1039',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3616,
-    Name: 'PDPL-1040',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3617,
-    Name: 'PDPL-1041',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3618,
-    Name: 'PDPL-1042',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3619,
-    Name: 'PDPL-1043',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3620,
-    Name: 'PDPL-1044',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3621,
-    Name: 'PDPL-1045',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3622,
-    Name: 'PDPL-1046',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3623,
-    Name: 'PDPL-1047',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3624,
-    Name: 'PDPL-1048',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3625,
-    Name: 'PDPL-1049',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3626,
-    Name: 'PDPL-1051',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3627,
-    Name: 'PDPL-1052',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3628,
-    Name: 'PDPL-1053',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3629,
-    Name: 'PDPL-1054',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3630,
-    Name: 'PDPL-1055',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3631,
-    Name: 'PDPL-1056',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3632,
-    Name: 'PDPL-1057',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3633,
-    Name: 'PDPL-1058',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3634,
-    Name: 'PDPL-1059',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3635,
-    Name: 'PDPL-1060',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3636,
-    Name: 'PDPL-1061',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 4,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3637,
-    Name: 'PDPL-1062',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 3,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3638,
-    Name: 'PDPL-1063',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 1,
-    Stone_Weight_c: null
-  },
-  {
-    Id: 3639,
-    Name: 'PDPL-1064',
-    Image_URL_c: null,
-    Category_c: 'PENDANT PLAIN(PDPL)',
-    Size_c: null,
-    Gross_Weight_C: null,
-    Net_Weight_c: 2,
-    Stone_Weight_c: null
-  }
 ]
