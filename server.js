@@ -12794,25 +12794,85 @@ app.get("/api/orders", checkMssqlConnection, async (req, res) => {
 
  
 
+//     const query = `
+// SELECT  
+//     Order_Id_c, Name, Party_Name_c, Delivery_Date_c, Advance_Metal_c, 
+//     Status_c, Pdf_c, Purity_c, Remarks_c, Created_By_c, CreatedById, 
+//     Created_Date_c, Category_c
+// FROM Order__c
+// WHERE 
+//     (@username = 'ordersMaster' or @username='admin'
+//      OR @username IS NULL
+//      OR @username = ''
+//      OR LOWER(CreatedById) = LOWER(@username));
+//     `;
+
     const query = `
 SELECT  
-    Order_Id_c, Name, Party_Name_c, Delivery_Date_c, Advance_Metal_c, 
-    Status_c, Pdf_c, Purity_c, Remarks_c, Created_By_c, CreatedById, 
-    Created_Date_c, Category_c
-FROM Order__c
+    o.Order_Id_c, 
+    o.Name, 
+    o.Party_Name_c, 
+    o.Delivery_Date_c, 
+    o.Advance_Metal_c, 
+    o.Status_c, 
+    o.Pdf_c, 
+    o.Purity_c, 
+    o.Remarks_c, 
+    o.Created_By_c, 
+    o.CreatedById, 
+    o.Created_Date_c, 
+    o.Category_c,
+    SUM(d.Quantity_c) AS Total_Quantity,
+    SUM(d.Gross_Weight_c) AS Total_Weight
+FROM Order__c o
+JOIN Order_Models__c d 
+    ON d.Order_c = o.Name
 WHERE 
-    (@username = 'ordersMaster' or @username='admin'
-     OR @username IS NULL
-     OR @username = ''
-     OR LOWER(CreatedById) = LOWER(@username));
+    (
+        @username = 'ordersMaster'
+        OR @username = 'admin'
+        OR @username IS NULL
+        OR @username = ''
+        OR LOWER(o.CreatedById) = LOWER(@username)
+    )
+GROUP BY  
+    o.Order_Id_c, 
+    o.Name, 
+    o.Party_Name_c, 
+    o.Delivery_Date_c, 
+    o.Advance_Metal_c, 
+    o.Status_c, 
+    o.Pdf_c, 
+    o.Purity_c, 
+    o.Remarks_c, 
+    o.Created_By_c, 
+    o.CreatedById, 
+    o.Created_Date_c, 
+    o.Category_c;		
     `;
+
 
     const result = await pool
       .request()
       .input("username", username)
       .query(query);
 
-    const orders = result.recordset.map(order => ({
+    // const orders = result.recordset.map(order => ({
+    //   id: order.Order_Id_c,
+    //   partyName: order.Party_Name_c,
+    //   deliveryDate: order.Delivery_Date_c,
+    //   advanceMetal: order.Advance_Metal_c,
+    //   status: order.Status_c,
+    //   category: order.Category_c,
+    //   pdfUrl: order.Pdf__c,
+    //   purity: order.Purity_c,
+    //   remarks: order.Remarks_c,
+    //   created_by: order.Created_By_c,
+    //   CreatedById: order.CreatedById,
+    //   created_date: order.Created_Date_c
+    // }));
+
+     const orders = result.recordset.map(order => ({
       id: order.Order_Id_c,
       partyName: order.Party_Name_c,
       deliveryDate: order.Delivery_Date_c,
@@ -12824,9 +12884,11 @@ WHERE
       remarks: order.Remarks_c,
       created_by: order.Created_By_c,
       CreatedById: order.CreatedById,
-      created_date: order.Created_Date_c
+      created_date: order.Created_Date_c,
+      totalQuantity: order.Total_Quantity,
+      totalWeight: order.Total_Weight
     }));
-
+    
     res.json({ success: true, data: orders });
 
   } catch (error) {
@@ -14818,35 +14880,69 @@ app.post("/api/casting", async (req, res) => {
     const castingId = castingInsert.recordset[0].Id;
 
     // 2️⃣ Fetch Orders and Update
-    const orderIdStr = orders.map(o => `'${o}'`).join(",");
-    const orderSelectQuery = `SELECT Id, Order_Id_c FROM Order__c WHERE Order_Id_c IN (${orderIdStr})`;
-    console.log("\n📘 Executing Order Select Query:\n", orderSelectQuery);
+        // FIX THE ORDERS LIST
+          let cleanOrdersList = orders[0]
+            .split(',')
+            .map(o => o.trim())
+            .filter(o => o);
 
-    const orderQuery = await pool.request().query(orderSelectQuery);
-    if (orderQuery.recordset.length !== orders.length) throw new Error("Some orders were not found");
+          // BUILD SELECT QUERY
+          const orderSelectQuery = `
+            SELECT Id, Name
+            FROM Order__c
+            WHERE Name IN (${cleanOrdersList.map(o => `'${o}'`).join(',')})
+          `;
 
-    const orderUpdateQuery = `
-      UPDATE Order__c
-      SET Casting_c = @castingId,
-          Casting_Id_c = @castingNumber
-      WHERE Id = @id
-    `;
+          const orderQuery = await pool.request().query(orderSelectQuery);
 
-    for (const order of orderQuery.recordset) {
-      const orderParams = {
-        id: order.Id,
-        castingId,
-        castingNumber
-      };
+          if (orderQuery.recordset.length !== cleanOrdersList.length)
+            throw new Error("Some orders were not found");
 
-      logQuery(orderUpdateQuery, orderParams);
+          // UPDATE EACH ORDER
+          const orderUpdateQuery = `
+            UPDATE Order__c
+            SET Casting_c = @castingId,
+                Casting_Id_c = @castingNumber
+            WHERE Id = @id
+          `;
 
-      await pool.request()
-        .input("id", sql.Int, order.Id)
-        .input("castingId", sql.NVarChar, castingNumber)
-        .input("castingNumber", sql.NVarChar, castingNumber)
-        .query(orderUpdateQuery);
-    }
+          for (const order of orderQuery.recordset) {
+
+            await pool.request()
+              .input("id", sql.Int, order.Id)
+              .input("castingId", sql.NVarChar, castingNumber)
+              .input("castingNumber", sql.NVarChar, castingNumber)
+              .query(orderUpdateQuery);
+          }
+    // const orderIdStr = orders.map(o => `'${o}'`).join(",");
+    // const orderSelectQuery = `SELECT Id, Order_Id_c FROM Order__c WHERE Order_Id_c IN (${orderIdStr})`;
+    // console.log("\n📘 Executing Order Select Query:\n", orderSelectQuery);
+
+    // const orderQuery = await pool.request().query(orderSelectQuery);
+    // if (orderQuery.recordset.length !== orders.length) throw new Error("Some orders were not found");
+
+    // const orderUpdateQuery = `
+    //   UPDATE Order__c
+    //   SET Casting_c = @castingId,
+    //       Casting_Id_c = @castingNumber
+    //   WHERE Id = @id
+    // `;
+
+    // for (const order of orderQuery.recordset) {
+    //   const orderParams = {
+    //     id: order.Id,
+    //     castingId,
+    //     castingNumber
+    //   };
+
+    //   logQuery(orderUpdateQuery, orderParams);
+
+    //   await pool.request()
+    //     .input("id", sql.Int, order.Id)
+    //     .input("castingId", sql.NVarChar, castingNumber)
+    //     .input("castingNumber", sql.NVarChar, castingNumber)
+    //     .query(orderUpdateQuery);
+    // }
 
     // ✅ 3️⃣ NEW STEP — Update CastingTree__c status
     const updateTreeQuery = `
@@ -20506,6 +20602,7 @@ app.get("/api/plating/:prefix/:date/:month/:year/:number/:subnumber/pouches",che
         Returned_weight__c,
         Received_Date__c,
         Status__c,
+Order_Id__c,Product__c,Quantity__c,
         Plating_loss__c
        FROM Plating__c 
        WHERE Name = '${platingId}'`
@@ -20559,9 +20656,176 @@ app.get("/api/plating/:prefix/:date/:month/:year/:number/:subnumber/pouches",che
 //#region       ==================================    tree casting      ======================================
 
 
-app.post("/tree-casting", checkMssqlConnection, async (req, res) => {
+// app.post("/tree-casting", checkMssqlConnection, async (req, res) => {
+//   try {
+//     const { Name, Tree_Weight__c, orderId__c, stones = [] } = req.body;
+
+//     // if (!stones.length) {
+//     //   return res.json({ success: false, message: "No stones selected" });
+//     // }
+
+//     const pool = req.mssql;
+
+//     function logQuery(query, params) {
+//       console.log("\n📘 Executing SQL Query:");
+//       console.log(query.trim());
+//       console.log("📘 Parameters:");
+//       Object.entries(params).forEach(([key, val]) => console.log(`  @${key} =`, val));
+//       console.log("──────────────────────────────");
+//     }
+
+//     // combined values
+//     const totalStoneWeight = stones.reduce((sum, s) => sum + (parseFloat(s.weight) || 0), 0);
+//     const stoneType = stones.map(s => s.type || "-").join(", ");
+//     const stoneColor = stones.map(s => s.color || "-").join(", ");
+//     const stoneShape = stones.map(s => s.shape || "-").join(", ");
+//     const issuedDate = new Date().toISOString().split("T")[0];
+
+//     // 1) Insert parent tree and get Id
+//     const treeInsertQuery = `
+//       INSERT INTO CastingTree__c 
+//       (Name, Tree_Weight_c, stone_type_c, stone_color_c, stone_shape_c, stone_weight_c,
+//        OrderID_c, status_c, issued_Date_c, CreatedDate, createdById)
+//       OUTPUT INSERTED.Id
+//       VALUES (@Name, @TreeWeight, @stoneType, @stoneColor, @stoneShape, @stoneWeight,
+//               @OrderID, @status, @issuedDate, GETDATE(), 'waxing')
+//     `;
+
+//     const treeParams = {
+//       Name,
+//       TreeWeight: Tree_Weight__c,
+//       stoneType,
+//       stoneColor,
+//       stoneShape,
+//       stoneWeight: totalStoneWeight,
+//       OrderID: orderId__c,
+//       status: "Pending",
+//       issuedDate
+//     };
+
+//     logQuery(treeInsertQuery, treeParams);
+
+//     const treeInsert = await pool.request()
+//       .input("Name", sql.NVarChar, Name)
+//       .input("TreeWeight", sql.Decimal(18, 3), Tree_Weight__c)
+//       .input("stoneType", sql.NVarChar, stoneType)
+//       .input("stoneColor", sql.NVarChar, stoneColor)
+//       .input("stoneShape", sql.NVarChar, stoneShape)
+//       .input("stoneWeight", sql.Decimal(18, 3), totalStoneWeight)
+//       .input("OrderID", sql.NVarChar, orderId__c)
+//       .input("status", sql.NVarChar, "Pending")
+//       .input("issuedDate", sql.DateTime, issuedDate)
+//       .query(treeInsertQuery);
+
+//     const treeId = treeInsert.recordset[0].Id;
+//     console.log("✅ Tree Casting created with ID:", treeId);
+
+//     // 2) Insert stones and update Stone_Master stock
+//     const stoneInsertQuery = `
+//       INSERT INTO TreeStone__c 
+//       (castingTree_c, Stone_Master_c, Name_c, Type_c, Colour_c, Shape_c, Size_c, Pieces_c, Weight_c, createdById, CreatedDate)
+//       VALUES
+//       (@castingTree, @StoneMasterId, @StoneName, @StoneType, @StoneColour, @StoneShape, @StoneSize, @StonePieces, @StoneWeight, 'Waxing', GETDATE())
+//     `;
+
+//     const stoneUpdateQuery = `
+//       UPDATE Stone_Master__c
+//       SET Weight_c = @UpdatedWeight
+//       WHERE Id = @StoneId
+//     `;
+
+//     for (const stone of stones) {
+//       const stoneWeight = parseFloat(stone.weight) || 0;
+
+//       // Normalize size (handle object/array/number)
+//       const sizeValue =
+//         typeof stone.size === "object"
+//           ? stone.size.label || stone.size.value || ""
+//           : String(stone.size ?? "");
+
+//       // Insert TreeStone row (castingTree should be the new treeId)
+//       const insertParams = {
+//         castingTree: treeId,
+//         StoneMasterId: stone.id ?? null,
+//         StoneName: stone.name ?? "Unnamed Stone",
+//         StoneType: stone.type ?? "",
+//         StoneColour: stone.color ?? "",
+//         StoneShape: stone.shape ?? "",
+//         StoneSize: sizeValue,
+//         StonePieces: stone.pcs ?? 0,
+//         StoneWeight: stoneWeight
+//       };
+
+//       logQuery(stoneInsertQuery, insertParams);
+
+//       await pool.request()
+//         .input("castingTree", sql.NVarChar, String(treeId))
+//         .input("StoneMasterId", sql.Int, stone.id || null)
+//         .input("StoneName", sql.NVarChar, stone.name || "Unnamed Stone")
+//         .input("StoneType", sql.NVarChar, stone.type || "")
+//         .input("StoneColour", sql.NVarChar, stone.color || "")
+//         .input("StoneShape", sql.NVarChar, stone.shape || "")
+//         .input("StoneSize", sql.NVarChar, sizeValue)
+//         .input("StonePieces", sql.Int, stone.pcs || 0)
+//         .input("StoneWeight", sql.Decimal(18, 3), stoneWeight)
+//         .query(stoneInsertQuery);
+
+//       // 3) Update Stone_Master stock (only if stone.id provided)
+//       if (stone.id != null) {
+//         // use same param type as stored Id (assuming Int)
+//         const selectParams = { StoneId: stone.id };
+//         logQuery(`SELECT Id, Weight_c FROM Stone_Master__c WHERE Id = @StoneId`, selectParams);
+
+//         const stoneSelect = await pool.request()
+//           .input("StoneId", sql.Int, stone.id)
+//           .query(`SELECT Id, Weight_c FROM Stone_Master__c WHERE Id = @StoneId`);
+
+//         if (stoneSelect.recordset.length > 0) {
+//           const dbStone = stoneSelect.recordset[0];
+
+//           // IMPORTANT: access the exact column name returned by SQL (Weight_c)
+//           const currentWeight = Number(dbStone.Weight_c ?? 0);
+//           const updatedWeight = currentWeight - stoneWeight;
+
+//           if (updatedWeight >= 0) {
+//             const updateParams = { StoneId: dbStone.Id, UpdatedWeight: updatedWeight };
+//             logQuery(stoneUpdateQuery, updateParams);
+
+//             await pool.request()
+//               .input("StoneId", sql.Int, dbStone.Id)
+//               .input("UpdatedWeight", sql.Decimal(18, 3), updatedWeight)
+//               .query(stoneUpdateQuery);
+
+//             console.log(`✅ Updated stone stock Id=${dbStone.Id}, from ${currentWeight} -> ${updatedWeight}`);
+//           } else {
+//             console.warn(`⚠️ Skipping negative stock update for stone id=${stone.id} name=${stone.name}. current=${currentWeight}, required=${stoneWeight}`);
+//           }
+//         } else {
+//           console.warn(`⚠️ Stone_Master record not found for Id=${stone.id}`);
+//         }
+//       } else {
+//         console.warn(`⚠️ Skipping inventory update for stone without Id (name=${stone.name || "unknown"})`);
+//       }
+//     }
+
+//     // Done
+//     res.json({ success: true, message: "Tree Casting created successfully", data: { treeId, Name } });
+//   } catch (error) {
+//     console.error("❌ Error saving tree casting:", error);
+//     res.status(500).json({
+//       success: false,
+//       message: error.message || "Server error while creating tree casting"
+//     });
+//   }
+// });
+
+  // GET /casting-trees
+
+  app.post("/tree-casting", checkMssqlConnection, async (req, res) => {
   try {
-    const { Name, Tree_Weight__c, orderId__c, stones = [] } = req.body;
+    const { Name, Tree_Weight__c, orderId__c,remarks, stones = [] } = req.body;
+
+    console.log(req.body);
 
     // if (!stones.length) {
     //   return res.json({ success: false, message: "No stones selected" });
@@ -20588,10 +20852,10 @@ app.post("/tree-casting", checkMssqlConnection, async (req, res) => {
     const treeInsertQuery = `
       INSERT INTO CastingTree__c 
       (Name, Tree_Weight_c, stone_type_c, stone_color_c, stone_shape_c, stone_weight_c,
-       OrderID_c, status_c, issued_Date_c, CreatedDate, createdById)
+       OrderID_c, status_c, issued_Date_c, CreatedDate, createdById, remark)
       OUTPUT INSERTED.Id
       VALUES (@Name, @TreeWeight, @stoneType, @stoneColor, @stoneShape, @stoneWeight,
-              @OrderID, @status, @issuedDate, GETDATE(), 'waxing')
+              @OrderID, @status, @issuedDate, GETDATE(), 'waxing', @remark)
     `;
 
     const treeParams = {
@@ -20603,6 +20867,7 @@ app.post("/tree-casting", checkMssqlConnection, async (req, res) => {
       stoneWeight: totalStoneWeight,
       OrderID: orderId__c,
       status: "Pending",
+      remark: remarks,
       issuedDate
     };
 
@@ -20618,6 +20883,7 @@ app.post("/tree-casting", checkMssqlConnection, async (req, res) => {
       .input("OrderID", sql.NVarChar, orderId__c)
       .input("status", sql.NVarChar, "Pending")
       .input("issuedDate", sql.DateTime, issuedDate)
+      .input("remark", sql.NVarChar, remarks)
       .query(treeInsertQuery);
 
     const treeId = treeInsert.recordset[0].Id;
@@ -20722,8 +20988,7 @@ app.post("/tree-casting", checkMssqlConnection, async (req, res) => {
   }
 });
 
-  // GET /casting-trees
-app.get("/casting-trees", checkMssqlConnection, async (req, res) => {
+  app.get("/casting-trees", checkMssqlConnection, async (req, res) => {
   try {
     const pool = req.mssql;
 
@@ -20775,6 +21040,7 @@ app.get("/casting-trees/all", checkMssqlConnection, async (req, res) => {
         stone_size_c,
         stone_type_c,
         status_c,
+        remark,
         stone_weight_c
       FROM CastingTree__c
       ORDER BY Id DESC
@@ -22539,6 +22805,7 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
           receivedDate: formatDisplayDateTime(record.Received_Date_c),
           issuedWeight: record.Issud_weight_c || 0,
           receivedWeight: record.Weight_Received_c || 0,
+          dust: record.Casting_Dust_Weight_c || 0,
           loss: record.Casting_Loss_c || 0
         })),
         filing: filingQuery.recordset.map(record => ({
@@ -22547,6 +22814,7 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
           receivedDate: formatDisplayDateTime(record.Received_Date_c),
           issuedWeight: record.Issued_weight_c || 0,
           receivedWeight: record.Receievd_weight_c || 0,
+          dust: record.Filing_Dust_Weight_c || 0,
           loss: record.Filing_loss_c || 0
         })),
         grinding: grindingQuery.recordset.map(record => ({
@@ -22555,6 +22823,7 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
           receivedDate: formatDisplayDateTime(record.Received_Date__c),
           issuedWeight: record.Issued_Weight__c || 0,
           receivedWeight: record.Received_Weight__c || 0,
+          dust: record.Grinding_Dust_Weight__c || 0,
           loss: record.Grinding_loss__c || 0
         })),
          media: mediaQuery.recordset.map(record => ({
@@ -22563,6 +22832,7 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
           receivedDate: formatDisplayDateTime(record.Received_Date__c),
           issuedWeight: record.Issued_Weight__c || 0,
           receivedWeight: record.Received_Weight__c || 0,
+          dust: record.Grinding_Dust_Weight__c || 0,
           loss: record.Grinding_loss__c || 0
         })),
          correction: correctionQuery.recordset.map(record => ({
@@ -22570,6 +22840,7 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
           issuedDate: formatDisplayDateTime(record.Issued_Date__c),
           receivedDate: formatDisplayDateTime(record.Received_Date__c),
           issuedWeight: record.Issued_Weight__c || 0,
+          dust: record.Grinding_Dust_Weight__c || 0,
           receivedWeight: record.Received_Weight__c || 0,
           loss: record.Grinding_loss__c || 0
         })),
@@ -22580,6 +22851,7 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
           receivedDate: formatDisplayDateTime(record.Received_Date__c),
           issuedWeight: record.Issued_Weight__c || 0,
           receivedWeight: record.Returned_weight__c || 0,
+          dust: record.Setting_Dust_Weight__c || 0,
           loss: record.Setting_l__c || 0
         })),
         polishing: polishingQuery.recordset.map(record => ({
@@ -22588,6 +22860,7 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
           receivedDate: formatDisplayDateTime(record.Received_Date__c),
           issuedWeight: record.Issued_Weight__c || 0,
           receivedWeight: record.Received_Weight__c || 0,
+          dust: record.Polishing_Dust_Weight__c || 0,
           loss: record.Polishing_loss__c || 0
         })),
          dull: dullQuery.recordset.map(record => ({
@@ -22596,6 +22869,7 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
           receivedDate: formatDisplayDateTime(record.Received_Date__c),
           issuedWeight: record.Issued_Weight__c || 0,
           receivedWeight: record.Received_Weight__c || 0,
+          dust: record.Dull_Dust_Weight__c || 0,
           loss: record.Grinding_loss__c || 0
         })),
          cutting: cuttingQuery.recordset.map(record => ({
@@ -22604,10 +22878,34 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
           receivedDate: formatDisplayDateTime(record.Received_Date__c),
           issuedWeight: record.Issued_Weight__c || 0,
           receivedWeight: record.Received_Weight__c || 0,
+          dust: record.Cutting_Dust_Weight__c || 0,
           loss: record.Grinding_loss__c || 0
         })),
       },
       summary: {
+        totalCastingDust: castingQuery.recordset.reduce((sum, record) => sum + (record.Casting_Dust_Weight_c || 0), 0),
+        totalFiligDust: filingQuery.recordset.reduce((sum, record) => sum + (record.Filing_Dust_Weight_c || 0), 0),        
+        totalGrindingDust: grindingQuery.recordset.reduce((sum, record) => sum + (record.Grinding_Dust_Weight__c || 0), 0),
+        totalMediaDust: mediaQuery.recordset.reduce((sum, record) => sum + (record.Grinding_Dust_Weight__c || 0), 0),
+        totalCorrectionDust: correctionQuery.recordset.reduce((sum, record) => sum + (record.Grinding_Dust_Weight__c || 0), 0),
+        totalSettingDust: settingQuery.recordset.reduce((sum, record) => sum + (record.Setting_Dust_Weight__c || 0), 0),
+        totalPolishingDust: polishingQuery.recordset.reduce((sum, record) => sum + (record.Polishing_Dust_Weight__c || 0), 0),
+        totalDullDust: dullQuery.recordset.reduce((sum, record) => sum + (record.Dull_Dust_Weight__c || 0), 0),
+        totalCuttingDust: cuttingQuery.recordset.reduce((sum, record) => sum + (record.Cutting_Dust_Weight__c || 0), 0),
+       
+
+        totalOverallDust : 
+                      castingQuery.recordset.reduce((sum, record) => sum + (record.Casting_Dust_Weight_c || 0), 0)+
+         filingQuery.recordset.reduce((sum, record) => sum + (record.Filing_Dust_Weight_c || 0), 0)+
+     grindingQuery.recordset.reduce((sum, record) => sum + (record.Grinding_Dust_Weight__c || 0), 0)+
+         mediaQuery.recordset.reduce((sum, record) => sum + (record.Grinding_Dust_Weight__c || 0), 0)+
+         correctionQuery.recordset.reduce((sum, record) => sum + (record.Grinding_Dust_Weight__c || 0), 0)+
+       settingQuery.recordset.reduce((sum, record) => sum + (record.Setting_Dust_Weight__c || 0), 0)+
+        polishingQuery.recordset.reduce((sum, record) => sum + (record.Polishing_Dust_Weight__c || 0), 0)+
+        dullQuery.recordset.reduce((sum, record) => sum + (record.Dull_Dust_Weight__c || 0), 0)+
+         cuttingQuery.recordset.reduce((sum, record) => sum + (record.Cutting_Dust_Weight__c || 0), 0),
+
+
         totalCastingLoss: castingQuery.recordset.reduce((sum, record) => sum + (record.Casting_Loss_c || 0), 0),
         totalFilingLoss: filingQuery.recordset.reduce((sum, record) => sum + (record.Filing_loss_c || 0), 0),
         totalGrindingLoss: grindingQuery.recordset.reduce((sum, record) => sum + (record.Grinding_loss__c || 0), 0),
@@ -22636,3 +22934,108 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
     });
   }
 });
+
+// ---------------    get waxing reorder remarks    -------------------
+
+app.post("/api/waxing-remarks", checkMssqlConnection, async (req, res) => {
+  try {
+    const { castingNames } = req.body;
+
+    if (!castingNames || castingNames.length === 0) {
+      return res.json({ remarks: "" });
+    }
+
+    const pool = req.mssql;
+
+    // Use parameterised query — safe
+    const result = await pool.request()
+      .input("names", sql.VarChar(sql.MAX), castingNames.join(","))  // pass as comma string
+      .query(`
+        SELECT Name, remark
+        FROM CastingTree__c
+        WHERE Name IN (
+          SELECT value FROM STRING_SPLIT(@names, ',')
+        )
+      `);
+
+       const validRecords = result.recordset.filter(r =>
+      r.remark && r.remark.trim() !== ""
+    );
+
+    // Build list only for rows that have remark
+    const list = validRecords.map(r => `${r.Name} - ${r.remark.trim()}`);
+
+    // Merge only valid remarks
+    const mergedRemarks = validRecords
+      .map(r => r.remark.trim())
+      .join(" / ");
+
+
+       
+
+    return res.json({
+       remarks: mergedRemarks,
+        list: list,
+       });
+
+    
+
+  } catch (err) {
+    console.error("Error fetching remarks:", err);
+    res.status(500).json({ error: "Server error" });
+  }
+});
+
+//====================================================================================
+
+
+app.get("/api/plating-tagging/:prefix/:date/:month/:year/:number/:subnum", checkMssqlConnection, async (req, res) => {
+  try {
+    const { prefix, date, month, year, number, subnum } = req.params;
+    const platingId = `${prefix}/${date}/${month}/${year}/${number}/${subnum}`;
+    console.log(platingId);
+
+    const pool = req.mssql;
+
+    // ✅ Fetch only cutting details
+    const platingQuery = await pool.request().query(`
+      SELECT 
+        Id,
+        Name,
+        Issued_Date__c,
+        Returned_weight__c,
+        Product__c,
+        Received_Date__c,
+        Order_Id__c,
+        Status__c,
+        Quantity__c
+      FROM Plating__c
+      WHERE Name = '${platingId}'
+    `);
+
+    if (!platingQuery.recordset || platingQuery.recordset.length === 0) {
+      return res.status(404).json({
+        success: false,
+        message: "Plating record not found"
+      });
+    }
+
+    const plating = platingQuery.recordset[0];
+
+    res.json({
+      success: true,
+      data: {
+        plating
+      }
+    });
+
+  } catch (error) {
+    console.error("Error fetching plating details:", error);
+    res.status(500).json({
+      success: false,
+      message: error.message || "Failed to fetch plating details"
+    });
+  }
+});
+
+//====================================================================================
