@@ -23039,3 +23039,102 @@ app.get("/api/plating-tagging/:prefix/:date/:month/:year/:number/:subnum", check
 });
 
 //====================================================================================
+
+app.get("/get-finding-transactions", async (req, res) => {
+  try {
+    const query = `
+     
+ SELECT
+  id,
+  'Filing' AS process,
+  name,
+  Issued_Date_c      AS Issued_Date,
+  Issued_weight_c    AS IssuedWeight,
+  Filing_Ornament_Weight_c AS OrnamWeight,
+  findingWeight      AS Finding,
+  Received_Date_c    AS Receieved_Date,
+  Receievd_weight_c  AS ReceivedWeight,
+  Status_c           AS Status
+FROM Filing__c
+
+UNION ALL
+
+SELECT
+  id,
+  'Grinding' AS process,
+  name,
+  Issued_Date__c     AS Issued_Date,
+  Issued_Weight__c   AS IssuedWeight,
+  Grinding_Ornament_Weight__c AS OrnamWeight,
+  Finding_Received__c AS Finding,
+  Received_Date__c   AS Receieved_Date,
+  Received_Weight__c AS ReceivedWeight,
+  status__c          AS Status
+FROM Grinding__c
+
+UNION ALL
+
+SELECT
+  id,
+  'Media' AS process,
+  name,
+  Issued_Date__c     AS Issued_Date,
+  Issued_Weight__c   AS IssuedWeight,
+  Grinding_Ornament_Weight__c AS OrnamWeight,
+  Finding_Weight__c  AS Finding,
+  Received_Date__c   AS Receieved_Date,
+  Received_Weight__c AS ReceivedWeight,
+  status__c          AS Status
+FROM Media__c
+
+UNION ALL
+
+SELECT
+  id,
+  'Correction' AS process,
+  name,
+  Issued_Date__c     AS Issued_Date,
+  Issued_Weight__c   AS IssuedWeight,
+  Grinding_Ornament_Weight__c AS OrnamWeight,
+  Finding_Weight__c  AS Finding,
+  Received_Date__c   AS Receieved_Date,
+  Received_Weight__c AS ReceivedWeight,
+  status__c          AS Status
+FROM Correction__c
+
+UNION ALL
+
+SELECT
+  id,
+  'Polish' AS process,
+  name,
+  Issued_Date__c     AS Issued_Date,
+  Issued_Weight__c   AS IssuedWeight,
+  Polishing_Ornament_Weight__c AS OrnamWeight,
+  Finding_weight     AS Finding,
+  Received_Date__c   AS Receieved_Date,
+  Received_Weight__c AS ReceivedWeight,
+  status__c          AS Status
+FROM Polishing__c
+
+ORDER BY Receieved_Date DESC;
+
+
+    `;
+
+    const result = await sql.query(query);
+
+    res.status(200).json({
+      success: true,
+      data: result.recordset,
+    });
+  } catch (error) {
+    console.error("API Error:", error);
+    res.status(500).json({
+      success: false,
+      message: "Unable to fetch finding transactions",
+    });
+  }
+});
+
+//================================================================================
