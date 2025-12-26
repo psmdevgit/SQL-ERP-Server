@@ -2020,13 +2020,36 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
     console.log("Filing record found:", filing.Id);
 
     // Update the filing record
-    await pool.request()
+    // await pool.request()
+    //   .input("receivedDate", sql.DateTime, formattedDate)
+    //   .input("receivedWeight", sql.Decimal(18, 2), receivedWeight)
+    //   .input("grindingLoss", sql.Decimal(18, 2), grindingLoss)
+    //   .input("scrapWeight", sql.Decimal(18, 2), scrapReceivedWeight)
+    //   .input("dustWeight", sql.Decimal(18, 2), dustReceivedWeight)
+    //   .input("ornamentWeight", sql.Decimal(18, 2), ornamentWeight)
+    //   .input("status", sql.VarChar, "Finished")
+    //   .input("filingId", sql.Int, filing.Id)
+    //   .query(`
+    //     UPDATE Filing__c SET 
+    //       Received_Date_c = @receivedDate,
+    //       Receievd_weight_c = @receivedWeight,
+    //       Filing_loss_c = @grindingLoss,
+    //       Filing_Scrap_Weight_c = @scrapWeight,
+    //       Filing_Dust_Weight_c = @dustWeight,
+    //       Filing_Ornament_Weight_c = @ornamentWeight,
+    //       Status_c = @status
+    //     WHERE Id = @filingId
+    //   `);
+
+        await pool.request()
       .input("receivedDate", sql.DateTime, formattedDate)
       .input("receivedWeight", sql.Decimal(18, 2), receivedWeight)
       .input("grindingLoss", sql.Decimal(18, 2), grindingLoss)
       .input("scrapWeight", sql.Decimal(18, 2), scrapReceivedWeight)
       .input("dustWeight", sql.Decimal(18, 2), dustReceivedWeight)
       .input("ornamentWeight", sql.Decimal(18, 2), ornamentWeight)
+      .input("findingWeight", sql.Decimal(18, 2), findingReceived)
+      .input("receivedFinding", sql.Decimal(18, 2), receivedFinding)
       .input("status", sql.VarChar, "Finished")
       .input("filingId", sql.Int, filing.Id)
       .query(`
@@ -2037,10 +2060,12 @@ app.post("/api/filing/update/:prefix/:date/:month/:year/:number/:numb", async (r
           Filing_Scrap_Weight_c = @scrapWeight,
           Filing_Dust_Weight_c = @dustWeight,
           Filing_Ornament_Weight_c = @ornamentWeight,
-          Status_c = @status
+          Status_c = @status,
+          findingWeight = @findingWeight,
+          receivedFinding = @receivedFinding
         WHERE Id = @filingId
       `);
-
+      
     // Update each pouch weight
     if (Array.isArray(pouches) && pouches.length > 0) {
       for (const pouch of pouches) {
@@ -5272,7 +5297,7 @@ const pool = req.mssql;
         Dull_Dust_Weight__c,
         CreatedDate,movedstatus
        FROM Dull__c
-       ORDER BY Issued_Date__c DESC`
+       ORDER BY status__c DESC, Issued_Date__c DESC`
     );
 
     console.log('[Get Dull] Found dull records:', dullQuery.recordset.length);
@@ -8029,7 +8054,7 @@ app.get("/api/cutting",checkMssqlConnection, async (req, res) => {
         Cutting_loss__c,
         CreatedDate,Cutting_Scrap_Weight__c ,Cutting_Ornament_Weight__c,Cutting_Dust_Weight__c,movedstatus
        FROM Cutting__c
-       ORDER BY Issued_Date__c DESC`
+       ORDER BY Status__c DESC,Issued_Date__c DESC`
     );
 
     console.log('[Get Cutting] Found cutting records:', cuttingQuery.recordset.length);
@@ -11427,14 +11452,15 @@ app.get("/get-inventoryupdate", checkMssqlConnection ,async (req, res) => {
 // update the inventory / create inventory item
 app.post("/update-inventory", checkMssqlConnection, async (req, res) => {
   try {
-    const { itemName, purity, availableWeight, unitOfMeasure, partyLedger } = req.body;
+    const { itemName, purity, availableWeight, unitOfMeasure, partyLedger, scrapType } = req.body;
 
     console.log('Received inventory update request:', {
       itemName,
       purity,
       availableWeight,
       unitOfMeasure,
-      partyLedger
+      partyLedger,
+      scrapType
     });
 
     if (!itemName || !purity || !availableWeight || !unitOfMeasure || !partyLedger) {
@@ -11532,10 +11558,11 @@ const receivedInventory = await pool.request()
   .input("puremetal", sql.Float, rctPureMetal)
   .input("alloy", sql.Float, rctAlloy)
   .input("partyledger", sql.NVarChar, partyLedger)
+  .input("remark", sql.NVarChar, scrapType)
   .query(`
     INSERT INTO Received_inventory__c 
-    (Name, Received_Weight_c, Purity, Pure_Metal_Weight_c, Alloy_Weight_c, Party_Ledger_c, Received_Date_c)
-    VALUES (@itemName, @weight, @purity, @puremetal, @alloy, @partyledger, GETDATE())
+    (Name, Received_Weight_c, Purity, Pure_Metal_Weight_c, Alloy_Weight_c, Party_Ledger_c, Received_Date_c, Remark)
+    VALUES (@itemName, @weight, @purity, @puremetal, @alloy, @partyledger, GETDATE(), @remark)
   `);
 
   console.log("inserted recived  item :", receivedInventory);
@@ -11904,7 +11931,7 @@ app.get("/api/process-report",checkMssqlConnection, async (req, res) => {
       { name: "Dull", object: "Dull__c",   statusColumn: "status__c", fields: { issued: "Issued_Weight__c", received: "Returned_weight__c", loss: "Dull_loss__c", scrap: "Dull_Scrap_Weight__c", dust: "Dull_Dust_Weight__c" }},
       { name: "Plating", object: "Plating__c",  statusColumn: "status__c", fields: { issued: "Issued_Weight__c", received: "Returned_Weight__c", loss: "Plating_loss__c", scrap: "Plating_Scrap_Weight__c", dust: "Plating_Dust_Weight__c" }},
       { name: "Cutting", object: "Cutting__c",  statusColumn: "status__c", fields: { issued: "Issued_Weight__c", received: "Returned_Weight__c", loss: "Cutting_loss__c", scrap: "Cutting_Scrap_Weight__c", dust: "Cutting_Dust_Weight__c" }},
-      { name: "Tagging", object: "Tagging",  statusColumn: "status", fields: {  received: "Received_weight" }}
+      { name: "Tagging", object: "Tagging",  statusColumn: "status", fields: {  received: "Received_Weight" }}
      ];
 
     console.log(processes);
@@ -11916,12 +11943,23 @@ app.get("/api/process-report",checkMssqlConnection, async (req, res) => {
       
       // Add date filter in SOQL
       // const soql = `SELECT ${fieldList} FROM ${p.object}`;
-      const soql = `
+//       const soql = `
+//   SELECT ${fieldList}
+//   FROM ${p.object}
+//   WHERE ${p.statusColumn} <> 'Finished'
+// `;
+
+
+const whereCondition =
+  p.name === "Tagging"
+    ? `${p.statusColumn} = 'Finished' and flag = 1`
+    : `${p.statusColumn} <> 'Finished'`;
+
+const soql = `
   SELECT ${fieldList}
   FROM ${p.object}
-  WHERE ${p.statusColumn} <> 'Finished'
+  WHERE ${whereCondition}
 `;
-
 
       const queryRes = await pool.request().query(soql);
 
@@ -13607,7 +13645,7 @@ app.get("/api/Tag", checkMssqlConnection, async (req, res) => {
         issued_date,  
         status,
         quantity,
-        order_id
+        order_id, flag
       FROM Tagging
       ORDER BY received_date DESC
     `);
@@ -13625,7 +13663,8 @@ app.get("/api/Tag", checkMssqlConnection, async (req, res) => {
       receivedWeight: record.Received_weight,
       receivedDate: record.received_date,
       issuedDate: record.issued_date,
-      status: record.status
+      status: record.status,      
+      flag: record.flag
     }));
 
     console.log(`Found ${taggings.length} tagging records`);
@@ -13685,8 +13724,8 @@ await pool.request()
       .input("received_date", sql.DateTime, received_date)
       .input("status", sql.NVarChar(50), "Finished")
       .query(`
-        INSERT INTO Tagging (Name, product, Received_weight, quantity, Order_id, issued_date, received_date, status)
-        VALUES (@Name, @product, @Received_weight, @quantity, @Order_id, @issued_date, @received_date, @status)
+        INSERT INTO Tagging (Name, product, Received_weight, quantity, Order_id, issued_date, received_date, status, flag)
+        VALUES (@Name, @product, @Received_weight, @quantity, @Order_id, @issued_date, @received_date, @status, 1)
       `);
 
     res.json({ success: true, message: "Tagging inserted successfully!" });
@@ -15453,7 +15492,6 @@ app.get("/api/casting/view/:date/:month/:year/:number",checkSalesforceConnection
 //#region     ============================================================================================
 
 //#region =========================     Filling     ======================================================
-
 app.get("/api/filing",checkSalesforceConnection, async (req, res) => {
   try {
     console.log('Fetching filing records - API call started');
@@ -15471,11 +15509,14 @@ app.get("/api/filing",checkSalesforceConnection, async (req, res) => {
         Quantity_c,
         Status_c,
         Filing_loss_c,
+        Filing_Ornament_Weight_c,
         Filing_scrap_Weight_c,
         Filing_Dust_Weight_c,
+        findingWeight,
+		    receivedFinding,
         movedstatus
       FROM Filing__c
-      ORDER BY Issued_Date_c DESC
+      ORDER BY Status_c DESC, Issued_Date_c DESC
     `;
 
     console.log('Executing SQL query:', query);
@@ -15497,9 +15538,12 @@ app.get("/api/filing",checkSalesforceConnection, async (req, res) => {
         quantity: record.Quantity_c,
         Status: record.Status_c,
         Filing_Loss: record.Filing_loss_c,
+        Filing_Ornament_Weight: record.Filing_Ornament_Weight_c,
         Filing_Scrap_Weight: record.Filing_scrap_Weight_c,
         Filing_Dust_Weight: record.Filing_Dust_Weight_c,
-        movedstatus: record.movedstatus,
+        Filing_Finding_Weight:record.receivedFinding, 
+        Filing_Added_Finding_Weight:record.findingWeight,
+        movedstatus: record.movedstatus 
       };
     });
 
@@ -15522,6 +15566,75 @@ app.get("/api/filing",checkSalesforceConnection, async (req, res) => {
     });
   }
 });
+
+// app.get("/api/filing",checkSalesforceConnection, async (req, res) => {
+//   try {
+//     console.log('Fetching filing records - API call started');
+//     const pool = req.mssql;
+
+//     const query = `
+//       SELECT 
+//         Name,
+//         Issued_weight_c,
+//         Issued_Date_c,
+//         Receievd_weight_c,
+//         Received_Date_c,
+//         Order_Id_c,
+//         Product_c,
+//         Quantity_c,
+//         Status_c,
+//         Filing_loss_c,
+//         Filing_scrap_Weight_c,
+//         Filing_Dust_Weight_c,
+//         movedstatus
+//       FROM Filing__c
+//       ORDER BY Issued_Date_c DESC
+//     `;
+
+//     console.log('Executing SQL query:', query);
+
+//     const result = await pool.request().query(query);
+
+//     // console.log('Raw SQL response:', JSON.stringify(result, null, 2));
+//     // console.log('Number of records found:', result.recordset?.length || 0);
+
+//     const filingRecords = result.recordset.map(record => {
+//       return {
+//         Name: record.Name,
+//         Issued_Weight: record.Issued_weight_c,
+//         Issued_Date: record.Issued_Date_c,
+//         Received_Weight: record.Receievd_weight_c,
+//         Received_Date: record.Received_Date_c,
+//         OrderId: record.Order_Id_c,
+//         product: record.Product_c,
+//         quantity: record.Quantity_c,
+//         Status: record.Status_c,
+//         Filing_Loss: record.Filing_loss_c,
+//         Filing_Scrap_Weight: record.Filing_scrap_Weight_c,
+//         Filing_Dust_Weight: record.Filing_Dust_Weight_c,
+//         movedstatus: record.movedstatus,
+//       };
+//     });
+
+//     // console.log('Formatted filing recordsets:', JSON.stringify(filingRecords, null, 2));
+
+//     const response = {
+//       success: true,
+//       data: filingRecords
+//     };
+
+//     // console.log('Sending response to client:', JSON.stringify(response, null, 2));
+//     res.json(response);
+
+//   } catch (error) {
+//     console.error("Error in /api/filing endpoint:", error);
+//     res.status(500).json({
+//       success: false,
+//       message: "Failed to fetch filing records from SQL Server",
+//       error: error.message
+//     });
+//   }
+// });
 /**--------------------Grinding Details ----------------- */
 app.get("/api/filing/:prefix/:date/:month/:year/:number/:numb", checkSalesforceConnection, async (req, res) => {
   try {
@@ -15818,8 +15931,8 @@ app.get("/api/grinding", checkSalesforceConnection, async(req, res) => {
   const pool = req.mssql;
   try {
     const grindingQuery = await pool.request().query(
-      `SELECT Id, Name, Issued_Date__c, Issued_Weight__c,Received_Date__c,Received_Weight__c,Status__c,Grinding_loss__c,Product__c,Quantity__c,Order_Id__c,Grinding_Scrap_Weight__C,Grinding_Dust_Weight__c,movedstatus,Finding_Received__c FROM Grinding__c
-       ORDER BY Issued_Date__c DESC`
+      `SELECT Id, Name, Issued_Date__c, Issued_Weight__c,Received_Date__c,Received_Weight__c,Status__c,Grinding_Ornament_Weight__c,Grinding_loss__c,Product__c,Quantity__c,Order_Id__c,Grinding_Scrap_Weight__C,Grinding_Dust_Weight__c,movedstatus,Finding_Received__c FROM Grinding__c
+       ORDER BY Status__c DESC, Issued_Date__c DESC`
     );
 
     res.json({
@@ -16304,7 +16417,7 @@ app.post("/api/grinding/update/:prefix/:date/:month/:year/:number/:subnumber", a
       .input("scrapWeight", sql.Decimal(18, 4), scrapWeight)
       .input("dustWeight", sql.Decimal(18, 4), dustWeight)
       .input("findingReceived", sql.Decimal(18, 4), findingReceived)
-      .input("ornamentWeight", sql.Decimal(18, 4), receivedWeight)
+      .input("ornamentWeight", sql.Decimal(18, 4), ornamentWeight)
       .input("status", sql.NVarChar(50), "Finished")
       .input("id", sql.Int, grindingId)
       .query(`
@@ -16625,9 +16738,10 @@ app.get("/api/polishing",checkSalesforceConnection, async (req, res) => {
         Product__c,
         status__c,
         Polishing_loss__c,
-        CreatedDate,Polishing_Scrap_Weight__c,Polishing_Dust_Weight__c, movedstatus
+        CreatedDate,Polishing_Scrap_Weight__c,Polishing_Dust_Weight__c, movedstatus,Finding_weight
        FROM Polishing__c
-       ORDER BY Issued_Date__c DESC`
+       ORDER BY status__c DESC,
+        Issued_Date__c DESC`
     );
 
     console.log('[Get Polishing] Found polishing records:', polishingQuery.recordset.length);
@@ -18134,7 +18248,7 @@ app.get("/api/setting",checkSalesforceConnection, async (req, res) => {
         Setting__c,
         CreatedDate,Setting_Scrap_Weight__c,Setting_Dust_Weight__c, movedstatus
        FROM Setting__c
-       ORDER BY Issued_Date__c DESC`
+       ORDER BY status__c DESC, Issued_Date__c DESC`
     );
 
     console.log('[Get Settings] Found settings:', settingQuery.recordset.length);
@@ -18328,11 +18442,11 @@ const pool = req.mssql;
         Order_Id__c,
         Product__c,
         Quantity__c,
-        Dull_loss__c,
+        Dull_loss__c,Dull_Dust_Weight__c
         movedstatus,
         CreatedDate
        FROM Dull__c
-       ORDER BY  Issued_Date__c DESC`
+       ORDER BY status__c DESC, Issued_Date__c DESC `
     );
 
     console.log('[Get Dull] Found dull records:', dullQuery.recordset);
@@ -18787,7 +18901,7 @@ app.get("/api/correction", checkMssqlConnection, async (req, res) => {
         Grinding_Dust_Weight__c,
         movedstatus,Finding_Weight__c
       FROM Correction__c
-      ORDER BY Issued_Date__c DESC
+      ORDER BY Status__c DESC,  Issued_Date__c DESC
     `);
 
     res.json({
@@ -19163,7 +19277,7 @@ app.get("/api/media", checkMssqlConnection,async (req, res) => {
         movedstatus,
         Finding_Weight__c
       FROM Media__c
-      ORDER BY Issued_Date__c DESC
+      ORDER BY Status__c DESC, Issued_Date__c DESC
     `);
 
     res.json({
@@ -20427,7 +20541,7 @@ app.get("/api/plating",checkMssqlConnection, async (req, res) => {
         Plating_loss__c,
         CreatedDate,Plating_Scrap_Weight__c,Plating_Dust_Weight__c, movedstatus
        FROM Plating__c
-       ORDER BY Issued_Date__c DESC`
+       ORDER BY Status__c DESC, Issued_Date__c DESC`
     );
 
     console.log('[Get Plating] Found plating records:', platingQuery.recordset.length);
@@ -22251,7 +22365,7 @@ app.get("/get-inventory-inward", checkMssqlConnection, async (req, res) => {
      select id,Name,Received_Date_c,
       Received_Weight_c, Purity,
       Pure_Metal_Weight_c, Alloy_Weight_c,
-      Party_ledger_c 
+      Party_ledger_c , Remark
       from Received_inventory__c
       order by Received_Date_c desc
     `);
@@ -22275,6 +22389,7 @@ app.get("/get-inventory-inward", checkMssqlConnection, async (req, res) => {
       pureMetalWeight: item.Pure_Metal_weight_c,
       alloyWeight: item.Alloy_Weight_c,
       partyCode:item.Party_ledger_c,
+      remark:item.Remark,
     }));
 
     console.log(inventoryItems);
@@ -22293,7 +22408,6 @@ app.get("/get-inventory-inward", checkMssqlConnection, async (req, res) => {
     });
   }
 });
-
 
 
 
@@ -22895,12 +23009,12 @@ app.get("/api/department-Dust",checkMssqlConnection, async (req, res) => {
        
 
         totalOverallDust : 
-                      castingQuery.recordset.reduce((sum, record) => sum + (record.Casting_Dust_Weight_c || 0), 0)+
-         filingQuery.recordset.reduce((sum, record) => sum + (record.Filing_Dust_Weight_c || 0), 0)+
+                      // castingQuery.recordset.reduce((sum, record) => sum + (record.Casting_Dust_Weight_c || 0), 0)+
+        //  filingQuery.recordset.reduce((sum, record) => sum + (record.Filing_Dust_Weight_c || 0), 0)+
      grindingQuery.recordset.reduce((sum, record) => sum + (record.Grinding_Dust_Weight__c || 0), 0)+
          mediaQuery.recordset.reduce((sum, record) => sum + (record.Grinding_Dust_Weight__c || 0), 0)+
          correctionQuery.recordset.reduce((sum, record) => sum + (record.Grinding_Dust_Weight__c || 0), 0)+
-       settingQuery.recordset.reduce((sum, record) => sum + (record.Setting_Dust_Weight__c || 0), 0)+
+      //  settingQuery.recordset.reduce((sum, record) => sum + (record.Setting_Dust_Weight__c || 0), 0)+
         polishingQuery.recordset.reduce((sum, record) => sum + (record.Polishing_Dust_Weight__c || 0), 0)+
         dullQuery.recordset.reduce((sum, record) => sum + (record.Dull_Dust_Weight__c || 0), 0)+
          cuttingQuery.recordset.reduce((sum, record) => sum + (record.Cutting_Dust_Weight__c || 0), 0),
@@ -23072,35 +23186,6 @@ SELECT
   status__c          AS Status
 FROM Grinding__c
 
-UNION ALL
-
-SELECT
-  id,
-  'Media' AS process,
-  name,
-  Issued_Date__c     AS Issued_Date,
-  Issued_Weight__c   AS IssuedWeight,
-  Grinding_Ornament_Weight__c AS OrnamWeight,
-  Finding_Weight__c  AS Finding,
-  Received_Date__c   AS Receieved_Date,
-  Received_Weight__c AS ReceivedWeight,
-  status__c          AS Status
-FROM Media__c
-
-UNION ALL
-
-SELECT
-  id,
-  'Correction' AS process,
-  name,
-  Issued_Date__c     AS Issued_Date,
-  Issued_Weight__c   AS IssuedWeight,
-  Grinding_Ornament_Weight__c AS OrnamWeight,
-  Finding_Weight__c  AS Finding,
-  Received_Date__c   AS Receieved_Date,
-  Received_Weight__c AS ReceivedWeight,
-  status__c          AS Status
-FROM Correction__c
 
 UNION ALL
 
@@ -23122,6 +23207,37 @@ ORDER BY Receieved_Date DESC;
 
     `;
 
+    
+// UNION ALL
+
+// SELECT
+//   id,
+//   'Media' AS process,
+//   name,
+//   Issued_Date__c     AS Issued_Date,
+//   Issued_Weight__c   AS IssuedWeight,
+//   Grinding_Ornament_Weight__c AS OrnamWeight,
+//   Finding_Weight__c  AS Finding,
+//   Received_Date__c   AS Receieved_Date,
+//   Received_Weight__c AS ReceivedWeight,
+//   status__c          AS Status
+// FROM Media__c
+
+// UNION ALL
+
+// SELECT
+//   id,
+//   'Correction' AS process,
+//   name,
+//   Issued_Date__c     AS Issued_Date,
+//   Issued_Weight__c   AS IssuedWeight,
+//   Grinding_Ornament_Weight__c AS OrnamWeight,
+//   Finding_Weight__c  AS Finding,
+//   Received_Date__c   AS Receieved_Date,
+//   Received_Weight__c AS ReceivedWeight,
+//   status__c          AS Status
+// FROM Correction__c
+
     const result = await sql.query(query);
 
     res.status(200).json({
@@ -23138,3 +23254,29 @@ ORDER BY Receieved_Date DESC;
 });
 
 //================================================================================
+
+app.post("/api/tagging/dispatch", checkMssqlConnection, async (req, res) => {
+  try {
+    const { taggingId } = req.body;
+
+    if (!taggingId) {
+      return res.status(400).json({ success: false, message: "Tag ID is required" });
+    }
+
+    const pool = req.mssql;
+
+    await pool
+      .request()
+      .input("name", sql.VarChar, taggingId)
+      .query(`
+        update Tagging set flag = 2
+        WHERE Name = @name
+      `);
+
+    return res.json({ success: true, message: "Tag Dispatch successfully" });
+
+  } catch (error) {
+    console.error("Tag Dispatch Item Error:", error);
+    return res.status(500).json({ success: false, message: "Server error" });
+  }
+});
