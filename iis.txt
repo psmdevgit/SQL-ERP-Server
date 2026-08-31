@@ -1,0 +1,7 @@
+IIS SERVER INSTALL
+
+https://github.com/Azure/iisnode/releases
+
+node and iis node install
+
+then rewrite install from https://www.iis.net/downloads/microsoft/url-rewrite
